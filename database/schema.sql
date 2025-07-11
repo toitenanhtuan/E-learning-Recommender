@@ -66,3 +66,13 @@ CREATE TABLE user_target_skills (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
     FOREIGN KEY (skill_id) REFERENCES skills(id) ON DELETE CASCADE
 );
+
+CREATE TABLE user_course_progress (
+    user_id INTEGER NOT NULL,
+    course_id INTEGER NOT NULL,
+    status VARCHAR(50) NOT NULL DEFAULT 'not_started', -- Giá trị có thể là 'in_progress', 'completed'
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (user_id, course_id),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
+);

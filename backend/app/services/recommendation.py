@@ -86,7 +86,9 @@ class RecommendationService:
 
         return recommended_course_ids
 
-    def get_personalized_path(self, user: models.User, db: Session) -> List[int]:
+    def get_personalized_path(
+        self, user: models.User, known_skill_ids: set, db: Session
+    ) -> List[int]:
         """
         Tạo một lộ trình học tập cá nhân hóa dựa trên skill gap của người dùng.
         """
@@ -94,7 +96,6 @@ class RecommendationService:
 
         # 1. Lấy danh sách ID kỹ năng của người dùng từ CSDL
         # Sử dụng set để tính toán hiệu quả hơn
-        known_skill_ids = {skill.id for skill in user.known_skills}
         target_skill_ids = {skill.id for skill in user.target_skills}
 
         print(f"Kỹ năng đã biết: {len(known_skill_ids)} skills")
