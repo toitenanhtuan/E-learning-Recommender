@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { Course } from '../types';
 import CourseList from '../components/CourseList';
-import { StarIcon, BeakerIcon, InformationCircleIcon } from '@heroicons/react/24/solid';
+import { StarIcon, BeakerIcon, InformationCircleIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
 
@@ -49,6 +49,17 @@ const CourseDetailPage: React.FC = () => {
                     <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{course.course_name}</h1>
                     <p className="text-lg text-gray-500 mb-6">{course.university}</p>
 
+                    <div className="mt-6">
+                        <a
+                            href={course.course_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 w-full md:w-auto"
+                        >
+                            Enroll on Coursera
+                            <ArrowTopRightOnSquareIcon className="ml-2 -mr-1 h-5 w-5" />
+                        </a>
+                    </div>
                     {/* Stats section */}
                     <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-gray-700">
                         <div className="flex items-center">
