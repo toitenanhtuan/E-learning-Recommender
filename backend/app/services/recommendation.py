@@ -2,6 +2,8 @@ import joblib
 import pandas as pd
 import os
 from typing import List
+from sqlalchemy.orm import Session
+from app.db import models
 
 
 class RecommendationService:
@@ -76,6 +78,121 @@ class RecommendationService:
         recommended_course_ids = self.course_data["id"].iloc[course_indices].tolist()
 
         return recommended_course_ids
+
+    def get_personalized_path(self, user: models.User, db: Session) -> List[int]:
+        """
+        Tạo một lộ trình học tập cá nhân hóa dựa trên skill gap của người dùng.
+        """
+        print(f"Bắt đầu tạo lộ trình cá nhân hóa cho user: {user.email}")
+
+        # 1. Lấy danh sách ID kỹ năng của người dùng từ CSDL
+        # Sử dụng set để tính toán hiệu quả hơn
+        known_skill_ids = {skill.id for skill in user.known_skills}
+        target_skill_ids = {skill.id for skill in user.target_skills}
+
+        print(f"Kỹ năng đã biết: {len(known_skill_ids)} skills")
+        print(f"Kỹ năng mục tiêu: {len(target_skill_ids)} skills")
+
+        # 2. Tính toán Skill Gap
+        skill_gap_ids = target_skill_ids - known_skill_ids
+
+        if not skill_gap_ids:
+            print("Không có skill gap. Người dùng đã biết tất cả kỹ năng mục tiêu.")
+            return []
+
+        print(f"Skill gap tìm thấy: {len(skill_gap_ids)} skills")
+
+        # 3. Tìm tất cả các khóa học "ứng viên" có chứa ít nhất một kỹ năng trong skill_gap
+        # .c là một cách để truy cập các cột của bảng trung gian trong join
+        candidate_courses_query = (
+            db.query(models.Course)
+            .join(models.course_skills_association)
+            .filter(models.course_skills_association.c.skill_id.in_(skill_gap_ids))
+            .distinct()
+        )
+
+        candidate_courses = candidate_courses_query.all()
+
+        if not candidate_courses:
+            print("Không tìm thấy khóa học nào phù hợp với skill gap.")
+            return []
+
+        print(f"Tìm thấy {len(candidate_courses)} khóa học ứng viên.")
+
+        # 4. Chấm điểm và sắp xếp các khóa học ứng viên
+        scored_courses = []
+
+        # 4.5: Thưởng điểm dựa trên Phong cách học
+        user_learning_style = user.profile.learning_style if user.profile else None
+
+        if user_learning_style:
+            print(f"Áp dụng bộ lọc Phong cách học: {user_learning_style}")
+
+            # Định nghĩa các mapping giữa phong cách học và định dạng khóa học
+            style_format_mapping = {
+                "visual": "video_heavy",
+                "read_write": "text_heavy",
+                "kinesthetic": "project_based",
+            }
+
+            preferred_format = style_format_mapping.get(user_learning_style)
+
+            for course_score_dict in scored_courses:
+                course_id = course_score_dict["id"]
+                # Tìm format của khóa học này (cần một cách truy cập nhanh, có thể thêm vào dict)
+                # Tạm thời ta sẽ giả sử 'difficulty' key cũng chứa 'format'
+                #
+                # Sửa đổi: Ta sẽ cập nhật vòng lặp chấm điểm ban đầu để đưa format vào
+                if (
+                    preferred_format
+                    and course_score_dict.get("format") == preferred_format
+                ):
+                    course_score_dict["score"] += 15  # Thưởng điểm lớn
+
+        for course in candidate_courses:
+            score = 0
+            course_skill_ids = {skill.id for skill in course.skills}
+
+            # Tiêu chí 1: Số lượng kỹ năng trong "skill gap" mà khóa học này dạy được
+            matching_skills_count = len(course_skill_ids.intersection(skill_gap_ids))
+            score += matching_skills_count * 10
+
+            # Tiêu chí 2: Ưu tiên các khóa học "Beginner" để bắt đầu
+            if course.difficulty_level == "beginner":
+                score += 5
+            elif course.difficulty_level == "intermediate":
+                score += 2
+
+            # Tiêu chí 3 (phụ): Thưởng nhẹ cho các khóa học có rating cao
+            score += course.course_rating
+
+            # Loại bỏ các khóa học mà người dùng đã biết TẤT CẢ kỹ năng của nó
+            if known_skill_ids.issuperset(course_skill_ids):
+                continue
+
+            scored_courses.append(
+                {
+                    "id": course.id,
+                    "score": score,
+                    "difficulty": course.difficulty_level,
+                    "format": course.course_format,
+                }
+            )
+
+        # 5. Sắp xếp các khóa học theo điểm số từ cao đến thấp
+        # Sắp xếp phụ theo độ khó (Beginner -> Intermediate -> Advanced) để tạo lộ trình logic
+        difficulty_order = {"beginner": 0, "intermediate": 1, "mixed": 2, "advanced": 3}
+
+        scored_courses.sort(
+            key=lambda x: (difficulty_order.get(x["difficulty"], 99), -x["score"]),
+        )
+
+        # 6. Lấy ID của các khóa học đã sắp xếp, giới hạn số lượng
+        recommended_ids = [course["id"] for course in scored_courses]
+
+        print(f"Đã tạo lộ trình với {len(recommended_ids)} khóa học.")
+
+        return recommended_ids[:20]
 
 
 # Tạo một instance duy nhất của service để toàn bộ ứng dụng sử dụng (Singleton pattern)

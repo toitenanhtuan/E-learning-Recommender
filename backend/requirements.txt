@@ -6,3 +6,5 @@ pandas
 tqdm
 joblib
 scikit-learn
+passlib[bcrypt]
+python-jose[cryptography]

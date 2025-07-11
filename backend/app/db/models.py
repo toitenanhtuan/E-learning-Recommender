@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, Text, Table, ForeignKey
+from sqlalchemy import Boolean, Column, Integer, String, Float, Text, Table, ForeignKey
 from sqlalchemy.orm import relationship
 from .database import Base
 
@@ -20,6 +20,7 @@ class Course(Base):
     course_rating = Column(Float)
     course_url = Column(String)
     course_description = Column(Text)
+    course_format = Column(String, default="mixed")
 
     skills = relationship(
         "Skill", secondary=course_skills_association, back_populates="courses"
@@ -34,3 +35,40 @@ class Skill(Base):
     courses = relationship(
         "Course", secondary=course_skills_association, back_populates="skills"
     )
+
+
+user_known_skills_association = Table(
+    "user_known_skills",
+    Base.metadata,
+    Column("user_id", Integer, ForeignKey("users.id")),
+    Column("skill_id", Integer, ForeignKey("skills.id")),
+)
+
+
+user_target_skills_association = Table(
+    "user_target_skills",
+    Base.metadata,
+    Column("user_id", Integer, ForeignKey("users.id")),
+    Column("skill_id", Integer, ForeignKey("skills.id")),
+)
+
+
+class UserProfile(Base):
+    __tablename__ = "user_profiles"
+    user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)
+    full_name = Column(String)
+    learning_style = Column(String)  # Cột mới
+
+    user = relationship("User", back_populates="profile")
+
+
+class User(Base):  # Giả sử Base đã được import
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, unique=True, index=True, nullable=False)
+    hashed_password = Column(String, nullable=False)  # Thêm dòng này
+    is_active = Column(Boolean, default=True)  # Thêm dòng này
+    known_skills = relationship("Skill", secondary=user_known_skills_association)
+    target_skills = relationship("Skill", secondary=user_target_skills_association)
+    profile = relationship("UserProfile", uselist=False, back_populates="user")

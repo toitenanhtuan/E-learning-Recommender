@@ -7,6 +7,7 @@ CREATE TABLE courses (
     course_rating REAL,
     course_url TEXT,
     course_description TEXT,
+    course_format VARCHAR(50) DEFAULT 'mixed', 
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
@@ -33,9 +34,8 @@ CREATE TABLE course_skills (
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
-    password_hash VARCHAR(255), -- Cho đăng nhập bằng email/pass
-    google_id VARCHAR(255) UNIQUE, -- Cho OAuth2 Google
-    facebook_id VARCHAR(255) UNIQUE, -- Cho OAuth2 Facebook
+    hashed_password VARCHAR(255) NOT NULL, -- THÊM DÒNG NÀY
+    is_active BOOLEAN DEFAULT TRUE,         -- THÊM DÒNG NÀY
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -43,9 +43,26 @@ CREATE TABLE users (
 CREATE TABLE user_profiles (
     user_id INTEGER PRIMARY KEY,
     full_name VARCHAR(255),
-    learning_style_vark VARCHAR(50), -- 'visual', 'auditory', 'read_write', 'kinesthetic'
-    -- Thêm các cột cho mô hình MBTI hoặc các mô hình khác nếu cần
+    -- Cột mới cho phong cách học
+    learning_style VARCHAR(50), -- Ví dụ: 'visual', 'auditory', 'read_write', 'kinesthetic'
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- (Các bảng khác như user_progress, survey_responses sẽ được thêm sau)
+
+-- Bảng nối nhiều-nhiều: người dùng và kỹ năng họ ĐÃ BIẾT
+CREATE TABLE user_known_skills (
+    user_id INTEGER NOT NULL,
+    skill_id INTEGER NOT NULL,
+    PRIMARY KEY (user_id, skill_id),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (skill_id) REFERENCES skills(id) ON DELETE CASCADE
+);
+
+-- Bảng nối nhiều-nhiều: người dùng và kỹ năng họ MUỐN HỌC
+CREATE TABLE user_target_skills (
+    user_id INTEGER NOT NULL,
+    skill_id INTEGER NOT NULL,
+    PRIMARY KEY (user_id, skill_id),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (skill_id) REFERENCES skills(id) ON DELETE CASCADE
+);
