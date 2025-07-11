@@ -1,0 +1,3287 @@
+id,course_name
+1,Write A Feature Length Screenplay For Film Or Television
+2,Business Strategy: Business Model Canvas Analysis with Miro
+3,Silicon Thin Film Solar Cells
+4,Finance for Managers
+5,Retrieve Data using Single-Table SQL Queries
+6,Building Test Automation Framework using Selenium and TestNG
+7,Doing Business in China Capstone
+8,"Programming Languages, Part A"
+9,The Roles and Responsibilities of Nonprofit Boards of Directors within the Governance Process
+10,Business Russian Communication. Part 3
+11,Agile Projects:  Developing Tasks with Taiga
+12,Esports Management Capstone Project
+13,Hacking and Patching
+14,Business Statistics and Analysis Capstone
+15,Grab Data Fast with Vertical and Horizontal LOOKUP
+16,Global Health: An Interdisciplinary Overview
+17,Python Programming Essentials
+18,Creating Dashboards and Storytelling with Tableau
+19,Parallel programming
+20,Recommendation Systems with TensorFlow on GCP
+22,COVID-19 - A clinical update
+23,How to Create Text Effects in GIMP
+24,Preparing for the Google Cloud Professional Data Engineer Exam
+25,Multiple Regression Analysis in Public Health
+26,General Pathophysiology
+27,Population Health: Alternative Payment Models
+28,AWS Elastic Beanstalk: Build & Deploy a Node.js RESTful API
+29,"Philosophy, Science and Religion: Philosophy and Religion"
+30,Poverty & Population: How Demographics Shape Policy
+31,Electrodynamics: Analysis of Electric Fields
+32,The Music of American English Pronunciation
+33,Fundamentals of Management
+34,Advanced Speaking and Listening Project
+35,Hybrid Cloud Service Mesh with Anthos
+36,Dealing With Missing Data
+37,COBOL Programming with VSCode
+39,Postman - Intro to APIs (without coding)
+40,Protecting Business Innovations via Patent
+41,"Real-time OCR and Text Detection with Tensorflow, OpenCV and Tesseract"
+42,Global Strategy I: How The Global Economy Works
+43,Disability Inclusion in Education: Building Systems of Support
+44,Introduction to Cybersecurity Tools & Cyber Attacks
+45,Introduction to Cybersecurity Tools & Cyber Attacks
+46,"Fundamentals of Funding, with Goldman Sachs 10,000 Women"
+47,Foundations of Objective-C App Development
+48,Programming Mobile Applications for Android Handheld Systems: Part 2
+49,Analyzing Market Attractiveness Using Creately
+50,Personal Leadership Development Planning and Leading High Performing Teams
+51,Integrating Scripts for Scene Interactions
+52,Voices of Social Change
+53,"Managing Asthma, Allergies, Diabetes, and Seizures in School"
+54,Global Challenges in Business Capstone
+55,Severe to Profound Intellectual Disability: Circles of Care and Education
+56,Teaching Children with Visual Impairment: Creating Empowering Classrooms
+57,Intercultural Communication and Conflict Resolution
+58,Prediction and Control with Function Approximation
+59,Advanced Neurobiology I
+60,Foundations of Teaching for Learning: Introduction
+61,Change Leadership: Developing Force Field Analysis in Miro
+63,Python Tricks and Hacks for Productivity
+64,Privacy in the USA
+65,Japanese for beginners 2
+66,Introduction to Recommender Systems:  Non-Personalized and Content-Based
+67,Global Disease Masterclass: Global Disease Distribution
+68,Age of Cathedrals
+69,Smart Contracts
+70,Create an FPS Weapon in Unity (Part 1 - Revolver)
+71,Homeland Security and Cybersecurity Future
+72,Healthcare Consumerism and Implication for Care Delivery
+73,Magna Carta and its Legacies: Freedom and protest
+74,Converter Circuits
+75,Predictive Modeling and Analytics
+76,Animals and Institutions
+78,Genetics and Society: A Course for Educators
+79,Russian History: from Lenin to Putin
+80,Packet Switching Networks and Algorithms
+81,Transgender Medicine for General Medical Providers
+82,Epigenetic Control of Gene Expression
+83,Successful Interviewing
+84,The hidden value � Lean in manufacturing and services
+85,Mastering SQL Joins
+86,Create a Database with the Modeling Tool in MySQL Workbench
+87,Project Planning and Machine Learning
+88,Build Random Forests in R with Azure ML Studio
+89,"Introduction to CAD, CAM, and Practical CNC Machining"
+90,Problem Solving Using Computational Thinking
+91,"Surveillance Systems: Analysis, Dissemination, and Special Systems"
+92,Control physics with C# in Unity
+93,Create Relational Database Tables Using SQLiteStudio
+94,Spacecraft Dynamics Capstone: Mars Mission
+95,Guided Imagery
+96,Making Architecture
+97,Building Resilient Streaming Analytics Systems on GCP
+98,Types of Conflict
+99,Product Design: Designing a modern table lamp using SketchUp
+100,Beyond the Sustainable Development Goals (SDGs): Addressing Sustainability and Development
+101,The New Nordic Diet - from Gastronomy to Health
+102,Voice Disorders: What Patients and Professionals Need to Know
+103,Teaching Tips for Tricky English Grammar
+104,"Learn to Teach Java:   Boolean Expressions, If Statements, and Iteration"
+105,Business Writing
+106,Cyber Threats and Attack Vectors
+107,Build a Table Layout App in Android Studio
+109,Designing for Sustainment: Keeping Improvement Work on Track (Patient Safety IV)
+110,Big data and Language 2
+111,Understanding the Australian economy: An introduction to macroeconomic and financial policies
+112,Bayesian Statistics: Mixture Models
+113,Networking and Security in iOS Applications
+114,Improving Math Engagement with Prodigy
+115,Molecular Evolution (Bioinformatics IV)
+116,Exception Handling in Python
+117,FinTech Foundations and Overview
+118,Information & Digital Literacy for University Success
+119,Improving Classroom Management with Class Dojo
+120,Managing Big Data with MySQL
+121,"Risk, Return & Valuation"
+122,Managing Employee Performance
+123,Channel Management and Retailing
+124,Entrepreneurship II: Preparing for Launch
+125,World Design for Video Games
+126,Mathematics for Machine Learning: Linear Algebra
+127,Free Speech on Campus Teach-Out
+128,Real-Time Embedded Systems Concepts and Practices
+129,Create a Virtual Classroom using Google Slides
+130,Security and Privacy for Big Data - Part 1
+131,"Disinformation, Misinformation, and Fake News Teach-Out"
+132,Teaching Intermediate Grammar Project
+133,Introduction to Acoustics (Part 2)
+134,Qualitative Research Methods
+135,The Rooseveltian Century
+136,Analysis for Business Systems
+137,Implementing SOLID Principles in C# with .NET Core
+138,"History of Rock, Part Two"
+139,Device-based Models with TensorFlow Lite
+140,Wireshark for Basic Network Security Analysis
+141,Advanced Practice Provider/Physician Assistant: Opioid Use Disorder Medication Assisted Treatment Waiver Training (24hr)
+142,Setting Expectations & Assessing Performance Issues
+143,Tracking Student Growth using Google Slides
+144,The Teacher's Social and Emotional Learning
+145,Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies
+146,The fundamentals of hotel distribution
+148,Bugs 101: Insect-Human Interactions
+149,Analyze Website Visitors with Google Analytics Segments
+150,Scandinavian Film and Television
+151,Modern American Poetry
+152,"Textual Elements of Design: Fonts, Typography, and Spacing"
+153,Marketing Analytics Capstone Project
+154,Tell the Data Story with Survey Graphics in Google Slides
+155,"Musicianship: Tensions, Harmonic Function, and Modal Interchange"
+156,User Experience Responsive Hero in XD for Beginners
+157,"Internet History, Technology, and Security"
+158,Securing Digital Democracy
+159,Guided Imagery
+160,Teach English Now! Capstone Project 1
+161,Teach English Now! Capstone Project 1
+162,Our Energy Future
+163,"Penetration Testing, Incident Response and Forensics"
+164,Building Resilient Streaming Analytics Systems on GCP
+165,Web Application Development with JavaScript and MongoDB
+166,Teaching Impacts of Technology: Global Society
+167,Subsistence Marketplaces
+168,Introduction to Game Design
+169,Business Process Management in Healthcare Organizations
+170,Career Planning:  A Pathway to Employment
+171,Marketing Strategy for Entrepreneurs
+172,"Sleep: Neurobiology, Medicine, and Society"
+173,Building Containerized Applications on AWS
+174,Engagement & Nurture Marketing Strategies
+175,When Disaster Meets Conflict
+176,Introduction to Git and GitHub
+177,Palo Alto Networks Cybersecurity Essentials II
+178,Introduction to the Internet of Things and Embedded Systems
+179,Using Python to Interact with the Operating System
+180,Portfolio Optimization using Markowitz Model
+181,Securing and Integrating Components of your Application
+182,Construction Finance
+183,The Finite Element Method for Problems in Physics
+184,Russian company law. Formation of legal entities.
+185,Forensic Accounting and Fraud Examination
+186,Data Analytics Foundations for Accountancy I
+187,Complex Retrieval Queries in MySQL Workbench
+188,Standardisation & Technology
+189,Precalculus: Mathematical Modeling
+190,Account Management & Sales Force Design
+192,Taxation of Business Entities II: Pass-Through Entities
+193,Cancer Prevention Web-Based Activity
+194,Engineering Design Process with Autodesk Fusion 360
+195,Genomics for Law
+196,Master Class for Corporate Entrepreneurs
+197,AWS Elastic Beanstalk:Deploy a Python(Flask) Web Application
+198,"Fundamentals of Business Finance, with Goldman Sachs 10,000 Women"
+200,International Cyber Conflicts
+201,App Design and Development for iOS
+202,Introduction to the Arctic: Climate
+204,Pharmaceutical and Medical Device Innovations
+205,Software Product Management Capstone
+206,Data-driven Astronomy
+207,Basics of Inclusive Design for Online Education
+208,"Making Successful Decisions through the Strategy, Law & Ethics Model"
+209,Achieving Advanced Insights with BigQuery
+211,Text Retrieval and Search Engines
+212,Build a Twitter Clone Backend
+213,Introduction to Ableton Live
+214,Introduction to Ableton Live
+215,Environmental Management & Ethics
+216,Create a Buy Signal using RSI in R with the Quantmod Package
+217,Seeing Through Photographs
+218,Ebola: Essential Knowledge for Health Professionals
+219,Excel Skills for Business: Intermediate II
+220,"Understanding China, 1700-2000: A Data Analytic Approach, Part 1"
+221,Statistical Data Visualization with Seaborn
+222,Professional Responsibility and Ethics for Accountants
+223,Technical Writing
+224,Hosting a Static Website (HTML/CSS/Javascript) in AWS S3
+226,API Design and Fundamentals of Google Cloud's Apigee API Platform
+227,Data Analysis Using Pyspark
+228,Introduction to Environmental Law and Policy
+229,FPGA computing systems: Background knowledge and introductory materials
+230,Researcher Management and Leadership Training
+231,Introduction to TestNG and Integration with Selenium
+232,Food & Beverage Management
+233,Reproducible Research
+234,Reproducible Research
+235,Cyber Attack Countermeasures
+236,Matrix Methods
+237,"Penetration Testing, Incident Response and Forensics"
+238,Easing Physical Symptoms: It's Not Just Hospice Anymore
+239,Hierarchical Clustering: Customer Segmentation
+240,"Applied Plotting, Charting & Data Representation in Python"
+241,Deploy Models with TensorFlow Serving and Flask
+242,Sport Sponsorship. Let them Play
+243,Strategies for Teaching Perfect Tenses and Modals
+244,Building Cloud Services with the Java Spring Framework
+245,Social Media Management
+246,Successful Career Development
+247,Design Patterns
+248,Psychology of Popularity
+249,Collaborative Foresight: How to Game the Future
+250,Create UI in Unity Part 3 - Settings Menu
+251,Autodesk Certified Professional: Inventor for Mechanical Design Exam Prep
+252,"Urban Nature: Connecting Cities, Nature and Innovation"
+253,Content Strategy for Professionals: Expanding Your Content�s Reach
+254,Advanced Search Engine Optimization Strategies
+255,Experimental Design Basics
+256,The Art of Music Production
+257,The Art of Music Production
+258,Leading Positive Change through Appreciative Inquiry
+259,Sales Training: Techniques for a Human-Centric Sales Process
+260,Doing Clinical Research: Biostatistics with the Wolfram Language
+261,Quantitative Research
+262,Create Informative Presentations with Google Slides
+263,Introduction to Biomedical Engineering
+264,Introduction to Accounting Data Analytics and Visualization
+265,Manufacturing Process with Autodesk Fusion 360
+266,Introduction to Game Development
+268,Java for Android
+269,Public Economics
+270,Introduction to Algae
+271,A Journey through Western Christianity: from Persecuted Faith to Global Religion (200 - 1650)
+272,Game-Theoretic Solution Concept with Spread Sheets
+273,Survival Analysis in R for Public Health
+274,Collegiate Esports and Career Planning
+275,Learn to Program: Crafting Quality Code
+276,Materials Data Sciences and Informatics
+277,Nutrition and Lifestyle in Pregnancy
+278,Sustainable Agricultural Land Management
+279,Microservices with Spring Boot
+280,Lecture Series for Preventing and Controlling COVID-19
+281,The Dynamic Earth: A Course for Educators
+282,Requirements Specifications: Goals and Conflict Analysis
+283,Marketing Design with Easil
+284,Hands-on Text Mining and Analytics
+285,Statistical Mechanics: Algorithms and Computations
+286,Introduction to Data Analysis Using Excel
+287,The Place of Music in 21st Century Education
+288,Developing AI Applications on Azure
+289,Hiring and Onboarding Employees with ClickUp
+290,African cities : An Introduction to Urban Planning
+291,iOS Project: Transreality Game
+292,Designing Your Personal Weight Loss Plan
+293,Advanced Writing
+294,"Doping : Sports, Organizations and Sciences"
+295,Introduction to Python
+296,Challenges of Agribusiness Management
+297,Cost and Economics in Pricing Strategy
+298,Economic Growth and Distributive Justice Part I -The Role of the State
+299,Encryption And Decryption Using C++
+300,Real-Time Mission-Critical Systems Design
+301,"Android App Components - Services, Local IPC, and Content Providers"
+302,VR and 360 Video Production
+303,RPA Lifecycle: Development and Testing
+304,Methods of Surface Analysis
+305,Startups in open innovation
+307,"Blockchain, Cryptoassets, and Decentralized Finance"
+308,Data Processing Using Python
+309,International Law in Action: the Arbitration of International Disputes
+310,Applied Text Mining in Python
+311,Engaging ELLs and Their Families in the School and Community
+312,Serve Scikit-Learn Models for Deployment with BentoML
+313,Making Sense of the News: News Literacy Lessons for Digital Citizens
+314,Astro 101: Black Holes
+315,Patenting in Biotechnology
+316,Evaluating Designs with Users
+317,Capstone Project � Analyzing a Real Transaction
+318,Create Charts and Dashboard using Google Sheets
+319,Use Commands and Create a Remote Git Repository
+320,Advanced Modeling for Discrete Optimization
+321,Command Line in Linux
+322,Principles of Secure Coding
+323,Introduction to Public Health Engineering in Humanitarian Contexts
+324,The Development of Mobile Health Monitoring Systems
+325,3D Printing Software
+327,Building Custom Regional Reports with Google Analytics
+328,Developing a Google SRE Culture
+329,Conflict Resolution Skills
+330,Building a Data Science Team
+331,"S�ren Kierkegaard - Subjectivity, Irony and the Crisis of Modernity"
+332,Design Thinking and Global Startup
+333,Design and Analyze Secure Networked Systems
+334,"Mechanics: Motion, Forces, Energy and Gravity, from Particles to Planets"
+335,Predictive Analytics and Data Mining
+336,"Anatomy of the Chest, Abdomen, and Pelvis"
+337,Database Design and Diagramming in Dia
+338,A Complete Reinforcement Learning System (Capstone)
+339,Private Equity and Venture Capital
+340,Memoir and Personal Essay: Managing Your Relationship with the Reader
+341,Fundamentals of Immunology: T Cells and Signaling
+342,Game Theory with Python
+343,Data Science at Scale - Capstone Project
+344,Social Media Advertising
+345,Photography Capstone Project
+346,The Wonders and Challenges of Bible Education
+347,"Functions, Methods, and Interfaces in Go"
+348,Search Advertising
+349,On Strategy : What Managers Can Learn from Philosophy - PART 1
+351,H�tel �De l'�toile� - a hotel in crisis?
+352,Leading People and Teams Capstone
+353,Corporate Finance I: Measuring and Promoting Value Creation
+354,TCP/IP and Advanced Topics
+355,Natural Language Processing with Probabilistic Models
+356,Renewable Energy and Green Building Entrepreneurship
+357,Surveillance Systems: The Building Blocks
+358,"Anticipating Your Next Battle, in Business and Beyond"
+359,Getting Started With Application Development
+360,Global Arctic
+361,"Sampling People, Networks and Records"
+362,Mindware: Critical Thinking for the Information Age
+363,Precision Medicine
+365,Digital Marketing Capstone
+366,Understanding Plants - Part II: Fundamentals of Plant Biology
+367,Linux Tools for Developers
+370,Career 911: Your Future Job in Medicine and Healthcare
+371,Business Application of Machine Learning and Artificial Intelligence in Healthcare
+372,Journeys to Education Teach-Out
+373,The Product Lifecycle: A Guide from start to finish
+374,Startup Valuation Methods
+375,Innovation & Entrepreneurship - From Design Thinking to Funding
+376,TensorFlow for CNNs: Transfer Learning
+377,Introduction to Probability and Data with R
+378,Calculating Descriptive Statistics in R
+379,Leadership Through Design Innovation
+380,"Planning, Auditing and Maintaining Enterprise Systems"
+381,Creating Models using Smartpls
+382,Big History: Connecting Knowledge
+383,Algorithms for DNA Sequencing
+384,Bioinformatics: Introduction and Methods ?????: ?????
+385,Introduction to Machine Learning
+386,Autodesk Certified Professional: Civil 3D for Infrastructure Design Exam Prep
+387,Understanding International Relations Theory
+388,Bioinformatic Methods I
+389,Getting Started With Game Development Using PyGame
+390,Introduction to Social Media Marketing
+391,"Understanding China, 1700-2000: A Data Analytic Approach, Part 2"
+392,Advanced Data Structures in Java
+393,Introduction to Javascript: The Basics
+394,Value Creation: The Carlson-Polizzotto Method
+395,SEL for Students: A Path to Social Emotional Well-Being
+396,Production Machine Learning Systems
+397,Introduction to Cost Accounting
+398,Converting Challenges into Opportunities
+399,Emerging Trends & Technologies in the Virtual K-12 Classroom
+400,Neurolinguistics
+401,Basic Modeling for Discrete Optimization
+402,Computational Vision
+404,Classify Radio Signals from Space using Keras
+405,Industrial Biotechnology
+406,Data Visualization and Communication with Tableau
+407,Relational database systems
+409,"Sequences, Time Series and Prediction"
+410,Digital Thread: Implementation
+411,IBM Data Topology
+412,Build a Deep Learning Based Image Classifier with R
+413,Machine Learning: Clustering & Retrieval
+414,"Global Health Security, Solidarity and Sustainability through the International Health Regulations"
+415,Preparing for the Google Cloud Professional Cloud Architect Exam
+416,Patient Safety and Quality Improvement: Developing a Systems View (Patient Safety I)
+417,Material Processing
+418,Recommender Systems Capstone
+419,Positive Psychiatry and Mental Health
+420,Finance for Non-Financial Managers
+421,Convolutional Neural Networks in TensorFlow
+422,Soul Beliefs: Causes and Consequences - Unit 2: Belief Systems
+423,Agile Projects: Creating User Stories with Value in Taiga
+424,Social Pedagogy across Europe
+425,Security and Privacy for Big Data - Part 2
+426,Corporate Sustainability. Understanding and Seizing the Strategic Opportunity
+427,Hearing Loss in Children
+428,Scaling Operations: Linking Strategy and Execution
+429,Introduction to Human Behavioral Genetics
+430,Gathering and Developing the News
+431,Healthcare Data Models
+432,Biohacking Your Brain's Health
+433,Cybersecurity and the X-Factor
+434,"Nanotechnology and Nanosensors, Part1"
+435,"Capstone MOOC for ""Android App Development"""
+436,Meeting Investors' Goals
+437,Digital Media and Marketing Principles
+438,Digital Signal Processing 4: Applications
+439,Introduction to solar cells
+440,Mind Control: Managing Your Mental Health During COVID-19
+441,Getting Started with AWS Machine Learning
+442,Essentials of Corporate Finance Capstone
+443,Software Design as an Abstraction
+444,"Modern Robotics, Course 3:  Robot Dynamics"
+445,Frozen in the Ice: Exploring the Arctic
+446,Be Your Best Creative Self
+447,Weight Management: Beyond Balancing Calories
+448,The Fall and Rise of Jerusalem
+449,Hardware Description Languages for FPGA Design
+450,Hyperparameter Tuning with Neural Network Intelligence
+452,State Estimation and Localization for Self-Driving Cars
+453,Business English: Capstone Project
+454,Differential Equations for Engineers
+455,AstroTech: The Science and Technology behind Astronomical Discovery
+456,Learn to Teach Java:  ArrayLists and 2D Arrays
+457,Optimizing Your Google Cloud Platform (GCP) Costs
+460,Detecting and Mitigating Cyber Threats and Attacks
+462,Trading Basics
+463,Fundamentals of Fluid-Solid Interactions
+464,Solving Complex Problems Capstone
+465,"Easing the burden of obesity, diabetes and cardiovascular disease"
+466,Ecological and Energy Transitions in Southern Countries
+467,Transforming Communities
+468,Foundations of Teaching for Learning: Developing Relationships
+469,Data Management for Clinical Research
+470,The Art of Music Production
+471,The Art of Music Production
+472,Discounted Cash Flow Modeling
+474,Understanding Medical Research: Your Facebook Friend is Wrong
+475,Recovering the Humankind's Past and Saving the Universal Heritage
+476,The Newborn Assessment
+477,Cloud Computing Basics (Cloud 101)
+478,Images and Links in HTML
+479,EDIVET: Do you have what it takes to be a veterinarian?
+480,Foundations of Public Health Practice: The Public Health Approach
+481,Analyze Text Data with Yellowbrick
+482,Intellectual Change in Early China: Warring States and Han
+483,"Literacy Teaching and Learning: Aims, Approaches and Pedagogies"
+484,Russian for beginners 1. ??????? ????: A1
+485,Draw Insights with Crosstabs Reports in Google Sheets
+486,Understanding Russians: Contexts of Intercultural Communication
+487,Class Creation in Object Oriented Python
+488,Discrete Mathematics
+489,Teaching Impacts of Technology: Fundamentals
+490,"Fundamentals of Negotiation, with Goldman Sachs 10,000 Women"
+491,Introduction to TensorFlow
+492,Palo Alto Networks Academy Cybersecurity Foundation
+493,Building an Ecosystem model with Insight Maker
+494,History of Medical Cannabis
+495,Advanced Grammar & Punctuation Project
+496,Create Employee Management System with When I Work
+497,Practical Machine Learning
+498,Practical Machine Learning
+499,Web Application Security Testing with OWASP ZAP
+500,Teaching Character and Creating Positive Classrooms
+501,Front-End JavaScript Frameworks: Angular
+502,Developing the Opportunity for Corporate Entrepreneurs
+503,TensorFlow for AI: Get to Know Tensorflow
+504,Software Processes and Agile Practices
+505,"Brand Management: Aligning Business, Brand and Behaviour"
+507,"Business Intelligence Concepts, Tools, and Applications"
+508,Cybersecurity and Mobility
+509,Create UI in Unity Part 1 - Screen Overlay Canvas
+510,Organisational behaviour: Know your people
+511,Chemerinsky on Constitutional Law � Individual Rights and Liberties
+512,Create Power-Ups and Obstacles with C# in Unity
+513,Supply Chain Management: A Learning Perspective
+514,Linear Circuits 1: DC Analysis
+515,3D Printing Applications
+516,Intro to Scheduling with When I Work
+517,Understanding the Brain: The Neurobiology of Everyday Life
+518,Image Compression and Generation using Variational Autoencoders in Python
+519,American Deaf Culture
+520,Optimize TensorFlow Models For Deployment with TensorRT
+521,Non-Communicable Diseases in Humanitarian Settings
+522,Reliable Google Cloud Infrastructure: Design and Process
+523,Healthcare Organizations and the Health System
+524,Financing Infrastructure in African Cities
+525,Visual Machine Learning with Yellowbrick
+526,Create a Memory Puzzle Game in Python Using Pygame
+527,"Responsive Website Basics: Code with HTML, CSS, and JavaScript"
+528,Age of Jefferson
+529,Children Acquiring Literacy Naturally
+530,Practical Time Series Analysis
+531,Mathematical Thinking in Computer Science
+532,Writing and Editing: Word Choice and Word Order
+533,Tableau Public for Project Management and Beyond
+534,Automating Real-World Tasks with Python
+535,Internet of Things: Communication Technologies
+536,Writing in First Person Point of View
+537,Fundamentals of Visualization with Tableau
+538,Building Modern Java Applications on AWS
+540,Power Onboarding
+541,Introduction to Cloud Identity
+542,Bayesian Statistics: From Concept to Data Analysis
+543,Creating Custom Callbacks in Keras
+544,Cybersecurity and the Internet of Things
+545,Create an FPS Weapon in Unity (Part 2 - Firing Effects)
+546,Intimacy of Creativity: Entering the Minds of Composers
+547,Understanding child development: from synapse to society
+548,Doing Business in Europe
+549,Python Programming: A Concise Introduction
+550,My Favorite Lectures @ HKUST
+551,Performing Data Definition and Manipulation in SQL
+552,Object Oriented Programming in Java
+553,Object Oriented Programming in Java
+554,Children's Human Rights - An Interdisciplinary Introduction
+555,Data Management and Visualization
+556,Improving Your Statistical Questions
+557,Business Transformation with Google Cloud
+558,Inspiring and Motivating Individuals
+559,"Android App Components - Intents, Activities, and Broadcast Receivers"
+560,Averaged-Switch Modeling and Simulation
+561,Compare time series predictions of COVID-19 deaths
+562,Scheduling Selenium TestNG tests via Jenkins CI/CD tool
+563,Build a Simple App in Android Studio with Java
+564,Circadian clocks: how rhythms structure life
+565,Conversational English Skills
+566,Analysis of Business Problems
+567,Inferential Statistical Analysis with Python
+568,Create Interactive Dashboards with Streamlit and Python
+569,Biochemical Principles of Energy Metabolism
+570,Global Statistics - Composite Indices for International Comparisons
+571,Blockchain Opportunities Beyond Crypto Assets
+572,"Interpersonal, Developmental, and Evolutionary Perspectives of the Mind"
+573,Accounting Analysis I: The Role of Accounting as an Information System
+575,Solving Algorithms for Discrete Optimization
+576,Build A Google Firebase Web App (Part II)
+577,Getting Started with R
+578,JavaScript Strings: Properties and Methods
+579,Coaching Practices
+580,"Java Inheritance, Composition and Aggregation"
+581,"Element, Class, and ID Selectors in CSS"
+582,Aromatherapy: Clinical Use of Essential Oils
+583,Aromatherapy: Clinical Use of Essential Oils
+584,Avatar Psychology for Designers
+585,Effective Altruism
+586,I/O-efficient algorithms
+587,TensorFlow for AI: Computer Vision Basics
+588,Diabetes � the Essential Facts
+590,"Fundamentals of Operations, with Goldman Sachs 10,000 Women"
+591,Corporate finance: Know your numbers 2
+592,Management of Fashion and Luxury Companies
+593,Geopolitics of Europe
+594,Acing the Product Management Interview
+595,"Living with Dementia: Impact on Individuals, Caregivers, Communities and Societies"
+596,Annual Campaigns: Building a Case for Support
+597,Sustainable Tourism � promoting environmental public health
+598,Cloud Applications
+599,Approaching Music Theory: Melodic Forms and Simple Harmony
+600,Blockchain Business Models
+601,More Chinese for Beginners
+602,Conduct Sales Projections with Seasonality in Google Sheets
+603,Practical Predictive Analytics: Models and Methods
+604,Predict Sales Revenue with scikit-learn
+605,Introduction to Research for Essay Writing
+606,"Transmedia Storytelling: Narrative worlds, emerging technologies, and global audiences"
+607,Python Basics: Create a Guessing Number Game from Scratch
+608,Data Science Ethics
+609,Autism Spectrum Disorder
+610,Single Page Web Applications with AngularJS
+611,Major Engineering Project Performance
+612,Network Security & Database Vulnerabilities
+613,Computational Neuroscience
+614,Asian Environmental Humanities: Landscapes in Transition
+615,Writing in English at University
+616,Structuring Machine Learning Projects
+617,Critical Perspectives on Management
+618,RESTful API with HTTP and JavaScript
+619,Professionalism in an era of change
+620,Climate Adaptation for Human Health
+621,Physics 101 - Forces and Kinematics
+622,Print and Digital Elements of Design: Branding and User Experience
+623,Construction Project Management
+624,Parallel Programming in Java
+625,Digitalisation in the Aerospace Industry
+626,Business English: Networking
+627,Chosen Issues in Holocaust History
+628,Agile Meets Design Thinking
+630,Object-Oriented Data Structures in C++
+631,Create a Google Ads Search Campaign
+632,Capstone: Create your own professional journalistic portfolio
+633,Foundations of marketing analytics
+634,Queering the Schoolhouse: LGBTQ+ Inclusion for Educators
+635,Water Supply and Sanitation Policy in Developing Countries Part 2: Developing Effective Interventions
+638,Organ Donation: From Death to Life
+639,Introduction to English Common Law
+640,Models & Frameworks to Support Sales Planning
+641,Construction Cost Estimating and Cost Control
+642,Stalin and Stalinism in Russian History
+643,Introduction to Systems Engineering
+644,"Modern Robotics, Course 4:  Robot Motion Planning and Control"
+645,DDoS Attacks and Defenses
+646,Motors and Motor Control Circuits
+648,Transfer Learning for Food Classification
+649,Social Marketing Capstone Project
+650,The Social and Technical Context of Health Informatics
+651,Write Professional Emails in English
+652,Software Architecture
+653,Ethical Social Media
+654,"Coding for Designers, Managers, & Entrepreneurs II"
+656,"Faster Together, Enhancing the Recruitment of Minorities in Clinical Trials"
+657,What does it mean to identify as Transgender or Gender Non-Conforming (TGNC)?
+658,Detecting COVID-19 with Chest X-Ray using PyTorch
+659,Social Business Model and Planning for Social Innovation
+660,Six Sigma Advanced Analyze Phase
+661,Information Visualization: Applied Perception
+662,"Country Level Economics: Policies, Institutions, and Macroeconomic Performance"
+663,Developing FPGA-accelerated cloud applications with SDAccel: Theory
+665,Our Earth's Future
+667,Humanitarian communication : Addressing key challenges
+668,Antimicrobial resistance - theory and methods
+669,How to finance your venture ?
+670,Mining Quality Prediction Using Machine & Deep Learning
+671,Business Model Innovation
+673,Build Your Professional ePortfolio in English
+674,Healthcare Data Quality and Governance
+675,Current Gen 3D Game Prop Production
+676,Healing with the Arts
+677,Communication Skills for University Success
+678,UX (User Experience) Capstone
+679,Biomedical Visualisation
+680,Ideal Gases
+681,Fundamentals of Immunology: Innate Immunity and B-Cell Function
+682,Thoracic Oncology
+683,Intermediate Object-Oriented Programming for Unity Games
+684,Antisemitism: From Its Origins to the Present
+685,Chinese for HSK 2
+688,Data Science Capstone
+689,Data Science Capstone
+690,Meaningful Predictive Modeling
+691,Current-Mode Control
+692,Developing Your Musicianship: Final Project
+693,Achieving Your Optimal Performance
+695,Global Health and Humanitarianism
+696,Preventative Healthcare for the Newborn Baby
+697,Expanding SEL
+698,Visual Perception for Self-Driving Cars
+699,Art & Ideas: Teaching with Themes
+700,Disease Screening in Public Health
+701,Copyright for Educators & Librarians
+702,Arch of Titus: Rome and the Menorah
+703,"Providing Social, Emotional, Behavioral, and Special Education Services in School"
+704,Infonomics II: Business Information Management and Measurement
+705,Civic Engagement in American Democracy
+707,Acute and Chronic Rhinosinusitis: A Comprehensive Review
+708,The Social Context of Mental Health and Illness
+709,Understanding Financial Statements: Company Position
+710,Build a Firebase Android Application
+711,Plots (Graphics) in R
+712,Dog Emotion and Cognition
+713,Privacy in the Western World
+714,Skepticism
+715,Consonants of American English Pronunciation
+716,Guitar Performance Techniques
+717,Thrive in Trying Times Teach-Out
+718,Introduction to Graph Theory
+719,Compassionate Leadership Through Service Learning with Jane Goodall and Roots & Shoots
+720,Social Media Data Analytics
+721,Elastic Google Cloud Infrastructure: Scaling and Automation
+722,"Response Surfaces, Mixtures, and Model Building"
+723,Local Economic Development
+724,Political Economy of Institutions and Development
+725,Philosophy and the Sciences: Introduction to the Philosophy of Cognitive Sciences
+726,"Grow to Greatness: Smart Growth for Private Businesses, Part I"
+727,Evaluate Machine Learning Models with Yellowbrick
+728,Business Intelligence and Competitive Analysis
+729,Enterprise and Infrastructure Security
+730,English for Effective Business Speaking
+731,"Raising Capital: Credit Tech, Coin Offerings, and Crowdfunding"
+732,Learning How To Learn for Youth
+734,Interprofessional Healthcare Informatics
+735,Create Your First Python Program
+736,Methods and Statistics in Social Science - Final Research Project
+737,Basic Elements of Design: Design Principles and Software Overview
+738,EMT Foundations
+739,Cloud Computing Project
+740,Israel State and Society
+741,Python Data Representations
+742,Bases of the law of obligations (The Russian Federation) Part 1
+743,Solar Energy Basics
+744,"Javascript animation for websites, storytelling, data visualization and games"
+745,Advanced Engineering Systems in Motion: Dynamics of Three Dimensional (3D) Motion
+746,Teach English Now! Foundational Principles
+747,Teach English Now! Foundational Principles
+749,Towards language universals through lexical semantics: introduction to lexical and semantic typology
+750,Global Impact: Cultural Psychology
+751,Managing an Agile Team
+752,Managing an Agile Team
+753,Computer Vision: Neural Transfer Style & Green Screen Effect
+754,Sensors and Sensor Circuit Design
+755,Getting Started with SAS Visual Analytics
+756,Cyber-Physical Systems: Modeling and Simulation
+757,Predict Ideal Diamonds over Good Diamonds using a Random Forest using R
+758,"The Bible's Prehistory, Purpose, and Political Future"
+759,Introduction to iOS App Development with Swift 5
+760,Community Change in Public Health
+761,Six Sigma Tools for Analyze
+762,REAL BONES:  Adventures in Forensic Anthropology
+763,General Academic English
+764,"The American South: Its Stories, Music, and Art"
+765,Create Custom Layers in Keras
+767,Innovating in a Digital World
+768,Introduction to Communication Science
+769,Optimization of Topic Models using Grid Search Method
+770,Sports and Building Aerodynamics
+771,Organisational design: Know your organisation
+772,Learn to Teach Java:  Writing Classes and Arrays
+773,Plots (Graphics) for Data Science
+774,The Sun and the Total Eclipse of August 2017
+775,Material Behavior
+776,Disaster Preparedness
+777,Protecting Business Innovations via Trademark
+778,Fundamentals of the Chinese character writing (Part 1)
+779,International Leadership and Organizational Behavior
+780,Introduction to Natural Language Processing in Python
+781,ADHD: Everyday Strategies for Elementary Students
+782,Introduction to Statistical Analysis:  Hypothesis Testing
+783,Health Concepts in Chinese Medicine
+784,Teamwork Skills: Communicating Effectively in Groups
+785,Academic Listening and Note-Taking
+786,Digital Manufacturing & Design
+787,Predicting Salaries with Simple Linear Regression in R
+788,Create your first test automation script - Selenium and C#
+789,How Google does Machine Learning
+790,Cybersecurity Awareness and Innovation
+791,"Machine Learning:  Predict Numbers from Handwritten Digits using a Neural Network, Keras, and R"
+792,Essential Epidemiologic Tools for Public Health Practice
+793,Giving Helpful Feedback
+794,International Labour Law
+795,Effectively delivering the news to your audience
+796,Writing your World: Finding yourself in the academic space
+797,Digital Business Models
+798,Introduction to Advanced tomography
+799,Engaging in Persuasive and Credible Communication
+800,Creating a Customer Service Survey Using Google Forms
+801,Introduction to Philosophy
+802,Architecting with Google Kubernetes Engine: Workloads
+803,Extracellular Vesicles in Health and Disease
+804,Understanding Your Google Cloud Platform (GCP) Costs
+805,Gmail: The Foundation To Accessing Google Apps
+806,Create a Google Ads Video Campaign
+807,"Photography Techniques: Light, Content, and Sharing"
+808,The City and You: Find Your Best Place
+809,What is Palliative Care?
+810,CAM and Design Manufacturing for Mechanical Engineers with Autodesk Fusion 360
+811,Speaking to inform:  Discussing complex ideas with clear explanations and dynamic slides
+812,America Through Foreign Eyes
+813,Internet Giants: The Law and Economics of Media Platforms
+814,Career Total Fitness Annual Retreat
+815,"Introduction to Containers w/ Docker, Kubernetes & OpenShift"
+816,Sequence Models for Time Series and Natural Language Processing
+817,Simple Recurrent Neural Network with Keras
+818,Supply Chain Operations
+819,Chinese for HSK 3 PART I
+820,Spreadsheets for Beginners using Google Sheets
+821,Leadership and Emotional Intelligence
+822,Managing Supply Chain Disruption During COVID-19
+823,Regulated Competition in Healthcare Systems: Theory & Practice
+824,"Random Models, Nested and Split-plot Designs"
+825,"Modern Robotics, Course 5:  Robot Manipulation and Wheeled Mobile Robots"
+826,Fundamentals of Network Communication
+827,Predictive Modeling and Machine Learning with MATLAB
+828,Networking and Volunteerism for Career Success
+829,Crafting Strategies for Innovation Initiatives for Corporate Entrepreneurs
+830,Portfolio and Risk Management
+831,Auditing I: Conceptual Foundations of Auditing
+832,Building a Business Presence With Facebook Marketing
+834,Rapid Prototyping of Embedded Interface Designs
+835,FinTech Risk Management
+836,Solar Energy Systems Overview
+837,Industrial IoT on Google Cloud Platform
+839,Multiplatform Mobile App Development with Web Technologies: Ionic and Cordova
+840,Enjoyable Econometrics
+841,Build an App in Android Studio using Static Files
+842,Safety in the Utility Industry
+843,"Content, Advertising & Social IMC"
+844,Introduction to Power Electronics
+845,Rails with Active Record and Action Pack
+847,Accounting for Business Decision Making: Measurement and Operational Decisions
+849,Build Multilayer Perceptron Models with Keras
+850,Financial Reporting Capstone
+851,Songwriting: Writing the Lyrics
+852,Healthcare Marketplace
+853,Developing An Entrepreneurial Mindset: First Step Towards Success
+854,Capstone Project: Business Technology Management
+855,Business English: Basics
+856,Supply Chain Sourcing
+857,"Recruiting, Hiring, and Onboarding Employees"
+858,Programming with Scratch
+859,Teaching Impacts of Technology: Workplace of the Future
+860,Foundations of Public Health Practice: Behaviour & Behaviour Change
+862,"Tropical Parasitology: Protozoans, Worms, Vectors and Human Diseases"
+863,"The Modern World, Part One: Global History from 1760 to 1910"
+864,Solar Energy System Design
+865,Validity and Bias in Epidemiology
+866,"Imagery, Automation, and Applications"
+867,Measuring Causal Effects in the Social Sciences
+868,Protecting Business Innovations via Strategy
+869,Ecosystems of California
+870,Unethical Decision Making in Organizations
+871,How Computers Work
+872,HPV-Associated Oral and Throat Cancer: What You Need to Know
+873,Making the Case for Robotic Process Automation
+874,"Be a Leader, Develop a Leader"
+875,Influencer Marketing Strategy
+876,Digital Media and Marketing Strategies
+877,Intro to International Marketing
+878,Introduction to OpenCL on FPGAs
+879,Building Conversational Experiences with Dialogflow
+880,Docker Essentials & Building a Containerized Web Application
+881,Applying Investment Decision Rules for Startups
+882,Qualitative Data Collection Methods
+883,Assessment for Learning
+884,Financial Engineering and Risk Management Part I
+885,Teach English Now! Capstone Project 2
+886,Teach English Now! Capstone Project 2
+887,The Economics of Agro-Food Value Chains
+888,Machine Learning Algorithms: Supervised Learning Tip to Tail
+889,3D Printing Hardware
+890,Business English for Cross-cultural Communication
+891,Cloud Networking
+892,Build a Machine Learning Web App with Streamlit and Python
+893,Python Geospatial Data Analysis
+894,Lesson | Business English Skills: Introducing Yourself in Business Settings
+895,Getting Started with Blazor WASM
+896,Establishing a Professional �Self� through Effective Intercultural Communication
+897,Biases and Portfolio Selection
+898,Building Smart Business Assistants with IBM Watson
+899,Introduction to Pointers and Memory Management in C/C++
+900,Using Seesaw for Student Learning
+901,Music and Social Action
+902,Enhancing Communication with Remind
+903,Security Operations and Administration
+904,Machine Learning: Classification
+905,Git + GitHub for Open Source Collaboration
+906,Communicating Climate Change and Health
+907,"Revolutionary Ideas: Borders, Elections, Constitutions, Prisons"
+908,Multimodal Literacies: Communication and Learning in the Era of Digital Media
+909,International Water Law
+910,Applying Machine Learning to your Data with GCP
+911,Image Understanding with TensorFlow on GCP
+912,Create a text adventure game with Ink
+913,Functional Programming in Scala Capstone
+914,Enterprise Architecture
+915,Delivery Problem
+916,Make Your Pick-Ups Look Cool in Unity (Intro to Animation 1)
+917,Introduction to Computer Vision with Watson and OpenCV
+918,Software Design Threats and Mitigations
+919,Stock Analysis:  Create a Buy Signal Filter using R and the Quantmod Package
+920,Introduction to Complex Analysis
+921,The Unix Workbench
+922,Health Systems Development: A Focus on Health Service Delivery and Human Resources for Health
+923,Strategic Business Management - Macroeconomics
+924,Principles of Photo Composition and Digital Image Post-Production
+925,Using SAS Viya REST APIs with Python and R
+926,Strategic Sales Management Final Project
+927,Human-Centered Design: an Introduction
+928,Innovation Career Lessons from a Master
+929,Designing and Implementing Your Coaching Strategy
+930,Teaching in University Science Laboratories (Developing Best Practice)
+931,Principles of Computing (Part 1)
+932,Proactive Computer Security
+933,Network Security & Database Vulnerabilities
+934,Implementing Parent Feedback with Google Forms
+935,Agile Meets Design Thinking
+936,A tecnologia da produ��o musical
+937,Intellectual Humility: Science
+938,"Planning: Principled, Proposing, Proofing, and Practicing to a Success Plan"
+939,Qualitative Research Design
+941,Introduction to G Suite
+942,Epidemics - the Dynamics of Infectious Diseases
+943,Enterprise System Management and Security
+944,Competitive Programmer's Core Skills
+945,Evaluating User Interfaces
+946,Getting Started with Azure DevOps Boards
+947,Genomics: Decoding the Universal Language of Life
+948,Learning Mindsets & Skills
+949,Computational Geometry
+950,Planning & Design of Sanitation Systems and Technologies
+951,A Start Guide: Product Marketing Using G Suite
+952,The Fundamentals of Revenue Management: The Cornerstone of Revenue Strategy
+953,Brand Marketing and SEO Tools using Wix
+954,"Impacting the Opioid Crisis: Prevention, Education, and Practice for Non-Prescribing Providers"
+955,Product Development: Customer Journey Mapping with Miro
+956,Introduction to Who Wrote Shakespeare
+957,Create Your First Multithreaded Application in Java
+958,CSS Animated Components with ReactJS
+960,Finance for Everyone Capstone Project
+961,Internet of Things: How did we get here?
+962,Introduction to Line Balancing Using Precedence Diagram
+963,"AI Workflow: Machine Learning, Visual Recognition and NLP"
+964,Manipulate Object Properties with C# in Unity
+965,Palliative Care Capstone Projects
+966,Interactive Word Embeddings using Word2Vec and Plotly
+967,Electric Industry Operations and Markets
+969,Strategic Planning and Execution
+970,Change Leadership: Developing Strategic Gap Analysis in Miro
+971,Internet of Things Capstone V2: Build a Mobile Surveillance System
+972,Responsive Website Tutorial and Examples
+973,Entrepreneurial Strategic Management
+974,Personality Types at Work
+975,Overview of Advanced Methods of Reinforcement Learning in Finance
+976,Process Improvement: a Kaizen Event with Google Slides
+977,Sales Force Management
+978,Performing Data Aggregation using SQL Aggregate Functions
+979,Ecosystem Services: a Method for Sustainable Development
+980,Reliable Google Cloud Infrastructure: Design and Process
+981,Using TensorFlow with Amazon Sagemaker
+982,Firm Level Economics: Markets and Allocations
+983,The Data Science of Health Informatics
+984,Preparing to Manage Human Resources
+985,COVID19 Data Analysis Using Python
+986,De-Mystifying Mindfulness
+987,International Marketing Entry and Execution
+988,Law in the Time of COVID-19: A Northwestern Teach-Out
+989,Mastering bitumen for better roads and innovative applications
+990,"Engineering Life: Synbio, Bioethics & Public Policy"
+991,Customer-Centric IT Strategy
+992,Neural Networks and Deep Learning
+993,Securing Investment Returns in the Long Run
+994,Cloud Computing Concepts: Part 2
+995,Introduction to Systems Biology
+996,The Horse Course: Introduction to Basic Care and Management
+997,Innovation Strategy: Developing Your Fintech strategy
+998,Understanding Cancer Metastasis
+999,Measuring the Success of a Patient Safety or Quality Improvement Project (Patient Safety VI)
+1000,Building Deep Learning Models with TensorFlow
+1002,Programming with Cloud IoT Platforms
+1003,Mergers and Acquisitions � The Relentless Pursuit of Synergy
+1004,Preventing Chronic Pain: A Human Systems Approach
+1005,Building the Business Model for Corporate Entrepreneurs
+1006,"Ready, Set, Future! Introduction to Futures Thinking"
+1007,Image Processing with Python
+1008,Advanced Linear Models for Data Science 1: Least Squares
+1009,Terraform Basics: Automate Provisioning of AWS EC2 Instances
+1010,Pricing Strategy in Practice
+1011,Reinforcement Learning in Finance
+1013,Django Features and Libraries
+1014,A Circular Economy of Metals: Towards a Sustainable Societal Metabolism
+1015,Information Visualization: Advanced Techniques
+1016,Startup: How to build a successful business?
+1017,Inventory Analytics
+1018,COVID19 Data Visualization Using Python
+1019,Using Git for Distributed Development
+1020,Becoming a Sports Agent
+1021,"Teacher SEL: Programs, Possibilities, and Contexts"
+1022,Why Iowa? A Primer on Primaries and Caucuses Teach-Out
+1023,Take Your English Communication Skills to the Next Level
+1024,Service-Oriented Architecture
+1025,Google Cloud Platform Fundamentals for AWS Professionals
+1026,Introduction to Programming and Animation with Alice
+1027,Population Health: Fundamentals of Population Health Management
+1028,An Introduction to the U.S. Food System: Perspectives from Public Health
+1029,Statistics for International Business
+1031,Game Design and Development Capstone
+1033,Getting Started with Linux Terminal
+1035,Understanding Financial Markets
+1036,Create and Format a Basic Document with LibreOffice Writer
+1037,Intellectual Humility: Theory
+1038,Oral Communication for Engineering Leaders
+1039,Legal Tech & Startups
+1040,Business English: Making Presentations
+1041,Software Security
+1042,Photovoltaic solar energy
+1043,A Scientific Approach to Innovation Management
+1044,Accounting for Business Decision Making: Strategy Assessment and Control
+1045,Introduction to Data Science in Python
+1046,Analytic Combinatorics
+1047,Create a Resume and Cover Letter with Google Docs
+1048,Exploring Beethoven's Piano Sonatas Part 4
+1049,Moralities of Everyday Life
+1050,"Cybersecurity Roles, Processes & Operating System Security"
+1051,"Cybersecurity Roles, Processes & Operating System Security"
+1052,Multiple Linear Regression with scikit-learn
+1053,Scrum Team Building Using Games and Interactive Tools
+1054,Run a Sparkline Trend Analysis in Google Sheets
+1055,Motivating Gen Z Learners: What Parents and Teachers Need to Know
+1056,Capstone: Build a Winning Investment Portfolio
+1057,"Lighting, Reflection, and Post Processing Effects"
+1058,Embedded Software and Hardware Architecture
+1059,Build a Relative Layout App in Android Studio
+1060,Study Designs in Epidemiology
+1061,Introduction to Software Product Management
+1062,Learn Javascript with zero prior programming experience
+1063,Creating a Student Profile in Google Docs
+1064,Global Warming I: The Science and Modeling of Climate Change
+1065,Handling Imbalanced Data Classification Problems
+1066,The Olympic Games and the Media
+1068,Writing for Young Readers: Opening the Treasure Chest
+1069,Fundamentals of Modern Russian-designed NPPs with VVER-1200
+1070,The Cycle: Management of Successful Arts and Cultural Organizations
+1071,Epidemiology: The Basic Science of Public Health
+1072,Implementing a Patient Safety or Quality Improvement Project (Patient Safety V)
+1074,Data Science in Real Life
+1075,Advanced Business Analytics Capstone
+1076,The Pronunciation of American English Project
+1077,Strategy and Sustainability
+1078,Using Data for Geographic Mapping and Forecasting in SAS Visual Analytics
+1079,Managing the Organization
+1080,Industrial IoT Markets and Security
+1081,Programming a Quantum Computer with Qiskit - IBM SDK
+1082,Elastic Google Cloud Infrastructure: Scaling and Automation
+1083,Elastic Google Cloud Infrastructure: Scaling and Automation
+1084,IT Infrastructure and Emerging Trends
+1085,"Cloud Computing Applications, Part 1: Cloud Systems and Infrastructure"
+1086,Logistic Regression in R for Public Health
+1087,Six Sigma and the Organization (Advanced)
+1088,"Managing ADHD, Autism, Learning Disabilities, and Concussion in School"
+1089,Business Case Analysis
+1090,Understanding 9/11: Why 9/11 Happened & How Terrorism Affects Our World Today
+1091,Financial Accounting Fundamentals
+1092,Cryptography: Boolean functions and related problems
+1093,Religions and Society in China
+1094,Geometric Algorithms
+1095,"Games, Sensors and Media"
+1096,Challenging Forensic Science: How Science Should Speak to Court
+1097,Project Management: Creating the Precedence Network Diagram
+1098,Project: Writing a Research Paper
+1099,Wind Energy
+1100,Enterprise Systems
+1101,The Merkle Tree and Cryptocurrencies
+1102,Building Fintech Startups in Emerging Markets
+1104,The Business of Product Management I
+1105,Introduction to Systematic Review and Meta-Analysis
+1106,Firearm Purchaser Licensing Teach-Out: The Background Check Policy Not Enough People Are Talking About
+1107,How Things Work: An Introduction to Physics
+1108,"JavaScript, jQuery, and JSON"
+1109,Sentiment Analysis with Deep Learning using BERT
+1110,"Data Analysis and Representation, Selection and Iteration"
+1111,Medical Cannabis for Pain Control
+1112,Business English: Planning & Negotiating
+1113,Clinical Terminology for International and U.S. Students
+1116,Create a Coin Pick-Up and Spending Mechanics in Unity
+1117,Position Elements on a Page with CSS
+1118,Cluster Analysis in Data Mining
+1119,N�tzliches Feedback geben (Giving Helpful Feedback)
+1120,Arts and Heritage Management
+1121,Sales Training: Building Your Sales Career
+1122,Leveraging Mentions and Threads in Slack
+1123,Introduction to Physical Chemistry
+1124,Survey Data Collection and Analytics Project (Capstone)
+1125,Conflict Transformation
+1126,Evaluating the Quality of Healthcare Delivery
+1127,Financial Accounting: Foundations
+1128,Build Data Analysis tools using R and DPLYR
+1129,Blockchain Transformations of Financial Services
+1130,Science of Training Young Athletes Part 2
+1132,Digital Product Management: Modern Fundamentals
+1133,"Abstraction, Problem Decomposition, and Functions"
+1134,Investments I: Fundamentals of Performance Evaluation
+1135,"Identifying, Monitoring, and Analyzing Risk and Incident Response and Recovery"
+1136,Materials Science: 10 Things Every Engineer Should Know
+1137,Water in the Western United States
+1138,Building AI Powered Chatbots Without Programming
+1139,Building AI Powered Chatbots Without Programming
+1140,Introduction to TCP/IP
+1141,Using probability distributions for real world problems in R
+1142,Business English: Final Project
+1143,Business Strategy in Practice (Project-centered Course)
+1144,"Time to Reorganize! Understand Organizations, Act, and Build a Meaningful World."
+1146,Input and Interaction
+1147,Get Interactive: Practical Teaching with Technology
+1148,Anomaly Detection in Time Series Data with Keras
+1149,Excel Basics for Data Analysis
+1150,Core Concepts of Accounting � Numbers and People
+1151,International Humanitarian Law in Theory and Practice
+1152,Presentations: Speaking so that People Listen
+1153,Create Infographics using Piktochart
+1154,The Fundamentals of Computing Capstone Exam
+1155,Build CRUD REST API in Django
+1156,Digitalisation in Aeronautics
+1157,"Social Services for Families, Seniors and Those with Disabilities"
+1158,Art and Science of Machine Learning
+1159,Psychosocial and Spiritual Aspects of Palliative Care
+1160,Analyze Box Office Data with Plotly and Python
+1161,Combining and Analyzing Complex Data
+1162,Peer-to-Peer Protocols and Local Area Networks
+1163,Advanced SQL Retrieval Queries in SQLiteStudio
+1164,Foundations for Assisting in Home Care
+1165,Corporate Finance Essentials
+1166,Global Health at the Human-Animal-Ecosystem Interface
+1167,Software Development Processes and Methodologies
+1168,eHealth: More than just an electronic record
+1169,Symmetric Cryptography
+1170,Symmetric Cryptography
+1171,Using Descriptive Statistics to Analyze Data in R
+1172,BIM Fundamentals for Engineers
+1173,Organizational Behavior: How to Manage People
+1174,"""Making"" Progress Teach-Out"
+1176,Intelligent Machining
+1177,Global Diplomacy: the United Nations in the World
+1178,"Computer Science:  Algorithms, Theory, and Machines"
+1179,How to Finance and Grow Your Startup � Without VC
+1180,Empowering Yourself in a Post-Truth World
+1181,Avoid Overfitting Using Regularization in TensorFlow
+1182,Physician/Student Opioid Use Disorder Medication Assisted Treatment Waiver Training
+1183,"Drugs, drug use, drug policy and health"
+1184,Cryptographic Hash and Integrity Protection
+1185,Brand Identity and Strategy
+1187,Understanding the Music Business: What is Music Worth?
+1188,Gut Check: Exploring Your Microbiome
+1189,Managerial Accounting Fundamentals
+1190,Data Visualization
+1191,FinTech Security and Regulation (RegTech)
+1192,Using Shiny to Plot Differential Gene Expression
+1193,Organizational Leadership Capstone
+1194,"Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
+1195,Essentials of Global Health
+1196,Entrepreneurship Capstone
+1197,The Psychology of Thrill Seekers
+1198,MOOC: How to make a MOOC?
+1200,Statistical Inference
+1201,Songwriting: Writing the Lyrics
+1202,"Fundamentals of Management, with Goldman Sachs 10,000 Women"
+1203,"Sustainability of Social-Ecological Systems: the Nexus between Water, Energy and Food"
+1204,Handheld AR App Development with Unity
+1205,Introduction to Data Analytics
+1206,Marketing in an Analog World
+1207,"Cannabis, Mental Health, and Brain Disorders"
+1208,Principal Component Analysis with NumPy
+1209,Deep Neural Networks with PyTorch
+1210,Code Free Data Science
+1211,Compose and Program Music in Python using Earsketch
+1212,"Concepts in Python: Loops, Functions and Returns"
+1213,Cultural Competence - Aboriginal Sydney
+1214,Capstone: Your Story
+1215,Six Sigma Advanced Improve and Control Phases
+1216,"Learn to Teach Java:  Sequences, Primitive Types and Using Objects"
+1217,Computer Architecture
+1218,Basic Data Processing and Visualization
+1219,Create a Python Application using MySQL
+1220,Art & Activity: Interactive Strategies for Engaging with Art
+1221,International Hospitality & Healthcare Services Marketing
+1222,Refugees in the 21st Century
+1223,Strategic Innovation: Building and Sustaining Innovative Organizations
+1224,Competitive Strategy
+1225,Fixing Healthcare Delivery 2.0: Advanced Lean
+1226,Building a Text-Based Bank in Java
+1228,Build a Persistent Storage App in Android Studio
+1230,UX Design Fundamentals
+1231,Tweet Emotion Recognition with TensorFlow
+1232,The Power of Markets I: The Basics of Supply and Demand and Consumer Behavior
+1233,Everyday Chinese Medicine 2
+1234,Tables and Forms in HTML
+1235,Transformation of the Global Food System
+1236,Building Candlestick Charts with Tableau
+1237,Behavioral Finance
+1238,Computational Thinking for K-12 Educators: Nested If Statements and Compound Conditionals
+1239,Introduction to Typography
+1240,Cracking the Creativity Code: Discovering Ideas
+1241,Video Basics with OpenCV and Python
+1244,Neural Style Transfer with TensorFlow
+1245,Mathematics for Machine Learning: Multivariate Calculus
+1246,Genome Sequencing (Bioinformatics II)
+1247,Fundamentals of Music Theory
+1248,"Introduction to Data, Signal, and Image Analysis with MATLAB"
+1249,Design a Client Welcome Kit using Canva
+1250,Nanotechnology: A Maker�s Course
+1251,Journey Conversations: Weaving Knowledge and Action
+1252,Health and healthcare in transition: dilemmas of governance
+1253,Mastering Remote Work and Online Study in U.S. in the post-COVID Era
+1254,"Healthy Practices: Nutrition, Physical Activity, and Community and Family Participation"
+1255,Learning to Teach Online
+1256,Research Report: Delivering Insights
+1258,Fundamentals of Global Energy Business
+1260,Research Data Management and Sharing
+1261,From Idea to Startup
+1262,Modeling and Design for Mechanical Engineers with Autodesk Fusion 360
+1263,Create Your First NoSQL Database with MongoDB and Compass
+1264,The Holocaust: The Destruction of European Jewry
+1266,Introduction to Cloud Computing
+1267,"Understanding, Using, and Securing Crypto and Digital Assets"
+1268,Introduction to Enterprise Computing
+1269,Communication Strategies for a Virtual Age
+1270,Development of Real-Time Systems
+1271,"Logging, Monitoring and Observability in Google Cloud"
+1272,Access Controls
+1273,"Biological Diversity (Theories, Measures and Data sampling techniques)"
+1274,Create Fault Tolerant MongoDB Cluster
+1275,Java Programming: Build a Recommendation System
+1276,Business Analysis & Process Management
+1277,Statistics for Genomic Data Science
+1279,The Science of Stem Cells
+1280,How to Get Skilled: Introduction to Individual Skills Management (Project-Centered Course)
+1281,Factorial and Fractional Factorial Designs
+1282,Research kitchen
+1283,Graphic Design
+1284,Setting Up a Digital Library with EPIC
+1285,How to Manage a Remote Team
+1286,Academic Skills for University Success: Capstone
+1287,Financial Accounting: Advanced Topics
+1288,Advanced Features with Relational Database Tables Using SQLiteStudio
+1289,Data Visualization with Python
+1290,"Designing, Running, and Analyzing Experiments"
+1291,"System Validation (4): Modelling Software, Protocols, and other behaviour"
+1292,"Origins - Formation of the Universe, Solar System, Earth and Life"
+1293,Introduction to Architecting Smart IoT Devices
+1294,Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential
+1295,China Strategy
+1296,"Engineering Project Management: Scope, Time and Cost Management"
+1297,Privacy in Europe
+1298,Multiplatform Mobile App Development with React Native
+1299,Management and financial accounting: Know your numbers 1
+1300,Introduction to Agent-based Modeling with NetLogo
+1301,Science of Exercise
+1303,Community Organizing for Social Justice
+1304,Digital Signal Processing 1: Basic Concepts and Algorithms
+1306,Predict Gas Guzzlers using a Neural Net Model on the MPG Data Set
+1307,Artificial Intelligence Ethics in Action
+1308,European Business Law: Doing Business in Europe
+1309,Nursing Informatics Training and Education
+1310,Research Design: Inquiry and Discovery
+1311,Quality Improvement in Healthcare Organizations
+1312,"UX Research at Scale: Surveys, Analytics, Online Testing"
+1313,Coaching Conversations
+1314,"Philosophy, Science and Religion: Science and Philosophy"
+1315,US Social Services Compared
+1316,AutoML for Computer Vision with Microsoft Custom Vision
+1317,Information Visualization: Programming with D3.js
+1318,Content Strategy for Professionals: Engaging Audiences
+1319,Accessibility to the Scenic Arts
+1320,Innovating with the Business Model Canvas
+1321,Introduction to Basic Game Development using Scratch
+1322,Use WordPress to Create a Blog for your Business
+1323,Mechanics of Materials I: Fundamentals of Stress & Strain and Axial Loading
+1324,Assessment in Higher Education: Professional Development for Teachers
+1325,Basic Artificial Neural Networks in Python
+1326,Business Metrics for Data-Driven Companies
+1327,Structuring Values in Modern China
+1328,"Teach English Now! Second Language Listening, Speaking, and Pronunciation"
+1329,"Teach English Now! Second Language Listening, Speaking, and Pronunciation"
+1330,Advanced Machine Learning and Signal Processing
+1331,Diode - pn Junction and Metal Semiconductor Contact
+1332,Foundations of Mindfulness
+1333,Cryptography
+1334,Planning a Patient Safety or Quality Improvement Project (Patient Safety III)
+1335,International Business Environment
+1336,Digital Transformation of Financial Services - Capstone Project
+1337,Skills for Nursing Informatics Leaders
+1338,Containerize a full-stack NodeJS application in Docker
+1340,Introduction to Ethereum DeFi Smart Contract Security & Exploits
+1341,The Art & Science of Product Management
+1342,The Emergence of the Modern Middle East - Part I
+1344,The Blockchain System
+1345,Childbirth: A Global Perspective
+1346,Lactation Biology
+1347,Foundations for Global Health Responders
+1348,Getting Started with ProfitBooks
+1349,Economic Growth and Distributive Justice Part II - Maximize Social Wellbeing
+1350,Machine Learning with Python
+1351,Machine Learning with Python
+1353,Integrated Analysis in Systems Biology
+1354,Healthcare Data Literacy
+1355,Predict Diabetes with a Random Forest using R
+1356,Content Strategy for Professionals: Ensuring Your Content's Impact
+1357,Roadmap to Success in Digital Manufacturing & Design
+1358,Ubiquitous Learning and Instructional Technologies
+1360,Curanderismo: Global & Cultural Influences of Traditional Healing
+1361,Teaching Science at University
+1362,Deep Learning NLP: Training GPT-2 from scratch
+1363,"Grow Your Business with Goldman Sachs 10,000 Women"
+1364,Advanced Financial Reporting: Accounting for Business Combinations and Preparation of Consolidated Financial Statements
+1365,Build Your First React Website (Part II)
+1366,"Merge, Sort and Filter Data in Python Pandas"
+1367,Finding bibliography metrics using the Crossref API
+1368,Information Design
+1369,IBM Cybersecurity Analyst Assessment
+1370,Data Analysis and Reporting in SAS Visual Analytics
+1371,"Fundamentals of Customers and Competition, with Goldman Sachs 10,000 Women"
+1372,How to Write and Publish a Scientific Paper (Project-Centered Course)
+1373,Learn to Teach Java: Inheritance and Recursion
+1374,Create Your First Application with Java Using Networking
+1375,Foundations of Public Health Practice: Health Protection
+1376,Guitar Chord Voicings: Playing Up The Neck
+1377,Dynamical Modeling Methods for Systems Biology
+1378,Reliable Google Cloud Infrastructure: Design and Process
+1379,Java Decision Programming
+1382,Strategic Business Management - Microeconomics
+1383,Confronting Gender Based Violence: Global Lessons for Healthcare Workers
+1384,Introduction to Household Water Treatment and Safe Storage
+1385,Front-End Web UI Frameworks and Tools: Bootstrap 4
+1386,Front-End Web UI Frameworks and Tools: Bootstrap 4
+1387,Blockchain: Foundations and Use Cases
+1388,Quantitative Model Checking
+1389,The Science of the Solar System
+1390,C# Programming for Unity Game Development Capstone Project
+1391,Resilient Teaching Through Times of Crisis and Change
+1392,Computer Vision Basics
+1393,Green Business Strategy
+1394,Leadership in Interprofessional Informatics
+1395,Financial Risk Management with R
+1396,"Statistical Thinking for Industrial Problem Solving, presented by JMP"
+1397,Interactive Computer Graphics
+1398,Electrodynamics: An Introduction
+1399,Mandarin Chinese 2: Chinese for Beginners
+1400,Advanced R Programming
+1401,"Compensation, Expenses and Quotas"
+1402,Smart Device & Mobile Emerging Technologies
+1403,Academic Literacy
+1404,DNA Decoded
+1405,"C++ For C Programmers, Part B"
+1406,Microeconomics Principles
+1407,Intel� Network Academy - Network Transformation 101
+1408,Myocardial Infarction
+1409,Curanderismo: Traditional Healing Using Plants
+1410,Getting Started with Google Sheets
+1411,Strategies for Effective Engagement
+1412,Automated Reasoning: satisfiability
+1413,Practical Reinforcement Learning
+1414,Reasoning Across the Disciplines
+1415,Fundamentals of the Chinese character writing. Part 2
+1416,Windows Server Management and Security
+1417,Exploring ?and ?Preparing ?your ?Data with BigQuery
+1418,Responsive Web Design
+1419,Measuring Stock Liquidity
+1420,Build a Guessing Game Application using Java
+1421,Project: Creating Your First C++ Application
+1422,Emotions: a Philosophical Introduction
+1423,Create a Budget with Google Sheets
+1424,Learn to Code using C# on VS Code
+1425,Bioinformatic Methods II
+1426,Introduction to Business Analysis Using Spreadsheets: Basics
+1428,Introduction to CSS in Web Development
+1429,"Big Data, Genes, and Medicine"
+1430,Classical Cryptosystems and Core Concepts
+1431,Ideas from the History of Graphic Design
+1432,"Plagues, Witches, and War: The Worlds of Historical Fiction"
+1433,Introduction to Bash Shell Scripting
+1434,Building a Dynamic Web App using PHP & MySQL
+1435,Bayesian Statistics
+1436,Blended Learning: Personalizing Education for Students
+1437,Writing Winning Resumes and Cover Letters
+1438,Business Strategies for Emerging Markets
+1439,Build Your First React Website
+1440,Build personal resilience
+1441,Create an FPS Weapon in Unity (Part 3 -Damage Effects)
+1442,Interacting with the System and Managing Memory
+1443,Vector Calculus for Engineers
+1444,Creative Thinking: Techniques and Tools for Success
+1445,Mechanics of Materials II: Thin-Walled Pressure Vessels and Torsion
+1446,Rethinking International Tax Law
+1447,Strategic Sourcing
+1448,EU policy and implementation: making Europe work!
+1449,Architecting with Google Kubernetes Engine: Foundations
+1450,Effective Sales � An Overview
+1451,The Music of the Beatles
+1452,Creative Writing: The Craft of Setting and Description
+1454,"Learning, Knowledge, and Human Development"
+1455,Chemicals and Health
+1456,"Espace mondial, a French vision of Global studies"
+1457,Corporate & Commercial Law I: Contracts & Employment Law
+1458,Natural Language Processing with Attention Models
+1459,Getting Started with Rstudio
+1460,Fashion E-Commerce in XD
+1461,Bayesian Methods for Machine Learning
+1463,Build a Python GUI with Tkinter
+1464,Generative Design for Part Consolidation
+1466,Big Data Analytical Platform on Alibaba Cloud
+1468,Machine Learning with H2O Flow
+1469,Cloud Security Basics
+1470,Strategic Self-Marketing and Personal Branding
+1471,Getting Started with Essay Writing
+1472,Design Computing: 3D Modeling in Rhinoceros with Python/Rhinoscript
+1473,Object-Oriented Programming with Java
+1474,Queering Identities: LGBTQ+ Sexuality and Gender Identity
+1475,Ordered Data Structures
+1476,Solar Energy and Electrical System Design
+1477,Cybersecurity in Healthcare (Hospitals & Care Centres)
+1478,Know Thyself - The Value and Limits of Self-Knowledge: The Unconscious
+1479,Game Design Document: Define the Art & Concepts
+1480,Data Science Methodology
+1481,Data Science Methodology
+1482,Script Writing: Write a Pilot Episode for a TV or Web Series (Project-Centered Course)
+1483,Spanish Vocabulary: Meeting People
+1485,Preparing for the Google Cloud Associate Cloud Engineer Exam
+1486,Fundamentals of Macroscopic and Microscopic Thermodynamics
+1487,Python for Genomic Data Science
+1488,Training and Learning Programs for Volunteer Community Health Workers
+1489,Getting Started With Music Theory
+1490,Biology Meets Programming: Bioinformatics for Beginners
+1491,Climate Adaptation in Africa
+1492,Managing Security in Google Cloud Platform
+1493,Building Arduino robots and devices
+1494,Blended Language Learning: Design and Practice for Teachers
+1495,Cryptography and Information Theory
+1496,Data Analysis and Interpretation Capstone
+1497,Introduction to Sustainability
+1498,Customer Value in Pricing Strategy
+1499,FinTech and the Transformation in Financial Services
+1500,Fundamentals of Immunology: Death by Friendly Fire
+1501,Intermediate Relational Database and SQL
+1502,Big Data - Capstone Project
+1503,Build Your Own iOS App
+1504,Data Structures and Design Patterns for Game Developers
+1505,Quantitative Foundations for International Business
+1506,Introduction to GIS Mapping
+1507,Privacy & Standardisation Capstone
+1508,Engaging and Assessing  Students with Plickers
+1509,Teaching EFL/ESL Reading: A Task Based Approach
+1510,PrEParing: PrEP for Providers and Patients
+1511,Investment Management in an Evolving and Volatile World by HEC Paris and AXA Investment Managers
+1513,The Making of the US President: A Short History in Five Elections
+1514,Interactivity with JavaScript
+1515,Grammar and Punctuation
+1516,Machine Learning: Create a Neural Network that Predicts whether an Image is a Car or Airplane.
+1517,Electrodynamics: Electric and Magnetic Fields
+1518,Operations Management: Strategy and Quality Management for the Digital Age
+1519,Use SurveyMonkey to Create a Survey and Analyze Results
+1520,Power and Sample Size for Multilevel and Longitudinal Study Designs
+1521,Basic Sentiment Analysis with TensorFlow
+1522,Create User Directory and Files with Linux Commands
+1523,Feminism and Social Justice
+1524,Writing Skills for Engineering Leaders
+1526,Cyber Threat Intelligence
+1527,Cyber Threat Intelligence
+1528,Palo Alto Networks Cybersecurity Essentials I
+1529,Marketing Management I
+1530,Spatial Data Science and Applications
+1532,Data Analysis Tools
+1533,Core Interaction Programming
+1534,Simulating Viral Pandemics in Python
+1535,Foundations of Public Health Practice: The Public Health Toolkit
+1536,Movie Recommendation System using Collaborative Filtering
+1537,Generative Design for Performance and Weight Reduction
+1538,Internet of Things V2: DragonBoard� bring up and community ecosystem
+1539,Police Brutality in America Teach-Out
+1540,Cities are back in town : urban sociology for a globalizing urban world
+1541,Anatomy: Musculoskeletal and Integumentary Systems
+1542,Monetary Policy in the Asia Pacific
+1543,Create a Python Application using PyMongo and MongoDB Database
+1544,Understanding and Visualizing Data with Python
+1545,Foundations for Big Data Analysis with SQL
+1546,Using Covid-19 Data to Make Supply Chain Logistics Decisions in Spreadsheets
+1547,Creating Database Tables with SQL
+1548,"Conjunctions, Connectives, and Adverb Clauses"
+1549,Managing Project Risks and Changes
+1550,Managing Project Risks and Changes
+1551,International Entertainment and Sports Marketing
+1552,Building Scalable Java Microservices with Spring Boot and Spring Cloud
+1553,Mechanics of Materials III: Beam Bending
+1555,Influencing People
+1556,Sustainable Food Production Through Livestock Health Management
+1557,Materials in Oral Health
+1558,Leveraging Real-Time Analytics in Slack
+1559,Basics of Extracellular Vesicles
+1560,Create Your First Game with Python
+1561,Information Visualization: Foundations
+1562,An Introduction to Global Health
+1563,The Holocaust - An Introduction (II): The Final Solution
+1564,Psychodiagnostics and Psychological Assessment
+1565,Introduction to Blockchain: Using and Securing Cryptocurrencies
+1566,Developing the SIR Model
+1567,Archaeoastronomy
+1568,Finance for Everyone: Debt
+1569,UX Design: From Concept to Prototype
+1571,Web Design: Strategy and Information Architecture
+1572,Hot Topics in Criminal Justice
+1573,Accessible Landing Page Solutions in XD
+1574,Moral Foundations of Politics
+1575,"Big Data Analysis: Hive, Spark SQL, DataFrames and GraphFrames"
+1576,How to Write a Resume (Project-Centered Course)
+1577,Successful Presentation
+1578,English for Teaching Purposes
+1579,Geospatial Analysis Project
+1582,Displays
+1583,Initiating and Planning Projects
+1585,Digital Transformations
+1586,Siamese Network with Triplet Loss in Keras
+1587,G Suite Security
+1588,Practical Machine Learning on H2O
+1589,Career Brand Development and Self-Coaching
+1590,Understanding and Managing the Stresses of Police Work
+1591,Native Advertising
+1592,The AI Ladder: A Framework for Deploying AI in your Enterprise
+1593,"Agriculture, Economics and Nature"
+1594,Financing and Initiating Major Engineering Projects
+1595,Simulation Analysis for Mechanical Engineers with Autodesk Fusion 360
+1596,Camera Control
+1597,Engineering Maintainable Android Apps
+1598,New Venture Finance: Startup Funding for Entrepreneurs
+1599,Data Analytics Foundations for Accountancy II
+1600,Introduction to User Experience Design
+1601,Build a Flywheel Infographic with Inkscape
+1602,Political Governance and Public Policy in Russia
+1603,Pandas Python Library for Beginners in Data Science
+1604,Applications in Engineering Mechanics
+1605,Theatre and Globalization
+1606,Economics of Transition and Emerging Markets
+1607,Health for All Through Primary Health Care
+1608,Java Arrays and Loops
+1609,Nearest Neighbor Collaborative Filtering
+1610,Encouraging Student Growth with Teach Your Monster to Read
+1611,Advanced Manufacturing Enterprise
+1612,Population Health: Panel Management Next Level
+1613,Evolution Today
+1614,Fundamentals of Social Media Advertising
+1615,Mitigating Security Vulnerabilities on Google Cloud Platform
+1616,Practical SAS Programming and Certification Review
+1617,G Suite Mail Management
+1618,Introduction to Integrative Therapies and Healing Practices
+1619,Exploring and Producing Data for Business Decision Making
+1620,The Modern and the Postmodern (Part 1)
+1621,Practical Introduction to the Command Line
+1622,Measure and Optimize Social Media Marketing Campaigns
+1623,Ebola Virus Disease: An Evolving Epidemic
+1624,Machine Learning Using SAS Viya
+1625,The Science of Health Care Delivery
+1626,Addressing Large Hadron Collider Challenges by Machine Learning
+1627,AI for Medical Prognosis
+1628,Image Noise Reduction with Auto-encoders using TensorFlow
+1629,Medical Applications of Particle Accelerators (NPAP MOOC)
+1630,Write Your First Novel
+1631,"Act on Climate: Steps to Individual, Community, and Political Action"
+1632,Regression Modeling Fundamentals
+1633,Relational Modeling in Dia
+1634,Introduction to Hearing Loss
+1635,ELL Success in the Content Classroom: Capstone Project
+1636,Information Theory
+1637,Product  and Service Development: Empathy  Mapping with Miro
+1638,An Intuitive Introduction to Probability
+1639,Digital Product Management: Modern Fundamentals
+1640,Global Strategy II: Doing Business in The Global Economy
+1641,Dimensionality Reduction using an Autoencoder in Python
+1642,Lesson | Business English Skills: How to Write Effective Openings and Closings to Emails
+1643,Autodesk Certified Professional: Revit for Architectural Design Exam Prep
+1644,Forecasting Models for Marketing Decisions
+1645,Executive Data Science Capstone
+1646,"HI-FIVE: Health Informatics For Innovation, Value & Enrichment (Administrative/IT Perspective)"
+1647,Blockchain Evolution and Technology Concepts
+1648,Adjectives and Adjective Clauses
+1649,Creative Programming for Digital Media & Mobile Apps
+1650,Data Visualization in Google Slides
+1651,"Health Systems Development: Health systems, Policy and Research"
+1652,Introduction to Formal Concept Analysis
+1653,Inflation Analysis for Investment Appraisal
+1654,Financial Analysis for Startups
+1655,Making Your First Virtual Reality Game
+1656,Sharpened Visions: A Poetry Workshop
+1657,Learn to Program: The Fundamentals
+1658,Understanding and Strengthening Health Systems
+1659,"Career planning: resume/CV, cover letter, interview"
+1660,"Coding for Designers, Managers, & Entrepreneurs III"
+1661,Exploratory Data Analysis
+1662,A Geometrical Approach to Genome Analysis: Skew & Z-Curve
+1663,COVID-19 Contact Tracing For Nursing Professionals
+1664,Bridging the Gap between Strategy Design and Delivery
+1665,"William Shakespeare's Twelfth Night: Comedy, Conflict, and Community"
+1666,Mathematics for Machine Learning: PCA
+1667,Computational Thinking for K-12 Educators: Conditional Loops and If Statements
+1668,Blockchain and Business: Applications and Implications
+1669,Fundamentals of Accounting Capstone
+1670,Java Classes and Objects
+1671,Introduction to Systems and Network Mapping with Kumu
+1672,Science Matters: Let's Talk About COVID-19
+1673,Alternative Approaches to Valuation and Investment
+1674,Infection Prevention in Nursing Homes
+1675,Facial Expression Recognition with Keras
+1676,Russian Alphabet
+1677,NLP: Twitter Sentiment Analysis
+1678,Examine 508 Compliance & Accessibility in Chrome Extensions
+1679,Entrepreneurship I: Laying the Foundation
+1680,MBSE: Model-Based Systems Engineering
+1681,Leading transformations: Manage change
+1682,Statistical Inference
+1684,"Accounting, Business and Society:  The Multi-faceted Role of Accounting"
+1685,Communicating Business Analytics Results
+1686,Sports Marketing
+1687,International and Cross-Cultural Negotiation
+1688,Introduction to battery-management systems
+1689,Probability and Statistics: To p or not to p?
+1690,"Professional development: Improve yourself, always"
+1691,Identifying Social Entrepreneurship Opportunities
+1692,Recommender Systems:  Evaluation and Metrics
+1693,Managing Uncertainty in Marketing Analytics
+1694,Create a Simple Gantt Chart using Google Sheets
+1695,Mindfulness in Integrative Healthcare
+1696,Mindfulness in Integrative Healthcare
+1697,The Foundations of Cybersecurity
+1698,Introduction to Engineering Mechanics
+1699,Greening the Economy: Lessons from Scandinavia
+1700,Leading Healthcare Quality and Safety
+1701,Marketing Mix Fundamentals
+1702,Building Interactive 3D Characters and Social VR
+1703,The Global Financial Crisis
+1704,Introduction to the Orbital Perspective
+1705,Machine Translation
+1706,Agile Planning for Software Products
+1707,Functional Program Design in Scala
+1708,Software Architecture for the Internet of Things
+1709,Strategic Organization Design
+1710,New Approaches to Countering Terror: Countering Violent Extremism
+1711,Architecting Smart IoT Devices
+1712,Prototyping and Design
+1713,Water Resources Management and Policy
+1714,Electric Utilities Fundamentals and Future
+1719,"Resilience in Children Exposed to Trauma, Disaster and War: Global Perspectives"
+1721,Economics of Money and Banking
+1722,How Entrepreneurs in Emerging Markets can master the Blockchain Technology
+1724,Image Super Resolution Using Autoencoders in Keras
+1725,Negotiating Learner Differences: Towards Productive Diversity in Learning
+1726,Introduction to Business Analytics: Communicating with Data
+1727,Ecology: Ecosystem Dynamics and Conservation
+1728,The Strategy of Content Marketing
+1729,Agile Analytics
+1730,Sales & Marketing Alignment
+1731,Aerial Photography with UAV
+1732,Advanced Relational Database and SQL
+1733,International B2B (Business to Business) Marketing
+1734,Financing and Profiting from Innovation for Corporate Entrepreneurs
+1735,TensorFlow for AI: Applying Image Convolution
+1737,Bioconductor for Genomic Data Science
+1738,Mathematical Biostatistics Boot Camp 2
+1739,At the Origins of the Mediterranean Civilization: Archaeology of the City from the Levant to the West - 3rd-1st millennium BC
+1740,Visual Elements of User Interface Design
+1741,iPad Music Player in XD
+1742,"Reverse and complement nucleic acid sequences (DNA, RNA) using R"
+1743,Requirements Elicitation: Artifact and Stakeholder Analysis
+1744,Understanding Financial Statements: Company Performance
+1746,Software Design as an Element of the Software Development Lifecycle
+1747,Tinkering Fundamentals: Circuits
+1748,Leading Organizations
+1749,Cybersecurity Policy for Water and Electricity Infrastructures
+1750,Sustainable Innovation for Subsistence Marketplaces
+1751,Smart Cities � Management of Smart Urban Infrastructures
+1752,Sports and Society
+1753,Network Analysis in Systems Biology
+1755,Natural Language Processing with Sequence Models
+1756,Advanced Portfolio Construction and Analysis with Python
+1757,Apply Generative Adversarial Networks (GANs)
+1758,Exploratory Data Analysis with Seaborn
+1759,Guitar for Beginners
+1760,Guitar for Beginners
+1761,Practical Guide to Navigating Professional Relationships
+1762,"Algorithms, Part II"
+1763,The Science of Success: What Researchers Know that You Should Know
+1764,Geo-Visualization in Python
+1765,Promote the Ethical Use of Data-Driven Technologies
+1766,Portfolio Diversification using Correlation Matrix
+1767,Genome Assembly Programming Challenge
+1768,Supply chain management: Be global
+1769,Serious Gaming
+1770,"Introduction to the Nonprofit Sector, Nonprofit Organizations, Nonprofit Leadership and Governance"
+1771,Security and Privacy in TOR Network
+1772,Website Optimization Client Report Project
+1773,The Bilingual Brain
+1774,Python and Machine-Learning for Asset Management with Alternative Data Sets
+1775,Machine Learning Pipelines with Azure ML Studio
+1776,Introduction to Valuation with WACC
+1777,Introduction to Search Engine Optimization
+1778,Cloud Systems Software
+1779,User Experience: Research & Prototyping
+1780,Introduction to Project Management with ClickUp
+1781,Python Data Structures
+1782,Digital Signal Processing 3: Analog vs Digital
+1783,Wood Science: Beyond Building
+1784,More on Change and Sustainability
+1785,Foundations of Teaching for Learning: Being a Teacher
+1786,JavaScript Numbers: Properties and Methods
+1789,"Major Engineering Projects: Governance, Risk and Scope"
+1790,Mastering Digital Twins
+1791,Data Visualization with Python
+1792,Data Visualization with Python
+1793,Quantum Optics 2 - Two photons and more
+1794,Diagnosing Health Behaviors for Global Health Programs
+1795,Introduction to Advanced Vibrations
+1796,Sales Training: Inbound Business Strategy
+1797,International Security Management
+1799,Accounting Analysis I: Measurement and Disclosure of Assets
+1800,MongoDB Aggregation Framework
+1801,Predictive Modelling with Azure Machine Learning Studio
+1802,Dairy Production and Management
+1803,AWS Computer Vision: Getting Started with GluonCV
+1804,"Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning"
+1805,Wine Tasting: Sensory Techniques for Wine Analysis
+1807,Automation Scripts Using Bash
+1808,Social Network Analysis
+1809,Accounting for Decision Making
+1810,Unravelling solutions for Future Food problems
+1811,European Business Law: Competing in Europe
+1812,Negotiation skills: Negotiate and resolve conflict
+1814,Exploring Light: Hands-on Activities and Strategies for Teachers
+1815,Fundamentals of waves and vibrations
+1816,Internet of Things V2: Setting up and Using Cloud Services
+1817,Foundations of Healthcare Systems Engineering
+1818,Aspectos b�sicos de la planificaci�n y la gesti�n de proyectos
+1819,Enhance Organizational Communications with Slack
+1820,AI for Medical Diagnosis
+1821,JavaScript Variables and Assignment Operators
+1822,Web of Data
+1823,Implant Dentistry
+1824,What Is Contemporary Art?
+1825,AI Workflow: Feature Engineering and Bias Detection
+1826,Medical Technology and Evaluation
+1827,Communication in the 21st Century Workplace
+1828,"Excel/VBA for Creative Problem Solving, Part 3 (Projects)"
+1829,Hardware Security
+1830,3D Models for Virtual Reality
+1831,Teach English Now! Teaching Language Online
+1832,Build Basic Generative Adversarial Networks (GANs)
+1833,Getting Started in Google Analytics
+1834,Understanding Europe: Why It Matters and What It Can Offer You
+1835,Future Development in Supply Chain Finance and Blockchain Technology
+1836,Regression Analysis with Yellowbrick
+1837,Use Canva to Create an Interactive Mind Map
+1838,Convolutions for Text Classification with Keras
+1839,Matrix Factorization and Advanced Techniques
+1840,Fundamentals of financial and management accounting
+1841,"Online Games: Literature, New Media, and Narrative"
+1842,Electronic Music Performance Techniques
+1843,Autodesk Fusion 360 Integrated CAD/CAM/CAE
+1844,Advanced System Security Topics
+1845,Reviews & Metrics for Software Improvements
+1846,Internet of Things: Sensing and Actuation From Devices
+1847,Design and Interpretation of Clinical Trials
+1848,Exploring Beethoven�s Piano Sonatas Part 2
+1849,Sustainable Development in the 21st Century with Ban Ki-moon
+1850,IoT (Internet of Things) Wireless & Cloud Computing Emerging Technologies
+1851,The Evolving Universe
+1852,Light Up Your World in Unity (Introduction to Lighting)
+1853,Business Strategy
+1854,Culminating Project in Health Informatics
+1855,Data Processing and Feature Engineering with MATLAB
+1856,Web Application Security Testing with Burp Suite
+1857,Modeling and Debugging Embedded Systems
+1858,The Power of Markets III: Input Markets and Promoting Efficiency
+1859,Predict Employee Turnover with scikit-learn
+1860,Introduction to Translational Science
+1861,Create a Financial Statement using Google Sheets
+1862,Building Basic Relational Databases in�SQL Server Management Studio
+1863,Analyzing the Universe
+1864,Introduction to Google Docs
+1865,Foundations of Business Strategy
+1866,Writing and Editing: Structure and Organization
+1867,Clinical Natural Language Processing
+1868,Create a First-Person Camera (VM-Compatible!) in Unity
+1869,Managing Your Health: The Role of Physical Therapy and Exercise
+1870,Causal Inference  2
+1871,Key Success Factors in Supply Chain Finance
+1872,Python Basics
+1873,Advanced Business Strategy
+1874,Transacting on the Blockchain
+1875,Facial Expression Classification Using Residual Neural Nets
+1876,Logistic Regression with NumPy and Python
+1877,Construct Stock Market Indices
+1878,Predict Housing Prices in R on Boston Housing Data
+1879,Herbal Medicine
+1880,Creating Toolpaths for a CNC Lathe
+1881,System Validation (2): Model process behaviour
+1882,Artificial Intelligence Privacy and Convenience
+1883,Client Booking & Scheduling with Picktime
+1884,Academic Information Seeking
+1885,Create a Boggle Word Solver using recursion in Python
+1886,Collect and Share Employee Feedback with Officevibe
+1887,Introduction to Social Media Analytics
+1888,Exploratory Data Analysis for Machine Learning
+1889,Exploratory Data Analysis for Machine Learning
+1890,Organising an Empire: The Assyrian Way
+1891,Managing G Suite
+1892,Accounting and Finance for IT professionals
+1893,The Talmud: A Methodological Introduction
+1894,Intermediate Intel� Distribution of OpenVINO� toolkit for Deep Learning Applications
+1896,Foundations of mining non-structured medical data
+1897,What is �the mind� and what is artificial intelligence?
+1898,Natural Language Processing
+1899,Game Development for Modern Platforms
+1900,Medical Neuroscience
+1901,Computational Thinking for K-12 Educators: Variables and Nested Loops
+1902,Supplier Management
+1903,Uncover the Survey Data Story with Charts in Google Sheets
+1904,Decentralized Applications (Dapps)
+1905,Understanding economic policymaking
+1906,TECH MeD: Transdisciplinary Education for Critical Hacks of Medical Devices
+1907,Becoming Part of the Globalised Workplace
+1908,Introduction to Computers and Office Productivity Software
+1909,Stock Valuation with Dividend Discount Model
+1910,Michigan Sport-Related Concussion Training Certification
+1912,Data Visualization with Plotly Express
+1913,"Teach English Now! Second Language Reading, Writing, and Grammar"
+1914,"Teach English Now! Second Language Reading, Writing, and Grammar"
+1915,"Sustainable Business: Big Issues, Big Changes"
+1916,Analyzing Product Opportunities with Creately
+1917,Build a Linear Layout App in Android Studio
+1918,Information Security: Context and Introduction
+1919,Methods for Solving Problems
+1920,Emergent Phenomena in Science and Everyday Life
+1921,FPGA Capstone:  Building FPGA Projects
+1922,Nuclear Reactor Physics Basics
+1924,Energy: The Enterprise
+1925,The Introduction to Quantum Computing
+1926,Leading Teams
+1927,Effective Problem-Solving and Decision-Making
+1928,Effective Problem-Solving and Decision-Making
+1929,Instructional Design Foundations and Applications
+1930,Introduction to Reproduction
+1931,"Programming Languages, Part B"
+1932,PyCaret: Anatomy of Regression
+1933,Analysis of Variance with ANOVA in Google Sheets
+1934,Initiating and Planning Projects
+1936,Statistical Thermodynamics: Molecules to Machines
+1937,Formal Financial Accounting
+1938,The Power of Markets II: Market Structure and Firm Behavior
+1939,Behavior Driven Development with Selenium and Cucumber
+1940,Survey analysis to Gain Marketing Insights
+1942,The Search for Great Ideas: Harnessing creativity to empower innovation.
+1943,Dentistry 101
+1944,An Introduction to Practical Deep Learning
+1945,Advanced Instructional Strategies in the Virtual Classroom
+1946,Astrobiology: Exploring Other Worlds
+1947,Mastering Final Cut Pro
+1948,Check Point Jump Start: Network Security
+1949,Create your own Sudoku Solver using AI and Python
+1950,Innovation and emerging technology: Be disruptive
+1951,idea 2 IMPACT: An Introduction to Translating Assistive Health Technologies and Other Products
+1952,Battery State-of-Charge (SOC) Estimation
+1953,Designing the Future of Work
+1954,Finding Purpose and Meaning In Life: Living for What Matters Most
+1955,Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep
+1956,Machine Learning for Business Professionals
+1957,Tricky American English Pronunciation
+1958,Algorithmic Thinking (Part 2)
+1959,Modern JavaScript: ES6 Basics
+1960,Using Google Forms to Analyze User Research Data
+1961,"Speak English Professionally: In Person, Online & On the Phone"
+1962,Build an App in Android Studio using Read-Write
+1963,Inferential and Predictive Statistics for Business
+1964,Image Classification with CNNs using Keras
+1965,Municipal Solid Waste Management in Developing Countries
+1966,Tricky English Grammar
+1967,Burgos: Deciphering Secrets of Medieval Spain
+1968,Machine Design Part I
+1969,Create and Design Digital Products using Canva
+1970,American Contract Law I
+1971,Genomic Data Science Capstone
+1972,Becoming a changemaker: Introduction to Social Innovation
+1973,Cities are back in town : sociologie urbaine pour un monde globalis�
+1974,Quantum Optics 1 : Single Photons
+1975,Interfacing with the Raspberry Pi
+1976,Object Detection with Amazon Sagemaker
+1977,Spanish Vocabulary: Cultural Experience
+1978,Valuation for Startups Using Multiple Approach
+1979,Budgeting and Scheduling Projects
+1980,Inequality and Democracy
+1981,Dermatology: Trip to skin
+1982,Design and Make Infographics (Project-Centered Course)
+1983,Introduction to Genetics and Evolution
+1984,Python and Machine Learning for Asset Management
+1985,Arranging for Songwriters
+1986,Introduction to Finance: The Basics
+1987,Supply Chain Finance Market and Fintech Ecosystem
+1988,Developing a Systems Mindset
+1989,Digital Transformation
+1990,Think Again I: How to Understand Arguments
+1991,Stock Valuation with Comparable Companies Analysis
+1992,Managing the Company of the Future
+1993,Teaching Popular Music in the Classroom
+1994,First Steps in Making the Business Case for Sustainability
+1995,AI For Medical Treatment
+1996,Story and Narrative Development for Video Games
+1997,Experimentation for Improvement
+1998,High Stakes Leadership: Leading in Times of Crisis
+1999,AI Capstone Project with Deep Learning
+2000,Matrix Algebra for Engineers
+2002,Wireless Communications for Everybody
+2003,Non-Equilibrium Applications of Statistical Thermodynamics
+2004,Create an interactive fiction adventure game with Python
+2005,Know Thyself - The Value and Limits of Self-Knowledge: The Examined Life
+2006,Digitalisation in Space Research
+2007,Particle Physics: an Introduction
+2008,Agile Analytics
+2009,Evidence-based Toxicology
+2010,"Coexistence in Medieval Spain: Jews, Christians, and Muslims"
+2011,Chinese Culture and Contemporary China
+2013,Mobile Interaction Design: How to Design Usable Mobile Products and Services
+2014,DevOps Culture and Mindset
+2015,Capstone - Managing Board Change for Higher Levels of Leadership and Governance Effectiveness
+2016,Advanced Game Development Using PyGame
+2017,Create a Record of Students using Arrays in Java
+2018,Introduction to Galois Theory
+2019,Qualitative Comparative Analysis (QCA)
+2020,Disease Clusters
+2021,Russian company law. Capital & Financing of legal entities
+2022,The Business of Cybersecurity Capstone
+2024,"Comparing Genes, Proteins, and Genomes (Bioinformatics III)"
+2025,Java Built in Data Structures
+2026,"Building Test Automation Framework - Selenium, C# & NUnit"
+2027,The Brain and Space
+2028,Create Keyboard Movement Mechanics with C# in Unity
+2029,Software Requirements Prioritization: Risk Analysis
+2031,Financial Markets
+2032,"Forecasting, Budgeting, Territories, Evaluation and Legal/Ethical Issues"
+2034,Clinical Epidemiology
+2035,3D CAD Fundamental
+2036,"Animals, Self, and Society"
+2037,Asymmetric Cryptography and Key Management
+2038,Asymmetric Cryptography and Key Management
+2039,Keeping up with Change: Issues for the Finance Professional
+2043,Strategic Procurement and Sourcing Conclusions
+2044,Understanding Patient Perspectives on Medications
+2045,"Trade, Immigration and Exchange Rates in a Globalized World"
+2046,Predict Sales and Forecast Trends in Google Sheets
+2047,Design Thinking for Innovation
+2048,Singing Popular Music
+2049,Linear Circuits 2: AC Analysis
+2050,Identifying Security Vulnerabilities
+2051,Summary Statistics in Public Health
+2052,Networks and Communications Security
+2053,Population Health: Study Design
+2054,Future Healthcare Payment Models
+2055,Think Again II: How to Reason Deductively
+2056,English Composition I
+2058,Optimizing a Website for Search
+2060,Design Online Course Printables using Canva
+2061,Business Models for Innovative Care for Older People
+2063,Building Digital Media using Graphic Design in Google Slides
+2064,Business Operations Support in Google Sheets
+2065,Exploring Basic Income in a Changing Economy Teach-Out
+2066,"HTML, CSS, and Javascript for Web Developers"
+2067,Self Awareness and the Effective Leader
+2068,Financing and Investing in Infrastructure
+2069,Principles of Sustainable Finance
+2070,Interactive Machine Learning Dashboards using Plotly Dash
+2071,FIFA20 Data Exploration using Python
+2072,"Introduction to XR: VR, AR, and MR Foundations"
+2073,3D Printing Capstone
+2074,How to Win a Data Science Competition: Learn from Top Kagglers
+2075,3D Data Visualization for Science Communication
+2076,Using Google Jamboard for Student Learning
+2077,Metagenomics applied to surveillance of pathogens and antimicrobial resistance
+2080,Advanced Linear Models for Data Science 2: Statistical Linear Models
+2081,Creating a Dynamic Web Application using RShiny
+2082,Generative Design for Industrial Applications
+2083,Finance for Non-Finance Professionals
+2084,IBM Data Privacy for Information Architecture
+2085,Finding Mutations in DNA and Proteins (Bioinformatics VI)
+2086,Semantic Segmentation with Amazon Sagemaker
+2087,Visualization for Data Journalism
+2088,Python Data Visualization
+2089,Design Principles: an Introduction
+2090,Traffic Sign Classification Using Deep Learning in Python/Keras
+2091,Web Scraping with Python + BeautifulSoup
+2092,Process Personal Details using Methods in Java
+2093,Cultural and creative industries
+2094,Psychological First Aid
+2095,Algorithmic Thinking (Part 1)
+2096,Conflict Management Project
+2097,Foundations of Virtual Instruction
+2098,Welcome to Game Theory
+2099,University Teaching
+2100,"The Holocaust - An Introduction (I): Nazi Germany: Ideology, The Jews and the World"
+2101,Mathematical Foundations for Cryptography
+2102,Translation quality management
+2103,Logistic Regression with Python and Numpy
+2104,Palo Alto Networks Cybersecurity Gateway II
+2105,Meditation: A way to achieve your goals in your life
+2106,Distributed Computing with Spark SQL
+2107,Version Control of a Python Project using Git
+2108,Valuation and Financial Analysis For Startups Capstone
+2109,"Everyday Excel, Part 2"
+2110,New Product Development - develop your own new product
+2111,Calculus and Optimization for Machine Learning
+2112,Customer Journey Prototyping in XD
+2113,Concept Art for Video Games
+2114,Strengthening Your Widening Network
+2115,Testing for Web Accessibility With Accessibility Insights
+2116,Natural Language Processing in TensorFlow
+2117,Strategic Innovation: Managing Innovation Initiatives
+2118,Strategic Management
+2119,Building Candlestick Charts with Google Sheets
+2120,Intelligence Tools for the Digital Age
+2121,Evolution: A Course for Educators
+2122,Custom Prediction Routine on Google AI Platform
+2123,Write Like Mozart: An Introduction to Classical Music Composition
+2124,Experimental Methods in Systems Biology
+2125,Introduction to Software Testing
+2126,RPA Lifecycle: Deployment and Maintenance
+2127,Grant Proposal
+2128,Business Russian Communication. Part 1
+2129,Search Engine Optimization Fundamentals
+2130,Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)
+2131,VLSI CAD Part II: Layout
+2132,Journey of the Universe: The Unfolding of Life
+2133,"Excel/VBA for Creative Problem Solving, Part 1"
+2135,Guidance to Keep Newborn Babies Safe and Healthy
+2136,Chimpanzee Behavior and Conservation
+2137,Simple Retrieval Queries in MySQL Workbench
+2138,Migrating to Google Cloud
+2139,Impact from Digital Transformation: Full course
+2140,Basic Recommender Systems
+2141,Build a Full Website using WordPress
+2142,Positive Psychology
+2143,Mandarin Chinese 1: Chinese for Beginners
+2144,AI Workflow: Enterprise Model Deployment
+2145,Organic Solar Cells - Theory and Practice
+2146,Religious Transformation in Early China: the Period of Division
+2147,Setting the Stage for Success: An Eye on Safety Culture and Teamwork (Patient Safety II)
+2148,Agile Projects: Develop Product Wireframe Prototypes in Miro
+2149,Research for Impact
+2150,Communicating During Global Emergencies
+2151,Building AI Applications with Watson APIs
+2152,"Using JavaScript, JQuery, and JSON in Django"
+2153,UX and Interface Design for Embedded Systems
+2154,Statistical Forecasting Techniques in Google Sheets
+2155,"GIS, Mapping, and Spatial Analysis Capstone"
+2156,Using Machine Learning in Trading and Finance
+2157,Population Health: Responsible Data Analysis
+2158,Mathematics for economists
+2159,Climate Change Mitigation in Developing Countries
+2160,Data Analytics:  Scraping Data using Hadley Wickam's Rvest package in R
+2161,Conduct a Cost-Benefit Analysis in Google Sheets
+2162,Foundations of Teaching for Learning: Curriculum
+2163,Object-Oriented Design
+2164,Business English: Marketing and Sales
+2166,Water Supply and Sanitation Policy in Developing Countries Part 1: Understanding Complex Problems
+2167,End-to-End Machine Learning with TensorFlow on GCP
+2168,Accounting Analysis II: Measurement and Disclosure of Liabilities
+2169,AR (Augmented Reality) & Video Streaming Services Emerging Technologies
+2170,Social Science Approaches to the Study of Chinese Society Part 1
+2171,Social Science Approaches to the Study of Chinese Society Part 2
+2172,Computer Vision - Image Basics with OpenCV and Python
+2173,Measuring and Maximizing Impact of COVID-19 Contact Tracing
+2174,Supply Chain Analytics Essentials
+2175,Country Level Economics: Macroeconomic Variables and Markets
+2177,"Save, Load and Export Models with Keras"
+2178,Advanced Content and Social Tactics to Optimize SEO
+2179,Data Structures and Performance
+2180,Data Structures and Performance
+2181,Leadership Through Marketing
+2183,Excel Skills for Business: Intermediate I
+2184,Optical Efficiency and Resolution
+2185,Introduction to API Testing using JMeter Tool
+2186,Analysing Complexity
+2187,Presentation skills: Public Speaking Project
+2188,A Business Approach to Sustainable Landscape Restoration
+2189,Human Resources Management Capstone: HR for People Managers
+2190,Statistics with SAS
+2191,Applied Machine Learning in Python
+2192,Semiconductor Physics
+2193,Major and Principal Gifts
+2194,Systems and Application Security
+2195,The Cosmopolitan Medieval Arabic World
+2196,Launch Strategy: 5 Steps to Capstone Experience
+2197,Introduction to Chemistry:  Structures and Solutions
+2198,Sample-based Learning Methods
+2199,Agile with Atlassian Jira
+2200,Cyber Security in Manufacturing
+2201,Excel Fundamentals for Data Analysis
+2202,Hyperparameter Tuning with Keras Tuner
+2203,Introduction to Portfolio Construction and Analysis with Python
+2204,Opioid Epidemic: From Evidence to Impact
+2205,The Science of Well-Being
+2206,Introduction to Multilingual and Multicultural Education
+2207,The Korean Economic Development
+2208,1E Test: How Computers Work
+2209,Developing FPGA-accelerated cloud applications with SDAccel: Practice
+2210,Algorithmic Toolbox
+2211,Copyright for Multimedia
+2212,Algorithms on Graphs
+2213,Getting Started with SAS Programming
+2214,Construction Scheduling
+2215,Data Science for Business Innovation
+2216,"Emergency Care: Pregnancy, Infants, and Children"
+2217,Nursing Informatics Leadership Theory and Practice
+2218,Data Privacy Fundamentals
+2219,"Problem Solving, Python Programming, and Video Games"
+2220,Learning Technologies Foundations and Applications
+2223,Secure Networked System with Firewall and IDS
+2224,Advanced App Development in Android Capstone
+2225,Taking Safety and Quality Improvement Work to the Next Level (Patient Safety VII)
+2226,Career Options: Exploring a New Career
+2227,Major Depression in the Population: A Public Health Approach
+2228,Violence Against Healthcare
+2229,"Introduction to Trading, Machine Learning & GCP"
+2231,Teach English Now! Theories of Second Language Acquisition
+2232,Teach English Now! Theories of Second Language Acquisition
+2233,Portfolio and Risk Management
+2234,Exploring Beethoven's Piano Sonatas Part 6
+2236,Create a User Interface in Unity Part 2 - World-Space Canvas
+2237,English/French Translator: Long Short Term Memory Networks
+2238,Fundamentals of Organization
+2239,Epidemics
+2240,Disaster Risk Management and Korean Policies
+2241,"Cloud Computing Applications, Part 2: Big Data and Applications in the Cloud"
+2242,Mastering Data Analysis in Excel
+2243,First Order Optical System Design
+2244,Academic Discussions in English
+2245,"Technology Commercialization, Part 1: Setting up your Idea Filtering System"
+2246,Six Sigma Tools for Improve and Control
+2247,Ignite Your Everyday Creativity
+2248,"Ethics, Technology and Engineering"
+2249,Techniques for Teaching Adjectives and Adjective Clauses
+2250,"Career planning: Your career, your life"
+2251,Data for Machine Learning
+2252,Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics
+2253,Deep Learning in Computer Vision
+2254,Essential Design Principles for Tableau
+2255,Kinetics: Studying Spacecraft Motion
+2256,Intercultural Management
+2257,Principles of Corporate Finance �  A Tale of Value
+2258,Basic Image Classification with TensorFlow
+2259,American Contract Law II
+2260,Database Management Essentials
+2261,Introduction to Molecular Spectroscopy
+2262,Trauma Emergencies and Care
+2263,ICT in Primary Education: Transforming children's learning across the curriculum
+2264,Politics and Economics of International Energy
+2265,Magic in the Middle Ages
+2266,3D Art and Audio Pipeline
+2267,Public Policy Challenges of the 21st Century
+2268,Systems Science and Obesity
+2269,"Modern Robotics, Course 6:  Capstone Project, Mobile Manipulation"
+2270,Marketing Management II
+2271,Building on the SIR Model
+2272,Moving to the Cloud
+2273,Applying Data Analytics in Finance
+2274,Introduction to Ordinary Differential Equations
+2275,Introduction to Topic Modeling for Business
+2276,Mountains 101
+2277,"Revolutionary Ideas: Utility, Justice, Equality, Freedom"
+2278,Developing Android Apps with App Inventor
+2279,Strategic management: Be competitive
+2280,Understanding Research Methods
+2281,Digital transformation of megapolises: from zero to #1 in UN digital e-government ranking
+2282,Introduction to Computer Programming
+2283,Creativity Toolkit I: Changing Perspectives
+2284,Automated Reasoning: Symbolic Model Checking
+2285,Presentation skills:  Effective Presentation Delivery
+2286,Lean Software Development
+2287,Introduction to High-Throughput Materials Development
+2288,Become a JavaScript Pro with these 7 Skills
+2289,Introduction to Enterprise Resiliency
+2290,Urgent Optimism: How to Turn Foresight into Action
+2292,Design your own trading strategy � Culminating Project
+2293,The Power of Macroeconomics: Economic Principles in the Real World
+2294,Surviving Disruptive Technologies (On Demand)
+2295,Networking in Google Cloud: Defining and Implementing Networks
+2296,America's Unwritten Constitution
+2297,Brand & Content Marketing
+2298,Create a Google Video Ads Sequence Campaign
+2299,Sustainable Fashion
+2300,Managing Employee Compensation
+2301,Performance Assessment in the Virtual Classroom
+2302,Pro Tools Basics
+2303,Programming for the Internet of Things Project
+2304,Predictive Analytics for Business with H2O in R
+2305,Sales Management
+2306,AI Workflow: Business Priorities and Data Ingestion
+2307,Big History - From the Big Bang until Today
+2308,Create your first Java project using jGRASP
+2309,Essentials for English Speeches and Presentations  ???????
+2310,A Life of Happiness and Fulfillment
+2312,Legal aspects of conducting business in Russia
+2314,Building a Toolkit for Your Sales Process
+2316,Building Classroom Community Using Flipgrid
+2317,The entrepreneur's guide for beginners
+2318,Homeland Security & Cybersecurity Connection - It's Not About the Terrorists
+2319,3-Axis Machining with Autodesk Fusion 360
+2320,SEL Capstone
+2321,System Validation (3): Requirements by modal formulas
+2322,Media ethics & governance
+2323,The Manager's Toolkit: A Practical Guide to Managing People at Work
+2324,Translation in Practice
+2325,Foundations of Teaching for Learning: Learners and Learning
+2326,Chicken Behaviour and Welfare
+2327,Concurrent Programming in Java
+2328,Building Machine Learning Pipelines in PySpark MLlib
+2329,Basic System Programming on IBM Z
+2330,Python Data Analysis
+2331,Disability Awareness and Support
+2332,Modern Art & Ideas
+2334,Create a Mortgage Payment Calculator in Google Sheets
+2335,Deploying Machine Learning Models
+2336,Measuring Disease in Epidemiology
+2337,Create a Home Affordability Worksheet in Google Sheets
+2338,How To Create a Website in a Weekend! (Project-Centered Course)
+2339,Leading Change in Health Informatics
+2340,Cities are back in town : sociolog�a urbana para un mundo globalizado
+2341,Fitting Statistical Models to Data with Python
+2342,Corporate Strategy
+2344,Fundamentals of Reinforcement Learning
+2345,Learn Object Oriented Programming With C++
+2346,Principles of fMRI 2
+2347,Exploratory Data Analysis With Python and Pandas
+2348,Population Health: Health & Health Behaviour
+2350,Real-Time Embedded Systems Theory and Analysis
+2351,"Corporate & Commercial Law II: Business Forms, Financing & Governmental Regulation"
+2352,Geographical Information Systems - Part 1
+2353,Intro to Time Series Analysis in R
+2354,Stochastic processes
+2355,Financing for Startup Businesses
+2357,Auditing II: The Practice of Auditing
+2358,Innovation: From Creativity to Entrepreneurship Capstone
+2359,Data Visualization and Dashboards with Excel and Cognos
+2360,Speaking to persuade: Motivating audiences with solid arguments and moving language
+2362,"Fundamentals of Financial Planning, with Goldman Sachs 10,000 Women"
+2363,The Art of Vocal Production
+2364,Dino 101: Dinosaur Paleobiology
+2365,Mastering Software Development in R Capstone
+2366,Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe
+2367,Fundamentals of Project Planning and Management
+2368,Advanced Competitive Strategy
+2369,Supporting Parents of a Newborn Baby
+2370,Pricing Strategy
+2371,Sustainable Vikings:  Sustainability & Corporate Social Responsibility in Scandinavia
+2372,Supply Market Analysis
+2373,Bitcoin and Cryptocurrency Technologies
+2374,Julia Scientific Programming
+2375,Teach English Now! Lesson Design and Assessment
+2376,Creating Advanced Reports with SAS Visual Analytics
+2377,Introduction to Reinforcement Learning in Python
+2378,Probabilistic Deep Learning with TensorFlow 2
+2379,Multiplatform Mobile App Development with NativeScript
+2380,Everyday Chinese Medicine
+2381,Roman Architecture
+2382,"Big Data, Artificial Intelligence, and Ethics"
+2383,Principles of fMRI 1
+2384,Analyze Stock Data using R and Quantmod Package
+2385,Application of Health Equity Research Methods for Practice and Policy
+2386,Getting Your Film off the Ground
+2387,Building Modern Python Applications on AWS
+2388,Android Graphics with OpenGL ES
+2389,SQL Joins
+2390,The Neuromarketing Toolbox
+2391,Service Transformed: Lessons in U.S. Veteran Centered Care
+2392,Agile Software Development
+2393,Doing Business in Russia
+2394,Finding Hidden Messages in DNA (Bioinformatics I)
+2395,Chemical Biology
+2396,Adapt your leadership style
+2397,AWS Fundamentals: Going Cloud-Native
+2398,Explorations in Confucian Philosophy
+2399,Strategic Leadership and Management Capstone
+2400,How to Change the World
+2401,Supervised Learning: Regression
+2402,Supervised Learning: Regression
+2403,"Lesson | Business English Skills: How to Navigate Tone, Formality, and Directness in Emails"
+2404,Introduction to Intel� Distribution of OpenVINO� toolkit for Computer Vision Applications
+2405,Multi-Axis CNC Toolpaths
+2406,Machine Learning With Big Data
+2407,Computer Vision - Object Detection with OpenCV and Python
+2408,New Technologies for Business Leaders
+2409,Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)
+2410,"Java Programming: Arrays, Lists, and Structured Data"
+2411,"Java Programming: Arrays, Lists, and Structured Data"
+2412,Recent Advances in Freeform Electronics
+2413,Toxicology 21: Scientific Applications
+2415,Writing and Editing: Revising
+2416,Building R Packages
+2417,Convolutional Neural Networks
+2418,Algorithms on Strings
+2419,Introduction to Psychology
+2420,Linear Regression in R for Public Health
+2421,Generating New Recipes using GPT-2
+2422,Addiction Treatment: Clinical Skills for Healthcare Providers
+2423,Think Again IV: How to Avoid Fallacies
+2425,Writing Stories About Ourselves
+2426,Unleashing the Impact of your Social Enterprise
+2427,"Knowledge Exchange: Using, Protecting and Monetizing Ideas with Third Parties"
+2429,Business Implications of AI: Full course
+2430,Paleontology: Ancient Marine Reptiles
+2431,Toward the Future of iOS Development with Swift
+2432,Negotiation  Fundamentals
+2434,The Factors that Influence the Effectiveness of Boards and the Governance Process
+2435,Reclaiming the Street
+2436,Collaborate on Files in Slack: Local & Google Drive Integrations
+2437,Data Mining Project
+2438,Behavioral Investing
+2440,New Learning: Principles and Patterns of Pedagogy
+2441,Introduction to Blockchain: Evolution and Technology Concepts
+2442,Internet of Things: Multimedia Technologies
+2443,Protecting the World: Introducing Corrosion Science and Engineering
+2444,Introduction to Particle Accelerators (NPAP MOOC)
+2446,ART of the MOOC: Activism and Social Movements
+2447,Planning for your G Suite Deployment
+2448,"Conversations That Inspire: Coaching Learning, Leadership and Change"
+2449,The Raspberry Pi Platform and Python Programming for the Raspberry Pi
+2450,Supply Chain Principles
+2451,Business Analytics and Digital Media
+2452,Ecology: from cells to Gaia
+2453,Global Diplomacy � Diplomacy in the Modern World
+2454,The GRC Approach to Managing Cybersecurity
+2455,"Cannabis, Chronic Pain, and Related Disorders"
+2456,Build Your First Android App (Project-Centered Course)
+2457,Combinatorics and Probability
+2458,Russian for beginners 2. ??????? ???? A1
+2459,Interfacing with the Arduino
+2460,"Protecting Public Health in a Changing Climate:  A Primer for City, Local, and Regional Action"
+2461,"The Power of Machine Learning: Boost Business, Accumulate Clicks, Fight Fraud, and Deny Deadbeats"
+2462,Introduction to Contemporary Geopolitics
+2463,Bacteria and Chronic Infections
+2464,Create Docker Container with Flask Seaborn Regression Plot App
+2465,Cybersecurity Policy for Aviation and Internet Infrastructures
+2466,Introduction to Front-end Development with ReactJS
+2467,Image Classification with Amazon Sagemaker
+2468,Predict Performance Using MA Forecasting in Google Sheets
+2469,Inferential Statistics
+2470,How To Land the Job You Want (Capstone Project)
+2472,BIM Application for Engineers
+2473,"Python: Imputations, Feature Creation & Statistical Analysis"
+2474,How To Teach Us
+2475,"Integrated Marketing Communications: Advertising, Public Relations, Digital Marketing and more"
+2476,Model Thinking
+2477,Electric Power Systems
+2478,New Product Development For Small Businesses and Start-Ups
+2479,Earth Economics
+2480,Big Data Applications: Machine Learning at Scale
+2481,Classification with Transfer Learning in Keras
+2482,FinTech Disruptive Innovation: Implications for Society
+2483,Data Visualization with Tableau Project
+2484,User Experience Design � Creating User Profiles
+2485,The Changing Global Order
+2486,Feature Engineering
+2487,Blockchain Platforms
+2488,Transistor - Field Effect Transistor and Bipolar Junction Transistor
+2492,Introduction to Android graphics
+2493,3D Interaction Design in Virtual Reality
+2494,Security & Safety Challenges in a Globalized World
+2495,The Role of Global Capital Markets
+2496,IBM IT Assessment: Identifying the Right Career for You!
+2497,Transfer Learning for NLP with TensorFlow Hub
+2498,Build NLP pipelines using scikit-learn
+2499,Edit Your Photos for Social Media Marketing using PicsArt
+2500,Designing the Organization
+2501,"Energy, Environment, and Everyday Life"
+2502,Biosphere 2 Science for the Future of Our Planet
+2503,Maps and the Geospatial Revolution
+2504,Business English: Management and Leadership
+2505,Regression with Automatic Differentiation in TensorFlow
+2507,Capstone Course: Start Up Your Fintech Future
+2508,"Anatomy: Gastrointestinal, Reproductive and Endocrine Systems"
+2509,University Admission Prediction Using Multiple Linear Regression
+2510,Science Literacy
+2511,Electrodynamics: In-depth Solutions for Maxwell�s Equations
+2512,Seeking Investment Alpha
+2513,Foundations for Interviewing with Confidence
+2514,Getting Started with Google Classroom
+2516,Building and analyzing linear regression model in R
+2517,UI Design Capstone
+2518,Customising your models with TensorFlow 2
+2521,Exploring Quantum Physics
+2522,TensorFlow for AI: Neural Network Representation
+2523,Regression Modeling in Practice
+2524,Approximation Algorithms Part I
+2525,Fundraising and Development Foundations
+2526,Career Decisions: From Insight to Impact
+2527,Evaluating Problems
+2528,Check Point Jump Start: SMB Network Security
+2529,Business Opportunities and Risks in a Globalized Economy
+2530,Accounting Analysis II: Accounting for Liabilities and Equity
+2531,Introduction to Docker: Build Your Own Portfolio Site
+2532,Build an App in Android Studio using Resources
+2533,Explainable Machine Learning with LIME and H2O in R
+2534,Valuation for Startups Using Discounted Cash Flows Approach
+2535,"Programming Foundations with JavaScript, HTML and CSS"
+2536,The Science of Training Young Athletes
+2538,A Law Student's Toolkit
+2539,Introduction to Applied Machine Learning
+2540,Whole genome sequencing of bacterial genomes - tools and applications
+2541,Pattern Discovery in Data Mining
+2542,Logic for Economists
+2543,Machine Learning:  Predict Poisonous Mushrooms using a Random Forest Model and the FFTrees Package in R
+2544,Physical Basics of Quantum Computing
+2545,Introduction to CSS3
+2546,Neural Network Visualizer Web App with Python
+2547,Supply Chain Management Strategy
+2548,Statistical Data Visualization in Python
+2550,Site Reliability Engineering: Measuring and Managing Reliability
+2551,Statistics with R Capstone
+2552,Fundamentals of Rehearsing Music Ensembles
+2553,Develop a Company Website with Wix
+2554,Marketing: Customer Needs and Wants
+2555,Population Health: Syndemics
+2556,Words Spun Out of Images: Visual and Literary Culture in Nineteenth Century Japan
+2557,Fundamentals of Engineering Exam Review
+2558,Linear Regression with Python
+2559,Demand Analytics
+2560,Change Leadership: Strategic Route Analysis with Miro
+2561,From Brand to Image: Creating High Impact Campaigns That Tell Brand Stories
+2562,Risk governance: Engage the board
+2563,Design Thinking and Predictive Analytics for Data Products
+2564,Deep Learning Inference with Azure ML Studio
+2565,Project Management: Creating the WBS
+2566,Approximation Algorithms
+2567,Analyzing Video with OpenCV and NumPy
+2568,Fundamentals of Parallelism on Intel Architecture
+2569,Tinkering Fundamentals: Motion and Mechanisms
+2570,Text Mining and Analytics
+2571,Geodesign: Change Your World
+2572,Design of High-Performance Optical Systems
+2573,Introduction to PicsArt for Social Media Marketing
+2575,Security Best Practices in Google Cloud
+2576,Nursing Informatics Leaders
+2577,Getting Started on Mainframe with z/OS Commands and Panels
+2578,"Probability Theory, Statistics and Exploratory Data Analysis"
+2580,Chemerinsky on Constitutional Law - The Structure of Government
+2581,Nanophotonics and Detectors
+2582,Image Denoising Using AutoEncoders in Keras and Python
+2583,Introduction to Supply Chain Finance & Blockchain Technology
+2584,Global Health Diplomacy
+2585,"Global Postharvest Loss Prevention: Fundamentals, Technologies, and Actors"
+2586,Introductory Human Physiology
+2587,Creating a Personal Site with Gatsby
+2588,Discrete Math and Analyzing Social Graphs
+2589,"Compare Inline, Internal, and External CSS"
+2590,Data Visualization with Python
+2591,Creating Interactive Learning Videos with Edpuzzle
+2592,Introduction to Neurohacking In R
+2593,Intro to Acoustics (Part 1)
+2594,Financial Engineering and Risk Management Part II
+2595,Cybersecurity Capstone:  Breach Response Case Studies
+2596,Cybersecurity Capstone:  Breach Response Case Studies
+2597,Mind of the Universe: Science in Progress
+2598,Mathematical Game Theory
+2599,Business Model Canvas
+2600,Social Computing
+2601,Capital Markets and Financial Institutions � How to Survive Them
+2603,From Disease to Genes and Back
+2604,Introduction into General Theory of Relativity
+2605,"Managerial Accounting: Cost Behaviors, Systems, and Analysis"
+2606,Investment Strategy
+2607,Generate Synthetic Images with DCGANs in Keras
+2608,Oceanography: a key to better understand our world
+2609,Amazon DynamoDB: Building NoSQL Database-Driven Applications
+2610,Causal Inference
+2611,Language Classification with Naive Bayes in Python
+2612,Analyzing Big Data with SQL
+2614,Compare Stock Returns with Google Sheets
+2615,Interpersonal Communication for Engineering Leaders
+2616,Develop and Deploy Windows Applications on Google Cloud Platform
+2617,"Solar Energy Codes, Permitting and Zoning"
+2618,Impute Data to Forecast Demand in Google Sheets
+2619,Animation for Game Development Using PyGame
+2620,"Computational Thinking for K-12 Educators: Abstraction, Methods, and Lists"
+2621,Brand and Product Management
+2622,Unsupervised Machine Learning for Customer Market Segmentation
+2623,Business Growth Strategy
+2624,The Art of Negotiation
+2625,The Art of Negotiation
+2626,The Blues: Understanding and Performing an American Art Form
+2627,Plastic electronics
+2628,Get Organized: How to be a Together Teacher
+2629,"Natural Attenuation of Groundwater Contaminants: New Paradigms, Technologies, and Applications"
+2631,Advanced Algorithms and Complexity
+2632,Reproducible Templates for Analysis and Dissemination
+2633,Introduction to Faecal Sludge Management
+2634,Teach English Now! Lesson Design and Assessment
+2635,Digital Signal Processing 2: Filtering
+2636,Drug Commercialization
+2637,Introduction to Public Speaking
+2638,Entrepreneurship Strategy: From Ideation to Exit
+2639,AI Workflow: Data Analysis and Hypothesis Testing
+2640,Medical Diagnosis using Support Vector Machines
+2641,Bioinformatics Capstone: Big Data in Biology
+2642,Guided Tour of Machine Learning in Finance
+2643,Bonds and Fixed Income Mathematics
+2645,Cognitive Solutions and RPA Analytics
+2646,Mobile VR App Development with Unity
+2647,The Ancient Greeks
+2648,Leverage Google Finance Functions in Google Sheets
+2649,Content Strategy for Professionals: Managing Content
+2650,"Basic Data Descriptors, Statistical Distributions, and Application to Business Decisions"
+2651,The Politics of Skepticism
+2652,Learn to Speak Korean 1
+2653,Cultural intelligence: Become a global citizen
+2654,Strategic Career Self-Management
+2655,The Technology of Music Production
+2656,The Technology of Music Production
+2657,Storytelling and influencing: Communicate with impact
+2658,Math behind Moneyball
+2659,Web Connectivity and Security in Embedded Systems
+2660,Public Health in Humanitarian Crises 1
+2661,Best Practices for iOS User Interface Design
+2662,"Classification Trees in Python, From Start To Finish"
+2663,Sustainability through Soccer: Systems-Thinking in Action
+2664,Introduction to Blockchain Technologies
+2665,Create basic behavior with C# in Unity
+2666,Action-Driven Business Plan: From the �Classroom� to the World
+2667,Procurement Negotiation
+2668,Population Health: Governance
+2669,Open Source Software Development Methods
+2670,Understanding Korean Politics
+2671,3D CAD Application
+2672,Command Line Tools for Genomic Data Science
+2673,Healthcare Delivery Providers
+2674,Emotion AI: Facial Key-points Detection
+2675,Getting Started with Cascading Style Sheet
+2677,"Remote Sensing Image Acquisition, Analysis and Applications"
+2678,"Algorithms, Part I"
+2679,Understanding Memory: Explaining the Psychology of Memory through Movies
+2680,"HI-FIVE: Health Informatics For Innovation, Value & Enrichment (Clinical Perspective)"
+2681,Build local development environments using Docker containers
+2683,Philosophy and the Sciences: Introduction to the Philosophy of Physical Sciences
+2684,After the Arab Spring � Democratic Aspirations and State Failure
+2685,Structured Query Language (SQL) using SAS
+2686,Introduction to Calculus
+2687,The Outcomes and Interventions of Health Informatics
+2688,"Data Collection: Online, Telephone and Face-to-face"
+2689,Build a mobile app with Google Sheets on Glide and no coding
+2690,Machine Learning Rapid Prototyping with IBM Watson Studio
+2691,Autodesk Certified Professional: Revit for Structural Design Exam Prep
+2692,From the Big Bang to Dark Energy
+2693,Getting Started with Go
+2694,MOS Transistors
+2695,"Networks: Friends, Money, and Bytes"
+2696,Clustering Geolocation Data Intelligently in Python
+2697,FPGA Softcore Processors and IP Acquisition
+2698,Excel Skills for Business: Essentials
+2700,The Impact of Technology
+2702,Process Mining: Data science in Action
+2703,Healthcare Marketplace Capstone
+2704,Tools for Data Science
+2705,"Extinctions: Past, Present, & Future"
+2706,3D Graphics in Android: Sensors and VR
+2707,Easing the Transition to GIMP for Photoshop Users
+2708,Machine Learning for Data Analysis
+2709,Interaction Design Capstone Project
+2711,Big Data Modeling and Management Systems
+2712,Introduction to Deep Learning & Neural Networks with Keras
+2713,"Global Disease Masterclass: Communicable Diseases Epidemiology, Intervention and Prevention"
+2714,Basic Skills in Constructive Communication
+2715,Hypothesis-Driven Development
+2716,Qualitative Research
+2717,Interventions and Calibration
+2718,Basic Game Development with Levels using Scratch
+2719,Introduction to Chemistry:  Reactions and Ratios
+2720,Getting Started with Azure
+2721,Pro Tools Basics
+2722,Pro Tools Basics
+2724,The Language of Design: Form and Meaning
+2725,"Journalism, the future, and you!"
+2726,Source control management for test automation with Git
+2727,Spanish Vocabulary: Careers and Social Events
+2728,Create Animation Transitions in Unity (Intro to Animation 2)
+2729,Wind resources for renewable energies
+2730,Intel� Network Academy - Network Transformation 102
+2731,Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital
+2732,Anatomy: Human Neuroanatomy
+2733,Writing Professional Email and Memos (Project-Centered Course)
+2734,Use Canva to Create Social Media Marketing Designs
+2736,Genius. Talent. Golden Mediocrity
+2737,Basic Statistics
+2738,Understanding Violence
+2740,Computer Vision - Object Tracking with OpenCV and Python
+2741,The Basics of Trauma Surgery
+2742,Perform Sentiment Analysis with scikit-learn
+2743,Selenium Grid - Running Selenium tests in parallel
+2744,Financial Markets and Investment Strategy Capstone
+2745,Design and Simulate Smart Home Networks in Packet Tracer
+2746,Competitive Strategy and Organization Design Project
+2750,Introduction to Meteor.js Development
+2751,Introduction to Java Programming: Java Fundamental Concepts
+2752,Identifying Patient Populations
+2753,Building Similarity Based Recommendation System
+2754,Natural Language Processing with Classification and Vector Spaces
+2755,Global Financing Solutions  (by EDHEC and Soci�t� G�n�rale)
+2756,Selling to Chinese Consumers
+2757,"Constructivism and Mathematics, Science, and Technology Education"
+2758,What future for education?
+2759,Build an E-commerce Dashboard with Figma
+2760,An Introduction to Accessibility and Inclusive Design
+2761,MRI Fundamentals
+2762,Ferrous Technology I
+2763,Astronomy: Exploring Time and Space
+2764,Introduction to Accessible Web Development
+2765,Infonomics I: Business Information Economics and Data Monetization
+2766,Computational Thinking for K-12 Educators Capstone
+2767,Input Filter Design
+2768,Procurement Basics
+2769,Management Skills for International Business
+2770,Linux Server Management and Security
+2771,International Marketing & Cross Industry Growth Capstone Project
+2772,"Film, Images & Historical Interpretation in the 20th Century: The Camera Never Lies"
+2773,"Fundamentals of Leadership, with Goldman Sachs 10,000 Women"
+2774,SAS Macro Language
+2775,Music Production Capstone
+2776,Sales Operations: Final Project
+2777,Managing Your Money: MBA Insights for Undergraduates
+2778,Visual Perception and the Brain
+2779,Protecting Business Innovations via Copyright
+2780,Fundamentals of Fluid Power
+2781,Draw and Style Custom Letters with Inkscape
+2782,Business Analytics for Decision Making
+2783,Introduction to Deep Learning
+2784,Studying Cities: Social Science Methods for Urban Research
+2785,Data and Health Indicators in Public Health Practice
+2786,Systems Biology and Biotechnology Capstone
+2787,"Engineering Project Management: Risk, Quality, Teams, and Procurement"
+2788,International Business II
+2789,"Gender, Family, and Social Change in Contemporary South Korea"
+2790,Containerization Using Docker
+2792,Increase SEO Traffic with WordPress
+2793,The Worldview of Thomas Berry:  The Flourishing of the Earth Community
+2794,Hacking Exercise For Health. The surprising new science of fitness.
+2795,Building Stock Returns Heatmap with Tableau
+2796,Advertising and Society
+2797,The Power of Microeconomics: Economic Principles in the Real World
+2798,Drug Development
+2799,Using clinical health data for better healthcare
+2800,Fibonacci Numbers and the Golden Ratio
+2801,Control of Nonlinear Spacecraft Attitude Motion
+2802,Sensor Manufacturing and Process Control
+2803,Strategy Implementation
+2804,Introduction to Climate Change and Health
+2805,Fundamentals of Scalable Data Science
+2806,Introduction to Indoor Air Quality
+2807,Bayesian Statistics: Techniques and Models
+2808,"Epidemics, Pandemics and Outbreaks"
+2809,Machine Learning for Accounting with Python
+2810,Powerful Tools for Teaching and Learning: Digital Storytelling
+2811,Presentation skills: Speechwriting and Storytelling
+2812,Analyze Box Office Data with Seaborn and Python
+2813,Genes and the Human Condition (From Behavior to Biotechnology)
+2814,Introduction to Clinical Data Science
+2815,Jazz Improvisation
+2816,Ethical Leadership Through Giving Voice to Values
+2817,Industrial Organization: Strategy and Competition in Business
+2818,Meaningful Marketing Insights
+2819,Understanding Obesity
+2820,Strategically Build and Engage Your Network on LinkedIn
+2821,Sales Training: Sales Team Management
+2822,Large Marine Ecosystems: Assessment and Management
+2823,Genomic Data Science and Clustering (Bioinformatics V)
+2824,America's Written Constitution
+2825,An Introduction to Interactive Programming in Python (Part 1)
+2826,Build an App in Android Studio using onTouch
+2827,Accounting Data Analytics with Python
+2829,Creating an Interactive Story with Flutter
+2830,Accounting: Principles of Financial Accounting
+2831,Genomic Data Science with Galaxy
+2832,Spatial Analysis and Satellite Imagery in a GIS
+2834,How to Make Image Editing Selections in GIMP
+2835,Getting Started with ASP.NET Core Razor Pages
+2836,Querying Databases Using SQL SELECT statement
+2837,"Medical Emergencies: Airway, Breathing, and Circulation"
+2838,Mediation and Conflict Resolution
+2839,Named Entity Recognition using LSTMs with Keras
+2840,"Introduction to Blockchain: Benefits, Values and Opportunities"
+2841,Computer Simulations
+2842,Communicating Data Science Results
+2843,Introduction to Mechanical Engineering Design and Manufacturing with Fusion 360
+2844,Light Emitting Diodes and Semiconductor Lasers
+2845,Business Model Canvas: A Tool for Entrepreneurs and Innovators (Project-Centered Course)
+2846,Intermediate Pandas Python Library for Data Science
+2847,Prepare for the EMT Certification Test
+2848,Marketing Strategy Capstone Project
+2849,Internet of Things: Setting Up Your DragonBoard� Development Platform
+2850,Music's Big Bang: The Genesis of Rock 'n' Roll
+2851,Cloud Computing Fundamentals on Alibaba Cloud
+2853,RStudio for Six Sigma - Basic Descriptive Statistics
+2854,"Managing, Describing, and Analyzing Data"
+2855,Physics of silicon solar cells
+2856,Traditional herbal medicine in supportive cancer care: From alternative to integrative
+2857,Outbreaks and Epidemics
+2858,Java Primitive Types to Calculate Expenses
+2859,Machine Learning Feature Selection in Python
+2860,IT Security: Defense against the digital dark arts
+2861,Applications of Everyday Leadership
+2862,Introduction to Data Analytics for Business
+2863,Intellectual Humility: Practice
+2864,LGBTQ Pride: From Origins to Evolution Teach-Out
+2865,Using Google Forms for Student Success
+2866,Educating Deaf Children: Becoming an Empowered Teacher
+2867,Metaliteracy: Empowering Yourself in a Connected World
+2868,"Bats, Ducks, and Pandemics: An Introduction to One Health Policy"
+2869,Blockchain Basics
+2870,Introduction and Programming with IoT Boards
+2871,Roman Art and Archaeology
+2872,Commercialization of innovation activity results
+2874,Converter Control
+2875,"The Effect of Fires on People, Property and the Environment"
+2876,Character Setup and Animation
+2877,Procurement & Sourcing Introduction
+2878,International Business Capstone
+2879,BMC and Start-up Funding for Early-Stage Start-ups
+2880,Six Sigma Principles
+2881,Explore stock prices with Spark SQL
+2882,Design Thinking for the Greater Good: Innovation in the Social Sector
+2886,"Introduction to Self-Determination Theory: An approach to motivation, development and wellness"
+2888,Career Success Project
+2889,Increase Student Buy in with Google Slides
+2890,"Two Speed IT: How Companies Can Surf the Digital Wave, a BCG Perspective"
+2891,Confronting The Big Questions: Highlights of Modern Astronomy
+2892,Introduction to Unit Testing in Jest - The Fundamentals
+2893,Manipulating Data with SQL
+2894,"Dense Gases, Liquids and Solids"
+2895,Automating Team Communication with Google Sheets and Apps Script
+2896,"Performing Network, Path, and Text Analyses in SAS Visual Analytics"
+2897,Cybersecurity Compliance Framework & System Administration
+2898,Cybersecurity Compliance Framework & System Administration
+2899,Business Analytics Executive Overview
+2900,Exploring Beethoven's Piano Sonatas Part 5
+2901,China�s Economic Transformation Part 1: Economic Reform and Growth in China
+2902,Relativism
+2903,Cross-border road transport in EU law context
+2904,Programming Mobile Applications for Android Handheld Systems: Part 1
+2905,Understanding Prostate Cancer
+2906,Introduction to Financial Markets
+2907,Introduction to Breast Cancer
+2908,Foundations of International Psychiatry
+2909,Linear Regression with NumPy and Python
+2910,Applying Data Analytics in Marketing
+2911,Just Reading and Writing English 2
+2912,Gender and Sexuality: Diversity and Inclusion in the Workplace
+2913,Effective Communication in the Globalised Workplace - The Capstone
+2914,Google Cloud Product Fundamentals
+2915,AWS Fundamentals: Building Serverless Applications
+2916,Engineering Health: Introduction to Yoga and Physiology
+2917,IBM Customer Engagement Specialist Professional Certificate
+2918,Time Value of Money
+2919,Building Data Visualization Tools
+2920,"GIS Data Formats, Design and Quality"
+2921,Create Your First Automation Script Using Selenium and Java
+2922,Verb Tenses and Passives
+2923,Git for Developers Using Github
+2924,Machine Learning: Regression
+2925,Capstone: Analyzing (Social) Network Data
+2926,Schizophrenia
+2927,Relationship Management
+2928,Tools for Data Science
+2929,Business Russian Communication. Part 2
+2931,"Support Vector Machines in Python, From Start to Finish"
+2932,Predicting House Prices with Regression using TensorFlow
+2933,Guitar Scales and Chord Progressions
+2934,"Fundamentals of Sales and Marketing, with Goldman Sachs 10,000 Women"
+2935,How to Design a Space-Saving Table Using SketchUp
+2936,Soul Beliefs: Causes and Consequences - Unit 1: Historical Foundations
+2937,Just Reading and Writing English 1
+2938,Python and Statistics for Financial Analysis
+2939,Build Your Portfolio Website with HTML and CSS
+2940,GIS Data Acquisition and Map Design
+2941,Collaborative Robot Safety: Design & Deployment
+2942,Foundations of Teaching for Learning: Planning for Teaching and Learning
+2943,Set up Google Analytics for a single page website
+2944,Capstone:  Create Value from Open Data
+2945,Investment Risk Management
+2946,AI Workflow: AI in Production
+2947,Cryptography
+2948,Quick resumeCreator with JavaScript
+2949,Particle Dynamics
+2950,Quantitative Formal Modeling and Worst-Case Performance Analysis
+2951,Engineering Systems in Motion: Dynamics of Particles and Bodies in 2D Motion
+2952,Creating and Developing a Tech Startup
+2953,Writing and Editing: Drafting
+2955,Music Business Foundations
+2956,Introduction to Neuroeconomics: How the Brain Makes Decisions
+2957,Instructional Methods in Health Professions Education
+2958,Preparing for Graduate Study in the U.S.: A course for international students
+2959,Presentation skills: Designing Presentation Slides
+2960,Foundations of Teaching for Learning: Being a Professional
+2961,Applied Social Network Analysis in Python
+2962,Investment Strategies and Portfolio Analysis
+2963,"Reverse and complement nucleic acid sequences (DNA, RNA) using Python"
+2964,Discover Best Practice Farming for a Sustainable 2050
+2965,Qualitative Data Analysis with MAXQDA Software
+2967,Global sustainability and corporate social responsibility: Be sustainable
+2968,A Voice of Their Own. Women's Spirituality in the Middle Ages.
+2969,AIDS: Fear and Hope
+2970,Personal & Family Financial Planning
+2971,Support Vector Machine Classification in Python
+2972,Continuous Delivery & DevOps
+2973,Innovative Governance of Large Urban Systems
+2974,"International Travel Preparation, Safety, & Wellness"
+2976,Precalculus: Relations and Functions
+2977,Understanding Terrorism and the Terrorist Threat
+2978,Risk in Modern Society
+2979,"The Modern World, Part Two: Global History since 1910"
+2980,Character Design for Video Games
+2981,The History of Modern Israel � Part I: From an Idea to a State
+2982,Introduction to Personal Branding
+2983,Hypothesis-Driven Development
+2984,Sustainable Business Enterprises
+2985,Innovation for Entrepreneurs: From Idea to Marketplace
+2986,3D Interactions and Navigation
+2987,Project Management Project
+2989,Global Health Policy
+2990,The 3D Printing Revolution
+2991,Kotlin for Java Developers
+2992,Advanced TestNG Framework and Integration with Selenium
+2993,Data Analytics for Lean Six Sigma
+2994,Introduction to Augmented Reality and ARCore
+2995,Quantitative Methods
+2996,Entrepreneurship
+2997,VLSI CAD Part I: Logic
+2998,Applying Data Structures to Manipulate Cleansed UN Data
+3000,The Science of Gastronomy
+3001,Business English: Meetings
+3002,Foundations of strategic business analytics
+3003,Speaking to Inspire: Ceremonial and Motivational Speeches
+3004,Race and Cultural Diversity in American Life and History
+3005,Becoming a Social Entrepreneur: Getting Started
+3006,Writing a Personal Essay
+3007,"Curanderismo: Traditional Healing of the Mind, Energy & Spirit"
+3008,Unordered Data Structures
+3009,Case studies in business analytics with ACCENTURE
+3010,Graphing with ggplot2
+3011,Capstone Value Creation through Innovation
+3012,Using Efficient Sorting Algorithms in Java to Arrange Tax Data
+3013,Introduction to Integrative Nursing
+3014,Magnetics for Power Electronic Converters
+3015,Ferrous Technology II
+3016,Motivational Enhancement Techniques: Working with Patients with Opioid & Substance Use Disorders or High Risk Use MAT Waiver Training Supplemental Course
+3018,The Changing Landscape of Ancient Rome. Archaeology and History of the Palatine Hill
+3019,International migrations: a global issue
+3020,Mandarin Chinese 3: Chinese for Beginners
+3021,Blockchain for the decision maker
+3023,Implementing Hangman Game Using Basics of Python 3
+3024,Introduction to JavaScript
+3025,Build a Data Science Web App with Streamlit and Python
+3026,Testing and Debugging Python
+3027,Games without Chance: Combinatorial Game Theory
+3028,Build a Database from a Relational Model
+3029,Designing data-intensive applications
+3030,Enhance Student Learning through Kahoot
+3031,Market and Competition in Pricing Strategy
+3032,Constitutional Reforms in Russia
+3033,Managing Change when Moving to Google Cloud
+3034,Questionnaire Design for Social Surveys
+3035,Branding and Customer Experience
+3036,Corporate Finance II: Financing Investments and Managing Risk
+3037,Sharing Cities: Governance and Urban Sustainability
+3038,Think Again III: How to Reason Inductively
+3039,Introduction to People Analytics
+3040,Building Web Applications in PHP
+3043,Functional Programming Principles in Scala
+3044,"The Sustainable Development Goals � A global, transdisciplinary vision for the future"
+3045,Investments II: Lessons and Applications for Investors
+3046,Foundations of Diversity and Inclusion at Work TeachOut
+3047,Introduction to FPGA Design for Embedded Systems
+3048,Basic Cryptography and Programming with Crypto API
+3049,"History of Rock, Part One"
+3051,User Research and Design
+3052,Perfect Tenses and Modals
+3053,Firm Level Economics: Consumer and Producer Behavior
+3054,K-12 Blended & Online Learning
+3055,Kinematics: Describing the Motions of Spacecraft
+3056,Foundations of Teaching for Learning: Introduction to Student Assessment
+3057,Toledo: Deciphering Secrets of Medieval Spain
+3058,Requirements Writing
+3059,Managerial Accounting: Tools for Facilitating and Guiding Business Decisions
+3060,Responsive Website Development and Design Capstone
+3061,Regression Models
+3062,Regression Models
+3063,Global Environmental Management
+3064,"Server-side Development with NodeJS, Express and MongoDB"
+3065,"Server-side Development with NodeJS, Express and MongoDB"
+3066,Health Care Delivery in Healthcare Organizations
+3069,Healthcare Entrepreneurship: Taking Ideas to Market
+3070,Building a Hiring Plan by Analyzing Past Data in Sheets
+3071,Perform Feature Analysis with Yellowbrick
+3072,Usable Security
+3074,Federal Taxation II: Property Transactions of Business Owners and Shareholders
+3077,Hypothesis Testing in Public Health
+3078,Creativity Toolkit II: Creative Collaboration
+3079,Palo Alto Networks Cybersecurity Gateway I
+3080,Jacobi modular forms: 30 ans apr�s
+3081,Newborn Capstone
+3082,Strategy Formulation
+3083,Plant Bioinformatics Capstone
+3084,An Introduction to Consumer Neuroscience & Neuromarketing
+3085,Web Application Development: Basic Concepts
+3086,Exploratory Data Analysis with MATLAB
+3087,Network Data Science with NetworkX and Python
+3088,Problem-Solving Skills for University Success
+3089,Cybersecurity Capstone Project
+3090,Creating Cutscenes in Unity
+3091,Giving Sense to Your Leadership Experience
+3092,Deep Learning for Business
+3093,Planet Earth...and You!
+3094,Style Tables with CSS
+3095,"Coding for Designers, Managers, & Entrepreneurs I"
+3096,Mastering Statics
+3099,Application Systems Programming
+3100,Hybrid Cloud Infrastructure Foundations with Anthos
+3101,Exploiting and Securing Vulnerabilities in Java Applications
+3102,Advanced Neurobiology II
+3103,"HI-FIVE: Health Informatics For Innovation, Value & Enrichment (Social/Peer Perspective)"
+3104,Foundational Skills for Communicating About Health
+3105,Quantum Mechanics
+3106,Introduction to Cataract Surgery
+3107,Computational Social Science Capstone Project
+3108,Increasing Real Estate Management Profits: Harnessing Data Analytics
+3110,SRS Documents: Requirements and Diagrammatic Notations
+3111,Finance For Everyone: Value
+3112,Internet of Things Capstone: Build a Mobile Surveillance System
+3113,Create a Simple Project Timeline in Google Sheets
+3114,Framework for Data Collection and Analysis
+3115,Physics 101 - Energy and Momentum
+3116,Introduction to Basic Vibrations
+3117,Equivalent Circuit Cell Model Simulation
+3118,Azure Infrastructure Fundamentals
+3119,Vowels of American English Pronunciation
+3120,Introduction to Finance: The Role of Financial Markets
+3121,Serving Tensorflow Models with a REST API
+3122,Battery State-of-Health (SOH) Estimation
+3123,"Cameras, Exposure, and Photography"
+3124,Diabetes - a Global Challenge
+3125,Curanderismo: Traditional Healing of the Body
+3126,The Challenges of Global Health
+3127,Understanding User Needs
+3128,iOS App Development Basics
+3129,Big Data Analysis with Scala and Spark
+3130,Intermediate Grammar Project
+3131,Corporate Strategy
+3132,Systems Thinking In Public Health
+3133,On Being a Scientist
+3134,Build an App in Android Studio using Activities
+3135,Aboriginal Worldviews and Education
+3136,TensorFlow Serving with Docker for Model Deployment
+3137,Introduction to Statistics & Data Analysis in Public Health
+3139,Fighting COVID-19 with Epidemiology: A Johns Hopkins Teach-Out
+3140,Relational Database Support for Data Warehouses
+3141,Business English: Finance and Economics
+3142,"Health, Housing, and Educational Services"
+3143,Create Python Linux Script to Generate a Disk Usage Report
+3144,Introduction to Enumerative Combinatorics
+3145,Russian for beginners 3. ??????? ????: A1
+3146,Create Training Videos with Powtoon
+3147,What�s Your Big Idea?
+3148,Motion Planning for Self-Driving Cars
+3149,Prehospital care of acute stroke and patient selection for endovascular treatment using the RACE scale
+3150,Simple Nearest Neighbors Regression and Classification
+3151,Global Impact: Business Ethics
+3153,The Kennedy Half Century
+3154,Digital Competition in Financial Services
+3155,Plant Bioinformatics
+3156,Health in Complex Humanitarian Emergencies
+3157,NoSQL systems
+3158,Transmission electron microscopy for materials science
+3159,Music for Wellness
+3160,Create Your First Web App with Python and Flask
+3161,Web and Mobile Testing with Selenium
+3162,Real-Time Cyber Threat Detection and Mitigation
+3163,Astrobiology and the Search for Extraterrestrial Life
+3164,The History of Modern Israel -  Part II: Challenges of Israel as a sovereign state
+3165,3D Model Creation with Autodesk Fusion 360
+3166,Supply Chain Logistics
+3167,System Validation: Automata and behavioural equivalences
+3168,Equine Welfare and Management
+3169,Climate Change and Water in Mountains: A Global Concern
+3170,"Our Earth: Its Climate, History, and Processes"
+3171,Russian company law. Company management
+3172,Number Theory and Cryptography
+3173,API Development on Google Cloud's Apigee API Platform
+3174,Predictive Modeling with Logistic Regression using SAS
+3175,Ash-Related Operational Challenges in Energy Utilization of Sustainable Fuels
+3176,Sales Strategy
+3177,Profit Analysis using Economic Value Added
+3179,Leading Innovation in Arts and Culture
+3180,Six Sigma Tools for Define and Measure
+3181,Teach English Now! Technology Enriched Teaching
+3182,Teach English Now! Technology Enriched Teaching
+3183,Predict Future Product Prices Using Facebook Prophet
+3184,Music as Biology: What We Like to Hear and Why
+3185,Fundamentals of Kubernetes Deployment
+3186,IS/IT Governance
+3187,Fundamentals of particle accelerator technology  (NPAP MOOC)
+3188,Automate an e-commerce web application using Selenium & Java
+3189,Browser-based Models with TensorFlow.js
+3190,Introduction to Learning Transfer and Life Long Learning (3L)
+3191,Computational Thinking for K-12 Educators: Sequences and Loops
+3194,Black-box and White-box Testing
+3195,Teaching Impacts of Technology: Relationships
+3197,Embedded Hardware and Operating Systems
+3198,API Security on Google Cloud's Apigee API Platform
+3199,AWS Fundamentals: Migrating to the Cloud
+3200,Build a film club web app on Google AppEngine
+3201,"Big Data Essentials: HDFS, MapReduce and Spark RDD"
+3202,Bases of the law of obligations (The Russian Federation) Part 2
+3203,Emergence of Life
+3204,Marketing analytics: Know your customers
+3205,Health Behavior Change: From Evidence to Action
+3206,Low Poly Art For Video Games
+3207,"Creativity, Innovation and Transformation"
+3208,Social Psychology
+3209,Introduction to Cybersecurity for Business
+3210,Learn Java and JavaFX by creating a Graphical Calculator
+3211,Capstone: Creating A Sustainability Proposal
+3212,Research Proposal: Initiating Research
+3213,iOS App Store & In-App Purchases
+3214,Create a Project Charter with Google Docs
+3215,Business Model Innovation for Sustainable Landscape Restoration
+3216,Fundamentals of Machine Learning in Finance
+3217,"Smart Analytics, Machine Learning, and AI on GCP"
+3218,Introduction to Business Analytics with R
+3220,Analysis of Algorithms
+3221,Strategic Management - Capstone Project
+3222,Python Dynamic HTML Web Server
+3223,How To Build a Network Topology Using GNS3
+3224,Leadership Communication for Maximum Impact: Storytelling
+3225,Battery Pack Balancing and Power Estimation
+3226,Market Research and Consumer Behavior
+3227,Introduction to Satellite Communications
+3228,Six Sigma Advanced Define and Measure Phases
+3229,Mind of the Universe - Genetic Privacy: should we be concerned?
+3230,Oil & Gas Industry Operations and Markets
+3232,"Tables, Data & Networking in iOS"
+3233,Product Development: Customer Persona Development with Miro
+3234,A Guide to Healthcare Innovation: Principles and Practice
+3235,Data in Database
+3236,Creating a Portfolio
+3237,Effective Communication Capstone Project
+3238,Build a Budget and Analyze Variance using Google Sheets
+3239,Fashion as Design
+3241,Understanding Clinical Research: Behind the Statistics
+3242,Budgeting essentials and development
+3243,An Introduction to Interactive Programming in Python (Part 2)
+3244,PyCaret: Anatomy of Classification
+3245,Introduction to Docker : The Basics
+3246,Everyday Parenting: The ABCs of Child Rearing
+3247,Create Customer Support Data with Google Sheets
+3248,Paleontology: Early Vertebrate Evolution
+3249,COVID-19: What You Need to Know (CME Eligible)
+3250,"Cloud Computing Concepts, Part 1"
+3251,Computer Science: Programming with a Purpose
+3252,Starting GUI Programming with JavaFX
+3253,"Excel/VBA for Creative Problem Solving, Part 2"
+3254,"Pressure, Force, Motion, and Humidity Sensors"
+3255,Introduction to Relational Database and SQL
+3256,So You Think You Know Tango?
+3257,"Negotiation, Mediation, and Conflict Resolution - Capstone Project"
+3258,Create Online Employee Onboarding Course with Eduflow
+3259,Communication theory: bridging academia and practice
+3260,TensorFlow for CNNs: Learn and Practice CNNs
+3261,CRUD Operations using MongoDB NoSQL
+3262,Financial Management Capstone
+3263,Custom Reports in Google Analytics
+3264,Introduction to Thermodynamics: Transferring Energy from Here to There
+3265,Introduction to Imagemaking
+3266,Concurrency in Go
+3267,Create Technical Stock Charts Using R and Quantmod
+3268,Distributed Programming in Java
+3269,Business Applications of Hypothesis Testing and Confidence Interval Estimation
+3270,Value Chain Management Capstone
+3271,Engineering Project Management: Initiating and Planning
+3272,Use Mailchimp to Build an E-mail Marketing Campaign
+3273,Retrieve Data with Multiple-Table SQL Queries
+3274,Game Developers and Esports Organizations
+3276,A Brief History of Human Spaceflight
+3277,Introduction to Automated Analysis
+3278,Data Analytics in Accounting Capstone
+3279,Diversity and inclusion in the workplace
+3280,Being a researcher (in Information Science and Technology)
+3281,International Organizations Management
+3282,Beginning SQL Server
+3284,Create a Space Shooter Game with Scratch Studio
+3285,European Business Law: Understanding the Fundamentals
+3286,Introduction to Psychology
+3287,International Law in Action: A Guide to the International Courts and Tribunals in The Hague
+3288,Human Rights for Open Societies
+3289,"Modern Robotics, Course 2:  Robot Kinematics"
+3290,Heritage under Threat
+3291,Build a Firebase Android Application (Part II)
+3292,Interest Rate Models
+3294,Create a Google Ads Display Campaign
+3295,"Synapses, Neurons and Brains"
+3296,Health Systems Development: Introduction to Health Systems
+3297,Geospatial and Environmental Analysis
+3298,Introduction to Economic Theories
+3299,Inferential Statistics
+3300,Technology Leadership and Entrepreneurship
+3301,Planned Giving
+3302,Advanced Interviewing Techniques
+3303,Ruby on Rails: An Introduction
+3304,Classical Sociological Theory
+3305,Linux for Developers
+3306,High Level Biocontainment for Healthcare Facilities
+3307,Innovation Management
+3308,From Freedom Rides to Ferguson: Narratives of Nonviolence in the American Civil Rights Movement
+3309,Simulation and modeling of natural processes
+3310,Trading Algorithms
+3311,Constitutional Struggles in the Muslim World
+3312,Agile Projects: Defining Epics and Mapping Value with Taiga
+3313,Advanced Trading Algorithms
+3314,Web Design: Wireframes to Prototypes
+3315,Managing Network Security
+3316,Introduction to MongoDB
+3317,Professional Skills for International Business
+3319,Techniques of Design-Oriented Analysis
+3320,Intro to Digital Manufacturing with Autodesk Fusion 360
+3321,Chinese Politics Part 1 � China and Political Science
+3323,AWS: Publish a NodeJS Website from Scratch
+3324,Generative Design for Additive Manufacturing
+3325,Driving business towards the Sustainable Development Goals
+3328,Virtual Teacher Final Project
+3330,Women in environmental biology
+3331,High-Impact Business Writing
+3332,Version Control with Git
+3334,Linear Regression for Business Statistics
+3335,"Innovation Through Design: Think, Make, Break, Repeat"
+3336,Music Business Foundations
+3337,Big data and Language 1
+3338,The Marketing Plan
+3339,Creativity And Entrepreneurship
+3340,Asset Creation and Management
+3341,Digital Thread: Components
+3342,Case Studies in Personalized Medicine
+3343,Exploring Emerging Technologies for Lifelong Learning and Success
+3344,Financial Regulation in Emerging Markets and the Rise of Fintech Companies
+3345,Doing More with SAS Programming
+3346,Innovation & Entrepreneurship - From Basics to Open Innovation
+3347,AWS Fundamentals: Addressing Security Risk
+3348,Fundamental Neuroscience for Neuroimaging
+3349,Blockchain in Financial Services: Strategic Action Plan
+3350,Healthcare Innovation: What Does Success Look Like and How to Achieve It?
+3351,Drug Discovery
+3352,Graph Analytics for Big Data
+3353,Cloud Computing Security
+3354,Paleontology: Theropod Dinosaurs and the Origin of Birds
+3355,Public Health in Humanitarian Crises 2
+3356,Chinese for HSK 1
+3357,"Clinical Kidney, Pancreas and Islet Transplantation"
+3358,Today�s Music Industry
+3359,Create a Profile and Network on LinkedIn
+3360,IT Project Management
+3361,Capstone:  Autonomous Runway Detection for IoT
+3362,Creating an AWS EC2 Autoscaling Group using Load Balancer
+3363,Miracles of Human Language: An Introduction to Linguistics
+3365,Global Energy and Climate Policy
+3366,Business of Games and Entrepreneurship
+3367,Introduction to Virtual Reality
+3368,"Information Systems Auditing, Controls and Assurance"
+3369,Image Compression with K-Means Clustering
+3370,Neural Network from Scratch in TensorFlow
+3371,Supply Chain Excellence
+3372,Networks Illustrated: Principles without Calculus
+3373,Supply Chain Analytics
+3374,Learn Mandarin Chinese: Capstone Project
+3375,Introduction to Blockchain for Financial Services
+3376,Image Data Augmentation with Keras
+3377,"Smart Analytics, Machine Learning, and AI on GCP"
+3378,Digital Marketing Analytics in Practice
+3379,"Computers, Waves, Simulations: A Practical Introduction to Numerical Methods using Python"
+3380,Blazor and JavaScript Interoperability
+3381,Big Data Science with the BD2K-LINCS Data Coordination and Integration Center
+3382,Leadership Through Social Influence
+3383,Front-End Web Development with React
+3384,Applied AI with DeepLearning
+3385,English for Effective  Business Writing
+3387,New Models of Business in Society
+3388,Managing Cybersecurity Incidents and Disasters
+3390,Data Structures
+3391,Database Design with SQL Server Management Studio (SSMS)
+3392,Intermediate Object-Oriented Programming with Java
+3393,"Everyday Excel, Part 1"
+3394,Marketing Mix Implementation Capstone
+3395,Big-O Time Complexity in Python Code
+3396,Osteoarchaeology: The Truth in Our Bones
+3397,Advanced Deployment Scenarios with TensorFlow
+3398,Population Health: Predictive Analytics
+3399,Fake News Detection with Machine Learning
+3400,Introduction to CRM with HubSpot
+3401,Analyzing Macro-Environmental Factors Using Creately
+3402,Protists: Evolution and Ecology of Microbial Eukaryotes
+3403,JavaScript Arithmetic Operators
+3405,"Federal Taxation I: Individuals, Employees, and Sole Proprietors"
+3406,"Philosophy, Science and Religion: Religion and Science"
+3407,Continuous Integration
+3408,CAPSTONE: Your Leadership Challenge
+3409,Getting Started in GIMP
+3410,Positioning: What you need for a successful Marketing Strategy
+3411,International Law In Action: Investigating and Prosecuting International Crimes
+3412,Introduction to Negotiation: A Strategic Playbook for Becoming a Principled and Persuasive Negotiator
+3413,Planning for Climate Change in African Cities
+3414,Creating Innovation
+3415,Interview Research and Preparation
+3416,Computational Social Science Methods
+3417,The Business of Social
+3418,Web Design for Everybody Capstone
+3419,HTML and CSS: Building a Single-Page Website
+3420,Understanding Plants - Part I: What a Plant Knows
+3421,Japanese for beginners 1
+3422,Style Images with CSS
+3423,Improving your statistical inferences
+3424,High-Impact Business Writing
+3425,Build a Google Firebase Web Application
+3426,Studying at Japanese Universities
+3427,Mathematical Biostatistics Boot Camp 1
+3428,Creating Sounds for Electronic Music
+3429,Corporate Financial Decision-Making for Value Creation
+3430,"Advanced Valuation and Strategy - M&A, Private Equity, and Venture Capital"
+3431,Introduction to International Criminal Law
+3432,Innovative Finance: Hacking finance to change the world
+3433,Capstone - Launch Your Own Business!
+3434,Introduction to Self-Driving Cars
+3435,Bonds & Stocks
+3436,Re-imaging God in Korean Context
+3437,Protecting Cloud Architecture with Alibaba Cloud
+3438,Planning your Client's Wealth over a 5-year Horizon
+3439,e-Learning Ecologies: Innovative Approaches to Teaching and Learning for the Digital Age
+3440,US Social Services: Where did they come from?
+3443,"Anatomy: Cardiovascular, Respiratory and Urinary Systems"
+3444,Analyze NPS Survey Data in Google Sheets
+3445,Leadership in 21st Century Organizations
+3446,Better Business Writing in English
+3447,"Nanotechnology and Nanosensors, Part 2"
+3448,Identifying Security Vulnerabilities in C/C++Programming
+3449,Finance for Startups
+3450,Software Defined Networking
+3451,Networking and Security Architecture with VMware NSX
+3452,Content Strategy for Professionals: Capstone Project
+3453,Evaluate Profit Margins with VLOOKUP in Google Sheets
+3454,Visual Analytics with Tableau
+3455,Take the Lead on Healthcare Quality Improvement
+3456,Brand New Brand
+3457,Health Care IT: Challenges and Opportunities
+3458,Scholarly Communication
+3459,Anti-Racism I
+3460,Blockchain 360: A State of the Art for Professionals
+3461,Statistical Molecular Thermodynamics
+3462,Natural Gas
+3463,Creative Writing: The Craft of Style
+3464,Operations Management: Analysis and Improvement Methods
+3465,Big Data Integration and Processing
+3466,Artificial Intelligence Data Fairness and Bias
+3467,Principles of Game Design
+3468,Mastering Web3 with Waves
+3469,Getting started with TensorFlow 2
+3472,Optimizing Machine Learning Performance
+3473,First Steps in Linear Algebra for Machine Learning
+3474,Noun Clauses and Conditionals
+3475,Support Vector Machines with scikit-learn
+3476,Visualizing Citibike Trips with Tableau
+3477,Simple Regression Analysis in Public Health
+3478,Cluster Analysis using RCmdr
+3479,Security Awareness Training
+3480,"RPA Lifecycle: Introduction, Discovery and Design"
+3481,Successful Negotiation: Essential Strategies and Skills
+3482,Transmedia Writing
+3483,SQL for Data Science Capstone Project
+3484,From Climate Science to Action
+3485,Population Health During A Pandemic: Contact Tracing and Beyond
+3486,"Sit Less, Get Active"
+3487,Understanding Deepfakes with Keras
+3488,Taxation of Business Entities I: Corporations
+3489,Decision Criteria & Applications
+3490,"Grow to Greatness: Smart Growth for Private Businesses, Part II"
+3491,Applied Data Science Capstone
+3492,Applied Data Science Capstone
+3493,Air Pollution � a Global Threat to our Health
+3494,Greening the Economy: Sustainable Cities
+3495,"Modern Robotics, Course 1:  Foundations of Robot Motion"
+3496,Introduction to Forensic Science
+3497,Requirements Gathering for Secure Software Development
+3498,Critical Thinking Skills for University Success
+3499,"The People, Power, and Pride of Public Health"
+3502,Capstone Project: Teaching Impacts of Technology
+3503,Data Modeling and Regression Analysis in Business
+3504,Copyright Law in the Music Business
+3505,Copyright Law in the Music Business
+3506,"Programming Languages, Part C"
+3507,"Visionary leadership, identity & motivation: Become a meaning maker"
+3508,Healthy Aging and the Future of Cannabis Research
+3509,Pixel Art for Video Games
+3510,Google Ads for Beginners
+3511,Esports Teams and Professional Players
+3512,Visual Perception and Visual Illusions
+3513,Mining Data to Extract and Visualize Insights in Python
+3514,Digital Systems: From Logic Gates to Processors
+3515,The Importance and Power of Music in our Society
+3516,Network Function Virtualization
+3517,Scalable Machine Learning on Big Data using Apache Spark
+3518,"Capstone: Retrieving, Processing, and Visualizing Data with Python"
+3519,Patrick Henry: Forgotten Founder
+3520,Business intelligence and data analytics: Generate insights
+3521,Rigid Body Dynamics
+3522,Architecting with Google Kubernetes Engine: Production

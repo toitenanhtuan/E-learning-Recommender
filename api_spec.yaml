@@ -1,0 +1,114 @@
+openapi: 3.0.0
+info:
+  title: E-Learning Recommender API
+  version: 1.0.0
+  description: API for the Personalized E-Learning Path Recommender System.
+
+servers:
+  - url: http://localhost:8000/api/v1
+    description: Local development server
+
+paths:
+  /courses:
+    get:
+      summary: Get a list of courses
+      tags:
+        - Courses
+      parameters:
+        - name: search
+          in: query
+          description: Search term for course names
+          schema:
+            type: string
+        - name: limit
+          in: query
+          description: Number of items to return
+          schema:
+            type: integer
+            default: 20
+        - name: offset
+          in: query
+          description: Number of items to skip for pagination
+          schema:
+            type: integer
+            default: 0
+      responses:
+        '200':
+          description: A list of courses
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Course'
+
+  /courses/{courseId}:
+    get:
+      summary: Get details of a specific course
+      tags:
+        - Courses
+      parameters:
+        - name: courseId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Course details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CourseWithSkills'
+        '404':
+          description: Course not found
+
+  /skills:
+    get:
+      summary: Get a list of all available skills
+      tags:
+        - Skills
+      responses:
+        '200':
+          description: A list of skills
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Skill'
+
+components:
+  schemas:
+    Skill:
+      type: object
+      properties:
+        id:
+          type: integer
+        skill_name:
+          type: string
+
+    Course:
+      type: object
+      properties:
+        id:
+          type: integer
+        course_name:
+          type: string
+        university:
+          type: string
+        difficulty_level:
+          type: string
+        course_rating:
+          type: number
+          format: float
+    
+    CourseWithSkills:
+      allOf:
+        - $ref: '#/components/schemas/Course'
+        - type: object
+          properties:
+            skills:
+              type: array
+              items:
+                $ref: '#/components/schemas/Skill'
