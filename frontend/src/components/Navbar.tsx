@@ -44,6 +44,7 @@ const Navbar: React.FC = () => {
                                     <PencilSquareIcon className="h-5 w-5 mr-1" />
                                     Survey
                                 </Link>
+
                                 <button
                                     onClick={handleLogout}
                                     className="flex items-center bg-indigo-50 hover:bg-indigo-100 text-indigo-700 px-3 py-2 rounded-md text-sm font-medium"

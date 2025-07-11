@@ -12,7 +12,9 @@ apiClient.interceptors.request.use(
     (config) => {
         // Lấy token từ localStorage
         const token = localStorage.getItem('token');
-        // Nếu có token, đính kèm nó vào header Authorization
+
+        console.log("Interceptor: Sending request with token:", token);
+
         if (token) {
             config.headers['Authorization'] = `Bearer ${token}`;
         }

@@ -1,12 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+
 # Import các router
 from app.api.v1 import (
-    endpoints as course_endpoints,  # Đặt alias để rõ ràng
+    endpoints as course_endpoints,
     auth_endpoints,
     survey_endpoints,
     user_endpoints,
+    graph_endpoints,
 )
 from app.db.database import engine
 from app.db import models
@@ -49,6 +51,8 @@ app.include_router(user_endpoints.router, prefix="/api/v1/users", tags=["User"])
 
 # API cho khảo sát
 app.include_router(survey_endpoints.router, prefix="/api/v1/survey", tags=["Survey"])
+
+app.include_router(graph_endpoints.router, prefix="/api/v1/graph", tags=["Graph"])
 
 
 # Endpoint gốc

@@ -1,0 +1,19 @@
+prerequisite_skill_name,skill_name
+html,css
+css,javascript
+javascript,react
+javascript,vue
+javascript,angular
+python,numpy
+python,pandas
+numpy,pandas
+pandas,matplotlib
+matplotlib,seaborn
+pandas,scikit-learn
+scikit-learn,machine learning
+machine learning,deep learning
+deep learning,tensorflow
+deep learning,pytorch
+sql,database (dbms)
+database (dbms),big data
+java,android development

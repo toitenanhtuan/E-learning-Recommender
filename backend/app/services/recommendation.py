@@ -4,6 +4,7 @@ import os
 from typing import List
 from sqlalchemy.orm import Session
 from app.db import models
+import networkx as nx
 
 
 class RecommendationService:
@@ -19,13 +20,19 @@ class RecommendationService:
         # Tải model và dữ liệu
         self.cosine_sim_matrix = self._load_model(self.cosine_sim_path)
         self.course_data = self._load_data(self.course_data_path)
+        self.skill_graph_path = os.path.join(
+            self.model_dir, "skill_dependency_graph.joblib"
+        )
+        self.skill_graph = self._load_model(self.skill_graph_path)
+        if self.skill_graph:
+            print("Đồ thị Phụ thuộc Kỹ năng đã được tải thành công.")
 
         # Tạo một series để mapping từ course_id -> index của DataFrame
         self.indices = pd.Series(
             self.course_data.index, index=self.course_data["id"]
         ).drop_duplicates()
 
-        print("✅ RecommendationService đã được khởi tạo và tải model thành công.")
+        print("RecommendationService đã được khởi tạo và tải model thành công.")
 
     def _load_model(self, path):
         """Tải file joblib."""
@@ -179,13 +186,94 @@ class RecommendationService:
                 }
             )
 
-        # 5. Sắp xếp các khóa học theo điểm số từ cao đến thấp
-        # Sắp xếp phụ theo độ khó (Beginner -> Intermediate -> Advanced) để tạo lộ trình logic
-        difficulty_order = {"beginner": 0, "intermediate": 1, "mixed": 2, "advanced": 3}
+        # 5. Sắp xếp lại các khóa học dựa trên Đồ thị Phụ thuộc (Topological Sort)
+        # Đây là một bước sắp xếp tinh vi hơn.
 
-        scored_courses.sort(
-            key=lambda x: (difficulty_order.get(x["difficulty"], 99), -x["score"]),
-        )
+        print("Bắt đầu sắp xếp lại lộ trình dựa trên đồ thị phụ thuộc...")
+
+        if self.skill_graph and scored_courses:
+            # Lấy set tất cả các kỹ năng có trong các khóa học được đề xuất
+            all_relevant_skills = set()
+            # Tạo map: course_id -> set of skill names
+            course_id_to_skills_map = {}
+            # Cần truy vấn lại để lấy tên skill
+            candidate_courses = (
+                db.query(models.Course)
+                .filter(models.Course.id.in_([c["id"] for c in scored_courses]))
+                .all()
+            )
+            for course in candidate_courses:
+                course_skills_set = {skill.skill_name for skill in course.skills}
+                all_relevant_skills.update(course_skills_set)
+                course_id_to_skills_map[course.id] = course_skills_set
+
+            # Tạo một đồ thị con chỉ chứa các kỹ năng liên quan
+            sub_graph = self.skill_graph.subgraph(all_relevant_skills)
+
+            # Thực hiện sắp xếp tô-pô
+            try:
+                # Sắp xếp các kỹ năng theo thứ tự logic
+                topo_sorted_skills = list(nx.topological_sort(sub_graph))
+                print(
+                    f"Thứ tự kỹ năng logic (sắp xếp tô-pô): {topo_sorted_skills[:10]}..."
+                )
+
+                # Tạo map: skill_name -> rank (thứ hạng)
+                skill_rank_map = {
+                    skill: i for i, skill in enumerate(topo_sorted_skills)
+                }
+
+                # Bây giờ, tính "rank" trung bình cho mỗi khóa học
+                # Khóa học có rank thấp hơn (chứa các skill cơ bản) sẽ được ưu tiên
+                for course_dict in scored_courses:
+                    course_skills = course_id_to_skills_map.get(
+                        course_dict["id"], set()
+                    )
+                    if not course_skills:
+                        course_dict["topo_rank"] = float("inf")
+                        continue
+
+                    # Tính rank trung bình của các kỹ năng trong khóa học
+                    ranks = [
+                        skill_rank_map.get(skill, float("inf"))
+                        for skill in course_skills
+                    ]
+                    course_dict["topo_rank"] = sum(ranks) / len(ranks)
+
+                # Sắp xếp lại scored_courses một lần cuối: ưu tiên rank thấp trước, sau đó mới đến điểm cao
+                scored_courses.sort(
+                    key=lambda x: (x.get("topo_rank", float("inf")), -x["score"])
+                )
+
+            except nx.NetworkXUnfeasible:
+                print(
+                    "CẢNH BÁO: Không thể sắp xếp tô-pô (có thể có vòng lặp trong đồ thị con). Bỏ qua bước này."
+                )
+                # Nếu lỗi, vẫn dùng cách sắp xếp cũ
+                difficulty_order = {
+                    "beginner": 0,
+                    "intermediate": 1,
+                    "mixed": 2,
+                    "advanced": 3,
+                }
+                scored_courses.sort(
+                    key=lambda x: (
+                        difficulty_order.get(x["difficulty"], 99),
+                        -x["score"],
+                    )
+                )
+
+        else:
+            # Fallback nếu không có đồ thị
+            difficulty_order = {
+                "beginner": 0,
+                "intermediate": 1,
+                "mixed": 2,
+                "advanced": 3,
+            }
+            scored_courses.sort(
+                key=lambda x: (difficulty_order.get(x["difficulty"], 99), -x["score"])
+            )
 
         # 6. Lấy ID của các khóa học đã sắp xếp, giới hạn số lượng
         recommended_ids = [course["id"] for course in scored_courses]

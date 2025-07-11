@@ -8,3 +8,4 @@ joblib
 scikit-learn
 passlib[bcrypt]
 python-jose[cryptography]
+networkx

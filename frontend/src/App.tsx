@@ -11,7 +11,7 @@ import CourseDetailPage from './pages/CourseDetailPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import SurveyPage from './pages/SurveyPage';
-import DashboardPage from './pages/DashboardPage'; // Thêm trang Dashboard cho bước tiếp theo
+import DashboardPage from './pages/DashboardPage';
 
 function App() {
     return (
