@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
-// Định nghĩa props mà component này nhận vào
 interface SearchBarProps {
-    onSearch: (searchTerm: string) => void; // Một hàm được gọi mỗi khi người dùng tìm kiếm
+    onSearch: (searchTerm: string) => void;
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
@@ -13,26 +12,21 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
         setTerm(event.target.value);
     };
 
-    const handleSubmit = (event: React.FormEvent) => {
-        event.preventDefault(); // Ngăn trang reload khi submit form
-        onSearch(term);
-    };
-
     // Tìm kiếm ngay khi người dùng gõ
-    // Nếu muốn tìm kiếm sau khi nhấn enter thì dùng handleSubmit
     React.useEffect(() => {
         const delayDebounceFn = setTimeout(() => {
             onSearch(term);
-        }, 500); // Đợi 500ms sau khi người dùng ngừng gõ mới tìm kiếm
+        }, 500);
 
         return () => clearTimeout(delayDebounceFn);
     }, [term, onSearch]);
 
 
     return (
-        <form onSubmit={handleSubmit} className="w-full mb-8">
+        <form onSubmit={(e) => e.preventDefault()} className="w-full mb-8">
             <div className="relative">
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                    {/* Kích thước h-5 w-5 cho icon nhỏ bên trong input */}
                     <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                 </div>
                 <input

@@ -1,19 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Import các trang và component
 import HomePage from './pages/HomePage';
 import CourseDetailPage from './pages/CourseDetailPage';
-import Navbar from './components/Navbar'; // Giả sử bạn có Navbar
+import Navbar from './components/Navbar';
 
 function App() {
     return (
         <Router>
-            <div className="App">
+            <div className="App bg-gray-50 min-h-screen">
                 <Navbar />
-                <main>
+                <main className="pt-4">
                     <Routes>
                         <Route path="/" element={<HomePage />} />
                         <Route path="/courses/:courseId" element={<CourseDetailPage />} />
-                        {/* Thêm các route khác ở đây */}
                     </Routes>
                 </main>
             </div>

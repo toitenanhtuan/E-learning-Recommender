@@ -1,5 +1,6 @@
 import React from 'react';
-import CourseCard, { Course } from './CourseCard'; // Import cả component và kiểu dữ liệu
+import { Course } from '../types';
+import CourseCard from './CourseCard';
 
 // Định nghĩa props
 interface CourseListProps {
