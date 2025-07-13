@@ -1,7 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session, joinedload
 from typing import List
-
 from app.db import models
 from app.db.models import UserCourseProgress
 from app.schemas import user as user_schema, course as course_schema
@@ -15,9 +14,6 @@ router = APIRouter()
 
 @router.get("/me", response_model=user_schema.User)
 def read_users_me(current_user: models.User = Depends(get_current_active_user)):
-    """
-    Lấy thông tin của người dùng hiện tại đã được xác thực.
-    """
     return current_user
 
 
@@ -28,11 +24,6 @@ def update_course_progress(
     progress_update: progress_schema.ProgressUpdate,
     current_user: models.User = Depends(get_current_active_user)
 ):
-    """
-    Cập nhật hoặc tạo mới trạng thái tiến độ của một khóa học cho người dùng.
-    Trạng thái hợp lệ: "not_started", "in_progress", "completed".
-    """
-    # Kiểm tra khóa học có tồn tại không
     course = (
         db.query(models.Course)
         .filter(models.Course.id == progress_update.course_id)
@@ -40,8 +31,6 @@ def update_course_progress(
     )
     if not course:
         raise HTTPException(status_code=404, detail="Course not found")
-
-    # Tìm hoặc tạo bản ghi progress
     progress_item = (
         db.query(UserCourseProgress)
         .filter(
@@ -50,7 +39,6 @@ def update_course_progress(
         )
         .first()
     )
-
     if progress_item:
         progress_item.status = progress_update.status
     else:
@@ -59,7 +47,6 @@ def update_course_progress(
             course_id=progress_update.course_id,
             status=progress_update.status,
         )
-
     db.add(progress_item)
     db.commit()
     db.refresh(progress_item)
@@ -84,10 +71,8 @@ def get_my_progress(
 
 def get_dynamic_known_skills(user: models.User) -> set:
     """Helper function to calculate user's current known skills."""
-    # Lấy kỹ năng từ khảo sát
     known_from_survey = {skill.id for skill in user.known_skills}
 
-    # Lấy kỹ năng từ các khóa học đã hoàn thành
     # Eager loading 'course' and 'course.skills' is recommended for performance
     completed_progress = [
         p for p in user.progress if p.status == "completed" and p.course
@@ -109,9 +94,6 @@ def get_my_skill_gap_analytics(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_active_user)
 ):
-    """
-    Lấy dữ liệu phân tích "động" về khoảng trống kỹ năng của người dùng.
-    """
     if not current_user.target_skills:
         raise HTTPException(status_code=400, detail="Please complete the survey first.")
 

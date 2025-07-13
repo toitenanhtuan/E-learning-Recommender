@@ -11,15 +11,12 @@ from app.crud import user as crud_user
 from app.core import config
 from app.db.database import SessionLocal
 
-# Tạo một "scheme" OAuth2, nó sẽ yêu cầu token từ header "Authorization: Bearer <token>"
-# tokenUrl trỏ đến API login của chúng ta, điều này giúp Swagger UI hoạt động tốt
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login/token")
 
 
 def get_db() -> Generator:
     """
     Dependency để lấy một session CSDL.
-    (Chúng ta định nghĩa lại ở đây để tránh import vòng lặp)
     """
     db = SessionLocal()
     try:
@@ -40,7 +37,6 @@ def get_current_user(
         headers={"WWW-Authenticate": "Bearer"},
     )
     try:
-        # Giải mã token JWT
         payload = jwt.decode(token, config.SECRET_KEY, algorithms=[config.ALGORITHM])
         # Lấy email từ payload. 'sub' (subject) là một trường phổ biến để chứa định danh user
         email: str = payload.get("sub")
