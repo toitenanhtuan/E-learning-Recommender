@@ -1,6 +1,5 @@
-# Nội dung cho backend/app/schemas/token.py
 from pydantic import BaseModel
-from typing import Optional  # <--- IMPORT Optional
+from typing import Optional
 
 
 class Token(BaseModel):
@@ -9,4 +8,4 @@ class Token(BaseModel):
 
 
 class TokenData(BaseModel):
-    email: Optional[str] = None  # <--- SỬA LẠI Ở ĐÂY
+    email: Optional[str] = None

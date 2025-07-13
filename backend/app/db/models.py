@@ -22,8 +22,6 @@ user_target_skills_association = Table(
     Column("skill_id", Integer, ForeignKey("skills.id")),
 )
 
-# --- CÁC MODEL CHÍNH ---
-
 
 class Course(Base):
     __tablename__ = "courses"
@@ -39,8 +37,6 @@ class Course(Base):
     skills = relationship(
         "Skill", secondary=course_skills_association, back_populates="courses"
     )
-
-    # Mối quan hệ mới
     user_progress = relationship("UserCourseProgress", back_populates="course")
 
 
@@ -65,7 +61,6 @@ class User(Base):
     target_skills = relationship("Skill", secondary=user_target_skills_association)
     profile = relationship("UserProfile", uselist=False, back_populates="user")
 
-    # Mối quan hệ mới với tiến độ
     progress = relationship(
         "UserCourseProgress", back_populates="user", cascade="all, delete-orphan"
     )
@@ -79,7 +74,6 @@ class UserProfile(Base):
     user = relationship("User", back_populates="profile")
 
 
-# MODEL MỚI ĐỂ LƯU TIẾN ĐỘ
 class UserCourseProgress(Base):
     __tablename__ = "user_course_progress"
     user_id = Column(Integer, ForeignKey("users.id"), primary_key=True)

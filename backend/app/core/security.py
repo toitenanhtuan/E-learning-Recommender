@@ -1,13 +1,9 @@
-# Nội dung cho backend/app/core/security.py
 from datetime import datetime, timedelta
 from typing import Optional
-
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-
 from .config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 
-# Context để băm mật khẩu, sử dụng thuật toán bcrypt
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 

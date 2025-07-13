@@ -10,7 +10,6 @@ import networkx as nx
 class RecommendationService:
     def __init__(self):
         # Đường dẫn tới các file model BÊN TRONG container
-        # Nhớ rằng chúng ta đã mount 'ml/models' vào '/models' trong docker-compose
         self.model_dir = "/models"
         self.cosine_sim_path = os.path.join(self.model_dir, "cosine_sim_matrix.joblib")
         self.course_data_path = os.path.join(
@@ -27,7 +26,6 @@ class RecommendationService:
         if self.skill_graph:
             print("Đồ thị Phụ thuộc Kỹ năng đã được tải thành công.")
 
-        # Tạo một series để mapping từ course_id -> index của DataFrame
         self.indices = pd.Series(
             self.course_data.index, index=self.course_data["id"]
         ).drop_duplicates()
@@ -35,7 +33,6 @@ class RecommendationService:
         print("RecommendationService đã được khởi tạo và tải model thành công.")
 
     def _load_model(self, path):
-        """Tải file joblib."""
         try:
             return joblib.load(path)
         except FileNotFoundError:
@@ -45,7 +42,6 @@ class RecommendationService:
             return None
 
     def _load_data(self, path):
-        """Tải file CSV dữ liệu khóa học."""
         try:
             return pd.read_csv(path)
         except FileNotFoundError:
@@ -62,7 +58,6 @@ class RecommendationService:
             return []
 
         if course_id not in self.indices:
-            # Nếu course_id không có trong dữ liệu huấn luyện, không thể gợi ý
             return []
 
         # 1. Lấy index của DataFrame tương ứng với course_id
@@ -136,7 +131,6 @@ class RecommendationService:
         if user_learning_style:
             print(f"Áp dụng bộ lọc Phong cách học: {user_learning_style}")
 
-            # Định nghĩa các mapping giữa phong cách học và định dạng khóa học
             style_format_mapping = {
                 "visual": "video_heavy",
                 "read_write": "text_heavy",
@@ -147,15 +141,11 @@ class RecommendationService:
 
             for course_score_dict in scored_courses:
                 course_id = course_score_dict["id"]
-                # Tìm format của khóa học này (cần một cách truy cập nhanh, có thể thêm vào dict)
-                # Tạm thời ta sẽ giả sử 'difficulty' key cũng chứa 'format'
-                #
-                # Sửa đổi: Ta sẽ cập nhật vòng lặp chấm điểm ban đầu để đưa format vào
                 if (
                     preferred_format
                     and course_score_dict.get("format") == preferred_format
                 ):
-                    course_score_dict["score"] += 15  # Thưởng điểm lớn
+                    course_score_dict["score"] += 15
 
         for course in candidate_courses:
             score = 0
@@ -193,11 +183,8 @@ class RecommendationService:
         print("Bắt đầu sắp xếp lại lộ trình dựa trên đồ thị phụ thuộc...")
 
         if self.skill_graph and scored_courses:
-            # Lấy set tất cả các kỹ năng có trong các khóa học được đề xuất
             all_relevant_skills = set()
-            # Tạo map: course_id -> set of skill names
             course_id_to_skills_map = {}
-            # Cần truy vấn lại để lấy tên skill
             candidate_courses = (
                 db.query(models.Course)
                 .filter(models.Course.id.in_([c["id"] for c in scored_courses]))
@@ -208,24 +195,18 @@ class RecommendationService:
                 all_relevant_skills.update(course_skills_set)
                 course_id_to_skills_map[course.id] = course_skills_set
 
-            # Tạo một đồ thị con chỉ chứa các kỹ năng liên quan
             sub_graph = self.skill_graph.subgraph(all_relevant_skills)
 
-            # Thực hiện sắp xếp tô-pô
             try:
-                # Sắp xếp các kỹ năng theo thứ tự logic
                 topo_sorted_skills = list(nx.topological_sort(sub_graph))
                 print(
                     f"Thứ tự kỹ năng logic (sắp xếp tô-pô): {topo_sorted_skills[:10]}..."
                 )
 
-                # Tạo map: skill_name -> rank (thứ hạng)
                 skill_rank_map = {
                     skill: i for i, skill in enumerate(topo_sorted_skills)
                 }
 
-                # Bây giờ, tính "rank" trung bình cho mỗi khóa học
-                # Khóa học có rank thấp hơn (chứa các skill cơ bản) sẽ được ưu tiên
                 for course_dict in scored_courses:
                     course_skills = course_id_to_skills_map.get(
                         course_dict["id"], set()
@@ -234,14 +215,12 @@ class RecommendationService:
                         course_dict["topo_rank"] = float("inf")
                         continue
 
-                    # Tính rank trung bình của các kỹ năng trong khóa học
                     ranks = [
                         skill_rank_map.get(skill, float("inf"))
                         for skill in course_skills
                     ]
                     course_dict["topo_rank"] = sum(ranks) / len(ranks)
 
-                # Sắp xếp lại scored_courses một lần cuối: ưu tiên rank thấp trước, sau đó mới đến điểm cao
                 scored_courses.sort(
                     key=lambda x: (x.get("topo_rank", float("inf")), -x["score"])
                 )
@@ -250,7 +229,6 @@ class RecommendationService:
                 print(
                     "CẢNH BÁO: Không thể sắp xếp tô-pô (có thể có vòng lặp trong đồ thị con). Bỏ qua bước này."
                 )
-                # Nếu lỗi, vẫn dùng cách sắp xếp cũ
                 difficulty_order = {
                     "beginner": 0,
                     "intermediate": 1,
@@ -265,7 +243,6 @@ class RecommendationService:
                 )
 
         else:
-            # Fallback nếu không có đồ thị
             difficulty_order = {
                 "beginner": 0,
                 "intermediate": 1,
@@ -276,7 +253,6 @@ class RecommendationService:
                 key=lambda x: (difficulty_order.get(x["difficulty"], 99), -x["score"])
             )
 
-        # 6. Lấy ID của các khóa học đã sắp xếp, giới hạn số lượng
         recommended_ids = [course["id"] for course in scored_courses]
 
         print(f"Đã tạo lộ trình với {len(recommended_ids)} khóa học.")
@@ -284,6 +260,4 @@ class RecommendationService:
         return recommended_ids[:20]
 
 
-# Tạo một instance duy nhất của service để toàn bộ ứng dụng sử dụng (Singleton pattern)
-# App sẽ chỉ tải model một lần duy nhất lúc khởi động, rất hiệu quả.
 recommendation_service = RecommendationService()

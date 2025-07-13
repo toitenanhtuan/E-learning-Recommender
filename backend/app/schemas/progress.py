@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 from typing import Literal
 
-# Sử dụng Literal để giới hạn các giá trị status hợp lệ
 StatusType = Literal["not_started", "in_progress", "completed"]
 
 

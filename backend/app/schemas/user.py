@@ -1,6 +1,5 @@
-# Nội dung cho backend/app/schemas/user.py
 from pydantic import BaseModel, EmailStr
-from typing import Optional  # Có thể cần Optional cho các schema khác sau này
+from typing import Optional
 
 
 class UserBase(BaseModel):
