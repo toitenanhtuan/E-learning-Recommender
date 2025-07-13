@@ -28,14 +28,13 @@ CREATE TABLE course_skills (
     FOREIGN KEY (skill_id) REFERENCES skills(id) ON DELETE CASCADE
 );
 
--- ===== CÁC BẢNG DÀNH CHO CÁC GIAI ĐOẠN SAU (Tạo sẵn để tham khảo) =====
 
 -- Bảng người dùng
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     email VARCHAR(255) UNIQUE NOT NULL,
-    hashed_password VARCHAR(255) NOT NULL, -- THÊM DÒNG NÀY
-    is_active BOOLEAN DEFAULT TRUE,         -- THÊM DÒNG NÀY
+    hashed_password VARCHAR(255) NOT NULL,
+    is_active BOOLEAN DEFAULT TRUE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -43,8 +42,7 @@ CREATE TABLE users (
 CREATE TABLE user_profiles (
     user_id INTEGER PRIMARY KEY,
     full_name VARCHAR(255),
-    -- Cột mới cho phong cách học
-    learning_style VARCHAR(50), -- Ví dụ: 'visual', 'auditory', 'read_write', 'kinesthetic'
+    learning_style VARCHAR(50),
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
@@ -70,7 +68,7 @@ CREATE TABLE user_target_skills (
 CREATE TABLE user_course_progress (
     user_id INTEGER NOT NULL,
     course_id INTEGER NOT NULL,
-    status VARCHAR(50) NOT NULL DEFAULT 'not_started', -- Giá trị có thể là 'in_progress', 'completed'
+    status VARCHAR(50) NOT NULL DEFAULT 'not_started', 
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (user_id, course_id),
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,

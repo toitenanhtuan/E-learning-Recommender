@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import {
     StarIcon,
     BuildingLibraryIcon,
-    BeakerIcon,
-    CheckCircleIcon,
     EllipsisVerticalIcon,
     ArrowTopRightOnSquareIcon
 } from '@heroicons/react/24/solid';
@@ -15,16 +13,14 @@ export type StatusType = 'not_started' | 'in_progress' | 'completed';
 
 interface CourseCardProps {
     course: Course;
-    status?: StatusType; // Trạng thái hiện tại của khóa học, là optional
-    onStatusChange?: (courseId: number, newStatus: Exclude<StatusType, 'not_started'>) => void; // Hàm callback khi trạng thái thay đổi
-    isFromDashboard?: boolean; // Cờ để biết component có đang ở trên dashboard không
+    status?: StatusType;
+    onStatusChange?: (courseId: number, newStatus: Exclude<StatusType, 'not_started'>) => void;
+    isFromDashboard?: boolean;
 }
 
-// Component Menu Dropdown cho việc thay đổi trạng thái
 const StatusMenu: React.FC<{ onSelect: (status: Exclude<StatusType, 'not_started'>) => void }> = ({ onSelect }) => (
     <div
         className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20 ring-1 ring-black ring-opacity-5"
-        // Ngăn việc click vào menu làm đóng menu hoặc điều hướng thẻ cha
         onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
     >
         <div className="py-1">
@@ -44,19 +40,16 @@ const StatusMenu: React.FC<{ onSelect: (status: Exclude<StatusType, 'not_started
     </div>
 );
 
-// Component chính
 const CourseCard: React.FC<CourseCardProps> = ({ course, status = 'not_started', onStatusChange, isFromDashboard = false }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    // Hàm xử lý khi người dùng chọn một trạng thái mới từ menu
     const handleStatusChange = (newStatus: Exclude<StatusType, 'not_started'>) => {
         if (onStatusChange) {
             onStatusChange(course.id, newStatus);
         }
-        setIsMenuOpen(false); // Đóng menu sau khi chọn
+        setIsMenuOpen(false);
     };
 
-    // Component nhỏ để hiển thị huy hiệu trạng thái
     const StatusBadge: React.FC<{ status: StatusType }> = ({ status }) => {
         if (status === 'completed') {
             return (
@@ -76,10 +69,8 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, status = 'not_started',
     };
 
     return (
-        // Thẻ Link lớn bao ngoài, khi click sẽ đi đến trang chi tiết
         <Link to={`/courses/${course.id}`} className="block h-full">
             <div className="relative bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col h-full overflow-hidden">
-                {/* Huy hiệu và menu chỉ hiển thị trên Dashboard */}
                 {isFromDashboard && (
                     <>
                         <StatusBadge status={status} />
@@ -96,7 +87,6 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, status = 'not_started',
                     </>
                 )}
 
-                {/* Phần nội dung chính của thẻ */}
                 <div className="p-6 flex-grow flex flex-col">
                     <h3 className="text-lg font-bold text-gray-900 mb-2 flex-grow pr-8">
                         {course.course_name}
@@ -108,7 +98,6 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, status = 'not_started',
                     </div>
                 </div>
 
-                {/* Phần Footer của thẻ */}
                 <div className="border-t border-gray-200 p-4 flex justify-between items-center text-sm bg-gray-50">
                     <div className="flex items-center font-semibold text-amber-500">
                         <StarIcon className="flex-shrink-0 h-4 w-4 mr-1" />
@@ -119,7 +108,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ course, status = 'not_started',
                         href={course.course_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()} // Quan trọng: Ngăn không cho Link cha bị kích hoạt
+                        onClick={(e) => e.stopPropagation()}
                         className="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors"
                         aria-label={`Go to course ${course.course_name}`}
                     >

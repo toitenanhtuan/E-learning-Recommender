@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-// Chúng ta sẽ tạo AuthContext ở bước sau
 import { useAuth } from '../context/AuthContext';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
 
 const LoginPage: React.FC = () => {
-    const { login } = useAuth(); // Sẽ dùng ở bước sau
+    const { login } = useAuth();
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -26,12 +25,11 @@ const LoginPage: React.FC = () => {
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             });
 
-            // Tạm thời log ra token, bước sau sẽ lưu vào context
             console.log('Login successful, token:', response.data.access_token);
             alert('Login successful!');
-            login(response.data.access_token); // Sẽ dùng ở bước sau
+            login(response.data.access_token);
 
-            navigate('/'); // Chuyển hướng về trang chủ sau khi đăng nhập thành công
+            navigate('/');
         } catch (err) {
             setError('Failed to log in. Please check your credentials.');
             console.error(err);

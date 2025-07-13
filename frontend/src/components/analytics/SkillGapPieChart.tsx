@@ -1,4 +1,3 @@
-// trong frontend/src/components/analytics/SkillGapPieChart.tsx
 import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
@@ -7,7 +6,7 @@ interface PieChartProps {
     gap: number;
 }
 
-const COLORS = ['#4F46E5', '#F59E0B']; // Indigo cho "đã biết", Amber cho "cần học"
+const COLORS = ['#4F46E5', '#F59E0B'];
 
 const SkillGapPieChart: React.FC<PieChartProps> = ({ known, gap }) => {
     const data = [

@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react';
 
-// Định nghĩa cấu trúc của context
 interface AuthContextType {
     token: string | null;
     login: (newToken: string) => void;
@@ -8,10 +7,8 @@ interface AuthContextType {
     isAuthenticated: boolean;
 }
 
-// Tạo Context với giá trị mặc định
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// Tạo một Provider component
 interface AuthProviderProps {
     children: ReactNode;
 }
@@ -20,7 +17,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const [token, setToken] = useState<string | null>(localStorage.getItem('token'));
 
     useEffect(() => {
-        // Cập nhật localStorage mỗi khi token thay đổi
         if (token) {
             localStorage.setItem('token', token);
         } else {
@@ -45,7 +41,6 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     );
 };
 
-// Tạo một custom hook để dễ dàng sử dụng context
 export const useAuth = () => {
     const context = useContext(AuthContext);
     if (context === undefined) {

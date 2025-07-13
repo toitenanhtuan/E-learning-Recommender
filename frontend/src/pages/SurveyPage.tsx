@@ -2,12 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import apiClient from '../api/client';
 import { Skill } from '../types';
-
-// Import component con và các icon
 import SearchableCheckboxList from '../components/SearchableCheckboxList';
 import { BeakerIcon, LightBulbIcon, StarIcon } from '@heroicons/react/24/outline';
 
-// Định nghĩa dữ liệu cho phần chọn Phong cách học
 const learningStyleOptions = [
     { value: 'visual', label: 'Visual', description: 'I learn best from videos, diagrams, and live demos.' },
     { value: 'read_write', label: 'Read/Write', description: 'I learn best from reading texts, articles, and writing notes.' },
@@ -18,20 +15,15 @@ const learningStyleOptions = [
 const SurveyPage: React.FC = () => {
     const navigate = useNavigate();
 
-    // === STATES QUẢN LÝ DỮ LIỆU VÀ GIAO DIỆN ===
     const [allSkills, setAllSkills] = useState<Skill[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string>('');
     const [submitting, setSubmitting] = useState<boolean>(false);
 
-    // === STATES QUẢN LÝ LỰA CHỌN CỦA NGƯỜI DÙNG ===
     const [learningStyle, setLearningStyle] = useState<string>('');
     const [knownSkillIds, setKnownSkillIds] = useState<Set<number>>(new Set());
     const [targetSkillIds, setTargetSkillIds] = useState<Set<number>>(new Set());
 
-    // --- LOGIC ---
-
-    // 1. Fetch tất cả các kỹ năng từ server khi component được tải lần đầu
     useEffect(() => {
         const fetchSkills = async () => {
             setLoading(true);
@@ -48,7 +40,6 @@ const SurveyPage: React.FC = () => {
         fetchSkills();
     }, []);
 
-    // 2. Hàm chung để xử lý việc chọn/bỏ chọn checkbox kỹ năng
     const handleCheckboxChange = (skillId: number, stateSetter: React.Dispatch<React.SetStateAction<Set<number>>>) => {
         stateSetter(prevSet => {
             const newSet = new Set(prevSet);
@@ -61,12 +52,10 @@ const SurveyPage: React.FC = () => {
         });
     };
 
-    // 3. Hàm xử lý khi người dùng nhấn nút submit
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setError('');
 
-        // Kiểm tra dữ liệu đầu vào
         if (!learningStyle) {
             setError('Please select your preferred learning style.');
             return;
@@ -78,7 +67,6 @@ const SurveyPage: React.FC = () => {
 
         setSubmitting(true);
         try {
-            // Gọi API để gửi dữ liệu khảo sát, sử dụng apiClient để tự đính kèm token
             await apiClient.post('/survey/', {
                 known_skill_ids: Array.from(knownSkillIds),
                 target_skill_ids: Array.from(targetSkillIds),
@@ -86,7 +74,7 @@ const SurveyPage: React.FC = () => {
             });
 
             alert('Survey submitted successfully! You will now be redirected to your dashboard to see your personalized plan.');
-            navigate('/dashboard'); // Chuyển hướng người dùng đến trang dashboard
+            navigate('/dashboard');
 
         } catch (err) {
             setError('Failed to submit survey. Please try again later.');
@@ -96,16 +84,13 @@ const SurveyPage: React.FC = () => {
         }
     };
 
-    // --- RENDER ---
-
-    // Hiển thị trạng thái loading ban đầu
     if (loading) return <div className="text-center p-20 font-semibold text-gray-500">Loading Survey...</div>;
 
     return (
         <div className="bg-gray-50 py-10 sm:py-16">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto bg-white p-6 sm:p-10 rounded-2xl shadow-lg">
-                    {/* Phần tiêu đề */}
+
                     <div className="text-center">
                         <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Personalize Your Learning</h1>
                         <p className="mt-3 text-lg text-gray-600">
